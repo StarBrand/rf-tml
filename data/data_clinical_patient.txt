@@ -1,0 +1,1149 @@
+#Patient Identifier	Diagnosis Age	Sex	Smoking History	Person Cigarette Smoking History Pack Year Value	Stage	M Stage	N Stage	Death from Initial Pathologic Diagnosis Date	Days to Last Followup	Overall Survival (Months)	Overall Survival Status	Patient's Vital Status	Prior Cancer Diagnosis Occurence	Neoadjuvant Therapy Type Administered Prior To Resection Text	Age At Surgery
+#Identifier to uniquely specify a patient.	Age at which a condition or disease was first diagnosed.	Sex	Smoking History	Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.	Stage	M Stage	N Stage	Time interval from a person's date of death to the date of initial pathologic diagnosis, represented as a calculated number of days.	Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.	Overall survival in months since initial diagonosis.	Overall patient survival status.	The survival state of the person.	Text term to describe the patient's history of prior cancer diagnosis and the spatial location of any previous cancer occurrence.	Text term to describe the patient's history of neoadjuvant treatment and the kind of treatment given prior to resection of the tumor.	Age at surgery.
+#STRING	NUMBER	STRING	STRING	NUMBER	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING	NUMBER
+#1	1	1	1	1	1	1	1	1	1	1	9	1	1	1	1
+PATIENT_ID	AGE	SEX	SMOKING_HISTORY	SMOKING_PACK_YEARS	STAGE	M_STAGE	N_STAGE	DAYS_TO_DEATH	DAYS_TO_LAST_FOLLOWUP	OS_MONTHS	OS_STATUS	VITAL_STATUS	HISTORY_OTHER_MALIGNANCY	HISTORY_NEOADJUVANT_TRTYN	AGE_AT_SURGERY
+LUAD-2GUGK	NA	Female	Current Reformed Smoker, Duration Not Specified 	30	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68
+LUAD-5O6B5	NA	Female	Lifelong Non-Smoker	0	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	56
+LUAD-5V8LT	NA	Male	Current Reformed Smoker, Duration Not Specified 	6	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	52
+LUAD-74TBW	NA	Male	Current Reformed Smoker, Duration Not Specified 	61.25	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	73
+LUAD-AEIUF	NA	Female	Current Reformed Smoker, Duration Not Specified 	73.5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60
+LUAD-B00390	NA	Male	NA	NA	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	83
+LUAD-B00416	NA	Female	NA	40	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	59
+LUAD-B00523	NA	Male	Current Reformed Smoker, Duration Not Specified 	40	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68
+LUAD-B00631	NA	Male	Current Reformed Smoker, Duration Not Specified 	60	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	73
+LUAD-B00859	NA	Female	NA	15	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	53
+LUAD-B00915	NA	Female	NA	40	IV	NA	NA	NA	NA	NA	NA	NA	NA	NA	67
+LUAD-B01024	NA	Male	Current Smoker	90	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58
+LUAD-B01102	NA	Male	Lifelong Non-Smoker	0	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61
+LUAD-B01145	NA	Male	Current Reformed Smoker, Duration Not Specified 	30	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	70
+LUAD-B01246	NA	Female	NA	NA	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62
+LUAD-B01811	NA	Male	Current Reformed Smoker, Duration Not Specified 	NA	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60
+LUAD-B01970	NA	Male	Current Reformed Smoker, Duration Not Specified 	10	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	47
+LUAD-B02050	NA	Female	Current Reformed Smoker, Duration Not Specified 	40	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-B02077	NA	Male	Current Reformed Smoker, Duration Not Specified 	15	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	65
+LUAD-B02477	NA	Male	Current Reformed Smoker, Duration Not Specified 	35	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	77
+LUAD-B02515	NA	Male	Current Reformed Smoker, Duration Not Specified 	20	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	73
+LUAD-B02594	NA	Female	NA	33	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	49
+LUAD-CHTN-3090346	NA	Male	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	78
+LUAD-CHTN-3090415	NA	Male	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56
+LUAD-CHTN-3090416	NA	Male	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	73
+LUAD-CHTN-4090680	NA	Male	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-CHTN-MAD04-00674	NA	Female	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	77
+LUAD-CHTN-MAD06-00490	NA	Female	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	36
+LUAD-CHTN-MAD06-00678	NA	Male	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61
+LUAD-CHTN-MAD08-00104	NA	Male	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	74
+LUAD-CHTN-Z4716A	NA	Male	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64
+LUAD-D00147	NA	Female	Current Reformed Smoker, Duration Not Specified 	3	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	74
+LUAD-D01278	NA	Male	Current Reformed Smoker, Duration Not Specified 	NA	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	60
+LUAD-D01603	NA	Male	NA	NA	IV	NA	NA	NA	NA	NA	NA	NA	NA	NA	52
+LUAD-D01751	NA	Female	Current Smoker	22	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	50
+LUAD-D02085	NA	Female	Current Reformed Smoker, Duration Not Specified 	25	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	70
+LUAD-D02185	NA	Female	Current Reformed Smoker, Duration Not Specified 	30	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	54
+LUAD-D02326	NA	Female	Lifelong Non-Smoker	0	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	49
+LUAD-E00163	NA	Female	Lifelong Non-Smoker	0	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	54
+LUAD-E00443	NA	Male	Current Reformed Smoker, Duration Not Specified 	35	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	74
+LUAD-E00918	NA	Female	Current Smoker	45	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56
+LUAD-E00934	NA	Male	NA	28	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	58
+LUAD-E01014	NA	Female	Current Reformed Smoker, Duration Not Specified 	8	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60
+LUAD-E01217	NA	Male	Current Smoker	54	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	51
+LUAD-E01278	NA	Female	NA	30	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-E01317	NA	Female	Current Reformed Smoker, Duration Not Specified 	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-E01563	NA	Female	Current Reformed Smoker, Duration Not Specified 	20	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	65
+LUAD-F00018	NA	Female	Current Reformed Smoker, Duration Not Specified 	30	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	52
+LUAD-F00057	NA	Male	Current Reformed Smoker, Duration Not Specified 	30	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	81
+LUAD-F00089	NA	Male	Current Reformed Smoker, Duration Not Specified 	55	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-F00121	NA	Female	Current Reformed Smoker, Duration Not Specified 	50	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66
+LUAD-F00134	NA	Male	Lifelong Non-Smoker	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	87
+LUAD-F00162	NA	Male	Current Reformed Smoker, Duration Not Specified 	50	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	80
+LUAD-F00257	NA	Female	Current Smoker	40	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68
+LUAD-F00282	NA	Male	NA	NA	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63
+LUAD-F00365	NA	Male	NA	NA	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	70
+LUAD-F00368	NA	Female	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	82
+LUAD-FH5PJ	NA	Male	Current Reformed Smoker, Duration Not Specified 	55	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	75
+LUAD-GU4I3	NA	Female	Current Reformed Smoker, Duration Not Specified 	NA	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	57
+LUAD-LC15C	NA	Male	Current Reformed Smoker, Duration Not Specified 	5.5	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	43
+LUAD-LIP77	NA	Female	Current Reformed Smoker, Duration Not Specified 	45	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	50
+LUAD-NYU1021	NA	Female	Current Smoker	30	IV	NA	NA	NA	NA	NA	NA	NA	NA	NA	48
+LUAD-NYU1027	NA	Female	Lifelong Non-Smoker	0	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	82
+LUAD-NYU1124	NA	Female	Lifelong Non-Smoker	0	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	80
+LUAD-NYU1128	NA	Female	Lifelong Non-Smoker	0	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55
+LUAD-NYU1142	NA	Male	Lifelong Non-Smoker	0	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-NYU1177	NA	Female	Lifelong Non-Smoker	0	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	87
+LUAD-NYU129	NA	Male	Current Reformed Smoker, Duration Not Specified 	25	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60
+LUAD-NYU213	NA	Male	Current Reformed Smoker, Duration Not Specified 	25	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	79
+LUAD-NYU263	NA	Female	Current Reformed Smoker, Duration Not Specified 	40	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56
+LUAD-NYU279	NA	Female	Lifelong Non-Smoker	0	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62
+LUAD-NYU330	NA	Female	Current Reformed Smoker, Duration Not Specified 	75	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	70
+LUAD-NYU575	NA	Female	Lifelong Non-Smoker	0	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61
+LUAD-NYU592	NA	Male	Current Reformed Smoker, Duration Not Specified 	50	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	76
+LUAD-NYU605	NA	Female	Current Reformed Smoker, Duration Not Specified 	40	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	61
+LUAD-NYU689	NA	Female	Current Reformed Smoker, Duration Not Specified 	5	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	70
+LUAD-NYU704	NA	Female	Current Reformed Smoker, Duration Not Specified 	10	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	55
+LUAD-NYU739	NA	Female	Current Reformed Smoker, Duration Not Specified 	20	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-NYU776	NA	Female	Current Reformed Smoker, Duration Not Specified 	30	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55
+LUAD-NYU796	NA	Male	Lifelong Non-Smoker	0	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-NYU803	NA	Female	Lifelong Non-Smoker	0	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	83
+LUAD-NYU847	NA	Male	Current Reformed Smoker, Duration Not Specified 	25	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	67
+LUAD-NYU848	NA	Female	Lifelong Non-Smoker	0	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65
+LUAD-NYU994	NA	Male	Current Reformed Smoker, Duration Not Specified 	20	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	81
+LUAD-QJN9L	NA	Male	Current Reformed Smoker, Duration Not Specified 	50	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	81
+LUAD-QY22Z	NA	Male	Current Reformed Smoker, Duration Not Specified 	78	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	56
+LUAD-RS5Q7	NA	Male	Current Reformed Smoker, Duration Not Specified 	2	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	69
+LUAD-RT-S01301	NA	Female	Current Smoker	52	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-RT-S01477	NA	Male	Current Smoker	90	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60
+LUAD-RT-S01699	NA	Male	Current Smoker	33	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	51
+LUAD-RT-S01700	NA	Female	Current Smoker	17	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	38
+LUAD-RT-S01702	NA	Female	Lifelong Non-Smoker	0	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	60
+LUAD-RT-S01703	NA	Male	Current Reformed Smoker, Duration Not Specified 	30	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	54
+LUAD-RT-S01707	NA	Male	Current Reformed Smoker, Duration Not Specified 	49	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58
+LUAD-RT-S01709	NA	Female	Current Smoker	54	IV	NA	NA	NA	NA	NA	NA	NA	NA	NA	65
+LUAD-RT-S01711	NA	Male	Current Reformed Smoker, Duration Not Specified 	86	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63
+LUAD-RT-S01721	NA	Male	Current Reformed Smoker, Duration Not Specified 	48	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	74
+LUAD-RT-S01769	NA	Male	Current Smoker	46	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	61
+LUAD-RT-S01770	NA	Female	Lifelong Non-Smoker	0	IIIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	78
+LUAD-RT-S01771	NA	Male	Current Reformed Smoker, Duration Not Specified 	58	IIIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	48
+LUAD-RT-S01774	NA	Female	Current Smoker	38	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	55
+LUAD-RT-S01777	NA	Female	Current Smoker	53	IIIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	62
+LUAD-RT-S01808	NA	Male	NA	18	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-RT-S01810	NA	Male	NA	64	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-RT-S01813	NA	Female	NA	80	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-RT-S01818	NA	Male	NA	55	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-RT-S01831	NA	Male	NA	34	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-RT-S01832	NA	Female	NA	35	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-RT-S01840	NA	Male	NA	111	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-RT-S01852	NA	Male	NA	28	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-RT-S01856	NA	Female	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-RT-S01866	NA	Male	NA	51	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD-S00484	NA	Male	Current Smoker	70	IV	NA	NA	NA	NA	NA	NA	NA	NA	NA	45
+LUAD-S00486	NA	Male	Current Reformed Smoker, Duration Not Specified 	43	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	74
+LUAD-S00488	NA	Male	Current Reformed Smoker, Duration Not Specified 	106	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-S00499	NA	Female	Lifelong Non-Smoker	0	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-S01302	NA	Male	Current Smoker	128	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	64
+LUAD-S01304	NA	Male	Current Reformed Smoker, Duration Not Specified 	92	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	75
+LUAD-S01306	NA	Female	Current Smoker	63	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	55
+LUAD-S01315	NA	Male	Current Reformed Smoker, Duration Not Specified 	1	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	77
+LUAD-S01320	NA	Female	Lifelong Non-Smoker	0	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	62
+LUAD-S01331	NA	Male	Current Reformed Smoker, Duration Not Specified 	30	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-S01341	NA	Female	Current Reformed Smoker, Duration Not Specified 	11	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64
+LUAD-S01345	NA	Male	Current Reformed Smoker, Duration Not Specified 	13	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	74
+LUAD-S01346	NA	Male	Current Smoker	40	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	69
+LUAD-S01354	NA	Female	Current Smoker	26	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	49
+LUAD-S01356	NA	Male	Current Reformed Smoker, Duration Not Specified 	22	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	80
+LUAD-S01362	NA	Female	Lifelong Non-Smoker	0	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	78
+LUAD-S01373	NA	Male	Current Smoker	53	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	53
+LUAD-S01381	NA	Male	Current Reformed Smoker, Duration Not Specified 	60	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	61
+LUAD-S01404	NA	Male	Current Smoker	78	IIIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55
+LUAD-S01405	NA	Male	Current Smoker	34	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	74
+LUAD-S01407	NA	Male	Current Smoker	36	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	51
+LUAD-S01409	NA	Female	Current Reformed Smoker, Duration Not Specified 	34	IV	NA	NA	NA	NA	NA	NA	NA	NA	NA	69
+LUAD-S01413	NA	Female	Current Reformed Smoker, Duration Not Specified 	49	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	71
+LUAD-S01467	NA	Male	Current Smoker	113	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	60
+LUAD-S01468	NA	Male	Current Reformed Smoker, Duration Not Specified 	24	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	83
+LUAD-S01473	NA	Male	Current Reformed Smoker, Duration Not Specified 	100	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	64
+LUAD-S01474	NA	Male	Current Reformed Smoker, Duration Not Specified 	40	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	74
+LUAD-S01478	NA	Male	Current Reformed Smoker, Duration Not Specified 	44	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	63
+LUAD-S01482	NA	Female	Current Smoker	61	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	48
+LUAD-TJW61	NA	Female	Current Reformed Smoker, Duration Not Specified 	60	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	77
+LUAD-TLLGS	NA	Male	Current Reformed Smoker, Duration Not Specified 	75	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-U6SJ7	NA	Male	Current Reformed Smoker, Duration Not Specified 	21	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	78
+LUAD-UF7HM	NA	Female	Lifelong Non-Smoker	0	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD-VUMN6	NA	Female	Current Reformed Smoker, Duration Not Specified 	20	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	74
+LUAD-YINHD	NA	Male	Current Smoker	33.75	IIIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	65
+LUAD-YKER9	NA	Male	Current Reformed Smoker, Duration Not Specified 	50	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	62
+LUAD_E00522	NA	Female	Current Smoker	10	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	46
+LUAD_E00565	NA	Male	Current Reformed Smoker, Duration Not Specified 	30	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	78
+LUAD_E00623	NA	Male	Current Reformed Smoker, Duration Not Specified 	45	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	70
+LUAD_E00703	NA	Female	Current Smoker	25	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	70
+LUAD_E00945	NA	Female	Current Smoker	23	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68
+LUAD_E01047	NA	Male	Current Reformed Smoker, Duration Not Specified 	70	IIB	NA	NA	NA	NA	NA	NA	NA	NA	NA	81
+LUAD_E01086	NA	Female	Current Reformed Smoker, Duration Not Specified 	24	IIA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68
+LUAD_E01147	NA	Male	Current Smoker	55	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	72
+LUAD_E01166	NA	Female	Current Reformed Smoker, Duration Not Specified 	30	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD_E01319	NA	Female	Current Reformed Smoker, Duration Not Specified 	2	IB	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LUAD_E01419	NA	Female	Current Reformed Smoker, Duration Not Specified 	10	IA	NA	NA	NA	NA	NA	NA	NA	NA	NA	51
+TCGA-05-4244	70	Male	Current Reformed Smoker For < Or = 15 Years	38	IV	M1	N2	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-05-4249	67	Male	Current Reformed Smoker For > 15 Years	52	IB	M0	N0	NA	1158	38.1	LIVING	Alive	No	No	NA
+TCGA-05-4250	79	Female	Current Reformed Smoker For < Or = 15 Years	47	IIIA	M0	N1	121	NA	4	DECEASED	Dead	No	No	NA
+TCGA-05-4382	68	Male	Current Reformed Smoker For < Or = 15 Years	62	IB	M0	N0	NA	607	20	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-05-4384	66	Male	Current Reformed Smoker For > 15 Years	20	IIIA	M0	N2	NA	426	14	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-05-4389	70	Male	Current Reformed Smoker For > 15 Years	43	IA	M0	N0	NA	1369	45	LIVING	Alive	No	No	NA
+TCGA-05-4390	58	Female	Current Reformed Smoker For < Or = 15 Years	15	IB	M0	N0	NA	1126	37	LIVING	Alive	No	No	NA
+TCGA-05-4395	76	Male	Current Reformed Smoker For > 15 Years	NA	IIIB	M0	N2	0	NA	0	DECEASED	Dead	No	No	NA
+TCGA-05-4396	76	Male	Current Reformed Smoker For > 15 Years	19	IIIB	M0	N1	303	NA	10	DECEASED	Dead	No	No	NA
+TCGA-05-4397	65	Male	Current Smoker	45	IIB	M0	N1	731	NA	24	DECEASED	Dead	No	No	NA
+TCGA-05-4398	47	Female	Current Smoker	72	IIIB	M0	N3	NA	1431	47.1	LIVING	Alive	No	No	NA
+TCGA-05-4402	57	Female	Lifelong Non-Smoker	NA	IV	M1	Nx	244	NA	8	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-05-4403	76	Male	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	578	19	LIVING	Alive	No	No	NA
+TCGA-05-4405	74	Female	Current Reformed Smoker For < Or = 15 Years	65	IB	M0	N0	NA	610	20.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-05-4410	62	Male	Current Reformed Smoker For < Or = 15 Years	98	IB	M0	N0	NA	0	0	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-05-4415	57	Male	Current Reformed Smoker For < Or = 15 Years	29	IIIB	M0	N2	91	NA	3	DECEASED	Dead	No	No	NA
+TCGA-05-4417	51	Female	Current Reformed Smoker For < Or = 15 Years	56	IB	M0	N0	NA	455	15	LIVING	Alive	No	No	NA
+TCGA-05-4418	69	Male	Current Smoker	25	IIIA	M0	N2	274	NA	9	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-05-4420	41	Male	Current Smoker	38	IB	M0	N0	NA	912	30	LIVING	Alive	No	No	NA
+TCGA-05-4422	68	Male	Current Reformed Smoker For < Or = 15 Years	147	IB	M0	N0	NA	365	12	LIVING	Alive	No	No	NA
+TCGA-05-4424	70	Male	Current Reformed Smoker For < Or = 15 Years	50	IIB	M0	N0	NA	913	30	LIVING	Alive	No	No	NA
+TCGA-05-4426	71	Male	Current Reformed Smoker For > 15 Years	20	IB	M0	N0	NA	791	26	LIVING	Alive	No	No	NA
+TCGA-05-4427	65	Female	Current Reformed Smoker For < Or = 15 Years	8	IIB	M0	N1	NA	791	26	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-05-4430	59	Female	Current Reformed Smoker For < Or = 15 Years	80	IB	M0	N0	NA	761	25	LIVING	Alive	No	No	NA
+TCGA-05-4432	66	Male	Current Smoker	58	IIB	M0	N1	NA	761	25	LIVING	Alive	No	No	NA
+TCGA-05-4433	82	Male	Current Reformed Smoker For > 15 Years	1	IB	M0	N0	NA	730	24	LIVING	Alive	No	No	NA
+TCGA-05-4434	67	Female	Current Smoker	15	IV	M1	N1	457	NA	15	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-05-5420	67	Male	Current Reformed Smoker For < Or = 15 Years	40	IIIA	M0	N2	NA	31	1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-05-5423	65	Male	Current Reformed Smoker For > 15 Years	72	IIB	M0	N1	NA	151	5	LIVING	Alive	No	No	NA
+TCGA-05-5428	57	Male	Current Reformed Smoker For > 15 Years	30	IIA	M0	N1	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-05-5429	60	Male	Lifelong Non-Smoker	NA	IIIA	M0	N2	NA	30	1	LIVING	Alive	No	No	NA
+TCGA-05-5715	69	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	62	2	LIVING	Alive	No	No	NA
+TCGA-35-3615	57	Male	Lifelong Non-Smoker	NA	IB	M0	N0	NA	14	0.5	LIVING	Alive	No	No	NA
+TCGA-35-4122	69	Male	Current Reformed Smoker For < Or = 15 Years	45	IA	M0	N0	NA	225	7.4	LIVING	Alive	No	No	NA
+TCGA-35-4123	38	Male	Current Reformed Smoker For < Or = 15 Years	20	IA	M0	N0	NA	182	6	LIVING	Alive	No	No	NA
+TCGA-35-5375	61	Male	Current Reformed Smoker For < Or = 15 Years	35	IIIA	M0	N2	NA	264	8.7	LIVING	Alive	No	No	NA
+TCGA-38-4625	66	Female	Current Smoker	50	IB	M0	N0	NA	2973	97.8	LIVING	Alive	No	No	NA
+TCGA-38-4626	57	Female	Current Smoker	40	IIA	M0	N0	NA	2595	85.4	LIVING	Alive	No	No	NA
+TCGA-38-4627	64	Female	Current Reformed Smoker For < Or = 15 Years	NA	IIA	M0	N1	1147	1147	37.7	DECEASED	Dead	No	No	NA
+TCGA-38-4628	65	Female	Lifelong Non-Smoker	NA	IIB	M0	N1	1492	NA	49.1	DECEASED	Dead	No	No	NA
+TCGA-38-4629	68	Male	Current Reformed Smoker For < Or = 15 Years	100	IIB	M0	N0	864	864	28.4	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-38-4630	75	Female	Lifelong Non-Smoker	NA	IB	M0	N0	1073	NA	35.3	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-38-4631	72	Female	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	354	354	11.6	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-38-4632	42	Male	Current Reformed Smoker For < Or = 15 Years	10	IV	M1	N1	1357	NA	44.6	DECEASED	Dead	No	No	NA
+TCGA-38-6178	70	Female	Lifelong Non-Smoker	NA	IIIA	NA	N2	NA	158	5.2	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-38-7271	72	Female	Current Reformed Smoker For < Or = 15 Years	25	IA	M0	N0	800	NA	26.3	DECEASED	Dead	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-38-A44F	80	Male	Current Reformed Smoker For > 15 Years	12	IB	M0	N0	NA	133	4.4	LIVING	Alive	No	No	NA
+TCGA-44-2655	65	Female	Current Reformed Smoker For > 15 Years	30	IA	M0	N0	NA	575	18.9	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-2656	59	Male	Current Reformed Smoker For < Or = 15 Years	23	IB	M0	N0	NA	582	19.1	LIVING	Alive	No	No	NA
+TCGA-44-2657	74	Female	Current Reformed Smoker For < Or = 15 Years	25	IB	M0	Nx	NA	400	13.2	LIVING	Alive	No	No	NA
+TCGA-44-2659	65	Female	Current Reformed Smoker For < Or = 15 Years	57	IIB	M0	N1	NA	529	17.4	LIVING	Alive	No	No	NA
+TCGA-44-2661	69	Female	Lifelong Non-Smoker	NA	IA	M0	N0	NA	103	3.4	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-2662	65	Male	Current Reformed Smoker For > 15 Years	56	IB	M0	N0	NA	480	15.8	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-2665	55	Female	Lifelong Non-Smoker	NA	IIB	M0	N1	NA	400	13.2	LIVING	Alive	No	No	NA
+TCGA-44-2666	43	Male	Current Smoker	30	IB	M0	N0	97	97	3.2	DECEASED	Dead	No	No	NA
+TCGA-44-2668	51	Male	Current Reformed Smoker For < Or = 15 Years	60	IB	M0	N0	NA	246	8.1	LIVING	Alive	No	No	NA
+TCGA-44-3396	74	Female	Current Smoker	50	IIIA	M0	N2	NA	311	10.2	LIVING	Alive	No	No	NA
+TCGA-44-3398	77	Female	Current Reformed Smoker For < Or = 15 Years	60	IA	M0	N0	NA	253	8.3	LIVING	Alive	No	No	NA
+TCGA-44-3918	60	Female	Current Reformed Smoker For > 15 Years	20	IA	M0	N0	NA	197	6.5	LIVING	Alive	No	No	NA
+TCGA-44-3919	71	Female	Lifelong Non-Smoker	NA	IA	M0	N0	NA	190	6.3	LIVING	Alive	No	No	NA
+TCGA-44-4112	60	Female	Current Reformed Smoker For > 15 Years	30	IB	M0	N0	NA	141	4.6	LIVING	Alive	No	No	NA
+TCGA-44-5643	53	Male	Current Smoker	20	IIIA	M0	N2	NA	106	3.5	LIVING	Alive	No	No	NA
+TCGA-44-5644	51	Female	Current Smoker	17.5	IB	NA	N0	NA	498	16.4	LIVING	Alive	No	No	NA
+TCGA-44-5645	61	Female	Current Reformed Smoker For > 15 Years	5	IA	NA	Nx	NA	208	6.8	LIVING	Alive	No	No	NA
+TCGA-44-6144	58	Male	Current Smoker	67.5	IA	M0	N0	NA	9	0.3	LIVING	Alive	No	No	NA
+TCGA-44-6145	62	Female	Current Reformed Smoker For < Or = 15 Years	75	IA	M0	N0	NA	103	3.4	LIVING	Alive	No	No	NA
+TCGA-44-6146	64	Male	Current Reformed Smoker For > 15 Years	15	IIB	M0	N0	NA	302	9.9	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-6147	67	Female	Current Reformed Smoker For > 15 Years	NA	IA	M0	Nx	NA	236	7.8	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-6148	60	Male	Current Reformed Smoker For > 15 Years	60	IA	M0	N0	NA	96	3.2	LIVING	Alive	No	No	NA
+TCGA-44-6774	56	Female	Current Smoker	20	IIIA	M0	N2	NA	166	5.5	LIVING	Alive	No	No	NA
+TCGA-44-6775	72	Female	Current Reformed Smoker For < Or = 15 Years	25	IB	Mx	N0	NA	83	2.7	LIVING	Alive	No	No	NA
+TCGA-44-6776	60	Female	Current Reformed Smoker For < Or = 15 Years	45	IA	Mx	N0	NA	1938	63.8	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-6777	85	Female	Current Reformed Smoker For < Or = 15 Years	64	IB	Mx	Nx	987	NA	32.5	DECEASED	Dead	No	No	NA
+TCGA-44-6778	59	Male	Current Reformed Smoker For < Or = 15 Years	15	IA	Mx	N0	NA	1110	36.5	LIVING	Alive	No	No	NA
+TCGA-44-6779	50	Female	Current Reformed Smoker For < Or = 15 Years	15	IIB	Mx	N1	500	NA	16.4	DECEASED	Dead	No	No	NA
+TCGA-44-7659	70	Male	Current Smoker	40	IA	Mx	N0	NA	299	9.8	LIVING	Alive	No	No	NA
+TCGA-44-7660	72	Male	Current Smoker	124	IB	Mx	N0	NA	162	5.3	LIVING	Alive	No	No	NA
+TCGA-44-7661	69	Female	Current Reformed Smoker For > 15 Years	22	IB	M0	N0	NA	153	5	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-44-7662	61	Male	Current Smoker	50	IB	Mx	N0	NA	50	1.6	LIVING	Alive	No	No	NA
+TCGA-44-7667	49	Female	Current Smoker	50	IIB	Mx	N0	NA	557	18.3	LIVING	Alive	No	No	NA
+TCGA-44-7669	59	Male	Current Smoker	20	IIA	Mx	N1	574	NA	18.9	DECEASED	Dead	No	No	NA
+TCGA-44-7670	47	Female	Current Smoker	30	IIA	M0	N1	NA	531	17.5	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-7671	64	Male	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	535	17.6	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-7672	52	Female	Current Smoker	20	IA	M0	N0	NA	418	13.8	LIVING	Alive	No	No	NA
+TCGA-44-8117	54	Female	Current Reformed Smoker For < Or = 15 Years	54	IB	M0	N0	NA	259	8.5	LIVING	Alive	No	No	NA
+TCGA-44-8119	73	Male	Current Smoker	50	IIB	M0	N0	NA	99	3.3	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-8120	58	Male	Current Reformed Smoker, Duration Not Specified 	30	IB	M0	N0	NA	169	5.6	LIVING	Alive	No	No	NA
+TCGA-44-A47A	78	Female	Current Reformed Smoker For < Or = 15 Years	80	IB	Mx	N0	NA	202	6.6	LIVING	Alive	No	No	NA
+TCGA-44-A47B	79	Male	Current Reformed Smoker For > 15 Years	4.5	IB	M0	N0	NA	105	3.5	LIVING	Alive	No	No	NA
+TCGA-44-A47F	74	Male	Current Reformed Smoker For > 15 Years	20	IIB	M0	N1	NA	246	8.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-44-A47G	73	Female	Current Reformed Smoker For < Or = 15 Years	28	IA	M0	N0	NA	135	4.4	LIVING	Alive	No	No	NA
+TCGA-44-A4SS	73	Male	Current Reformed Smoker For < Or = 15 Years	90	IA	M0	N0	NA	114	3.8	LIVING	Alive	No	No	NA
+TCGA-44-A4SU	67	Female	Current Reformed Smoker For < Or = 15 Years	50	IA	Mx	N0	NA	76	2.5	LIVING	Alive	No	No	NA
+TCGA-49-4486	72	Male	Current Reformed Smoker For > 15 Years	17.5	IA	M0	N0	2318	NA	76.3	DECEASED	Dead	No	No	NA
+TCGA-49-4487	72	Female	Current Reformed Smoker For < Or = 15 Years	40	IA	M0	N0	855	NA	28.1	DECEASED	Dead	No	No	NA
+TCGA-49-4488	74	Female	Current Reformed Smoker For > 15 Years	NA	IA	Mx	N0	869	NA	28.6	DECEASED	Dead	No	No	NA
+TCGA-49-4490	45	Female	Current Reformed Smoker For > 15 Years	5	IIIA	M0	N2	385	NA	12.7	DECEASED	Dead	No	No	NA
+TCGA-49-4494	77	Male	Current Reformed Smoker For > 15 Years	50	IIIA	M0	N2	1081	NA	35.6	DECEASED	Dead	No	No	NA
+TCGA-49-4501	67	Female	Lifelong Non-Smoker	NA	IB	M0	N0	1421	1421	46.7	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-49-4505	61	Female	Current Reformed Smoker For < Or = 15 Years	74	IIB	M0	N1	428	NA	14.1	DECEASED	Dead	No	No	NA
+TCGA-49-4506	68	Female	Current Smoker	100	IIB	M0	N1	999	NA	32.9	DECEASED	Dead	No	No	NA
+TCGA-49-4507	73	Female	Current Reformed Smoker For < Or = 15 Years	78	IIIA	M0	N1	268	268	8.8	DECEASED	Dead	No	No	NA
+TCGA-49-4510	51	Female	Current Smoker	55.5	IIB	M0	N1	896	NA	29.5	DECEASED	Dead	No	No	NA
+TCGA-49-4512	69	Female	Lifelong Non-Smoker	NA	IIIA	Mx	N2	905	157	29.8	DECEASED	Dead	No	No	NA
+TCGA-49-4514	79	Female	Current Reformed Smoker For > 15 Years	65	IA	M0	N0	NA	1314	43.2	LIVING	Alive	No	No	NA
+TCGA-49-6742	70	Male	Current Reformed Smoker For > 15 Years	10	IIA	M0	N1	NA	1678	55.2	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-49-6743	81	Female	Current Reformed Smoker For < Or = 15 Years	50	IIIA	Mx	N2	NA	369	12.1	LIVING	Alive	No	No	NA
+TCGA-49-6744	64	Female	Current Reformed Smoker For < Or = 15 Years	20	IIA	Mx	N1	NA	890	29.3	LIVING	Alive	No	No	NA
+TCGA-49-6745	82	Male	Current Reformed Smoker For < Or = 15 Years	20	IIIA	M0	N2	NA	156	5.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-49-6761	68	Female	Current Reformed Smoker For < Or = 15 Years	50	IIIA	Mx	N2	NA	1	0	LIVING	Alive	No	No	NA
+TCGA-49-6767	46	Female	Current Smoker	30	IIB	Mx	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-49-AAQV	63	Female	Lifelong Non-Smoker	NA	II	Mx	N1	677	NA	22.3	DECEASED	Dead	No	No	NA
+TCGA-49-AAR3	69	Male	NA	NA	IIB	Mx	N1	NA	1893	62.3	LIVING	Alive	No	No	NA
+TCGA-49-AAR4	51	Male	Current Smoker	35	IIIA	Mx	N2	879	NA	28.9	DECEASED	Dead	No	No	NA
+TCGA-49-AAR9	61	Male	Current Smoker	NA	IIB	Mx	N0	260	NA	8.6	DECEASED	Dead	No	No	NA
+TCGA-49-AARE	51	Female	Current Reformed Smoker For < Or = 15 Years	15	IA	Mx	N0	1229	NA	40.4	DECEASED	Dead	No	No	NA
+TCGA-49-AARN	56	Female	Current Reformed Smoker, Duration Not Specified 	NA	IA	Mx	N0	1135	NA	37.3	DECEASED	Dead	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-49-AARO	39	Female	Current Smoker	NA	IA	Mx	N0	NA	3755	123.5	LIVING	Alive	No	No	NA
+TCGA-49-AARQ	41	Female	Current Reformed Smoker For < Or = 15 Years	60	I	Mx	N0	NA	6443	211.9	LIVING	Alive	No	No	NA
+TCGA-49-AARR	68	Male	Current Reformed Smoker For > 15 Years	NA	IA	Mx	N0	NA	4630	152.3	LIVING	Alive	No	No	NA
+TCGA-4B-A93V	52	Female	Current Reformed Smoker For < Or = 15 Years	30	IA	M0	N0	NA	254	8.4	LIVING	Alive	No	No	NA
+TCGA-50-5044	72	Female	NA	NA	IIIB	M0	N1	624	NA	20.5	DECEASED	Dead	No	No	NA
+TCGA-50-5045	57	Female	NA	NA	IA	M0	N1	2174	2174	71.5	DECEASED	Dead	No	No	NA
+TCGA-50-5049	70	Male	NA	NA	IA	M0	N0	NA	1485	48.8	LIVING	Alive	No	No	NA
+TCGA-50-5051	42	Female	Current Reformed Smoker For < Or = 15 Years	30	IIIA	M0	N2	NA	455	15	LIVING	Alive	No	No	NA
+TCGA-50-5055	79	Female	NA	NA	IIA	M0	N1	NA	785	25.8	LIVING	Alive	No	No	NA
+TCGA-50-5066	72	Male	Lifelong Non-Smoker	NA	IB	M0	N0	NA	297	9.8	LIVING	Alive	No	No	NA
+TCGA-50-5068	59	Female	NA	NA	IIB	Mx	N1	1499	1499	49.3	DECEASED	Dead	No	No	NA
+TCGA-50-5072	74	Male	Current Reformed Smoker For > 15 Years	15	IIIA	M0	N2	NA	246	8.1	LIVING	Alive	NA	 Yes, pharmaceutical treatment prior to resection 	NA
+TCGA-50-5930	47	Male	NA	NA	IIIA	M0	N2	282	282	9.3	DECEASED	Dead	No	No	NA
+TCGA-50-5931	75	Female	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	434	267	14.3	DECEASED	Dead	No	No	NA
+TCGA-50-5932	75	Male	NA	NA	IIB	M0	N1	1235	1091	40.6	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-50-5933	72	Male	NA	NA	IIIB	M0	N2	2393	2370	78	DECEASED	Dead	No	No	NA
+TCGA-50-5935	86	Female	NA	NA	IA	M0	N0	653	653	21.5	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-50-5936	58	Male	NA	NA	IIIA	M0	N2	257	NA	8.5	DECEASED	Dead	No	No	NA
+TCGA-50-5939	85	Male	Current Reformed Smoker For > 15 Years	15	IB	M0	N0	460	NA	15.1	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-50-5941	55	Female	Current Smoker	25	IIIA	M0	N2	NA	285	9.4	LIVING	Alive	No	No	NA
+TCGA-50-5942	67	Female	Current Reformed Smoker For < Or = 15 Years	30	IA	M0	N0	NA	136	4.5	LIVING	Alive	No	No	NA
+TCGA-50-5944	69	Female	NA	NA	IA	M0	N0	NA	373	12.3	LIVING	Alive	No	No	NA
+TCGA-50-5946	62	Male	Current Reformed Smoker For < Or = 15 Years	NA	IA	Mx	N0	NA	349	11.5	LIVING	Alive	No	No	NA
+TCGA-50-6590	72	Female	Current Reformed Smoker For < Or = 15 Years	50	IB	M0	N0	1288	NA	42.4	DECEASED	Dead	No	No	NA
+TCGA-50-6591	63	Female	Lifelong Non-Smoker	NA	IV	M1	N0	119	NA	3.9	DECEASED	Dead	No	No	NA
+TCGA-50-6592	71	Female	Current Reformed Smoker For < Or = 15 Years	NA	IB	M0	N0	777	NA	25.6	DECEASED	Dead	No	No	NA
+TCGA-50-6593	49	Female	Current Reformed Smoker For < Or = 15 Years	NA	IIIA	M0	N2	336	NA	11.1	DECEASED	Dead	No	No	NA
+TCGA-50-6594	79	Female	Current Reformed Smoker For < Or = 15 Years	NA	IIIA	M0	N2	370	NA	12.2	DECEASED	Dead	No	No	NA
+TCGA-50-6595	74	Female	Current Reformed Smoker For > 15 Years	NA	IIIA	M0	N2	189	NA	6.2	DECEASED	Dead	No	No	NA
+TCGA-50-6597	79	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	1015	33.4	LIVING	Alive	No	No	NA
+TCGA-50-6673	84	Female	Lifelong Non-Smoker	NA	I	M0	N0	22	NA	0.7	DECEASED	Dead	No	No	NA
+TCGA-50-7109	60	Male	Current Smoker	120	IA	M0	N0	NA	255	8.4	LIVING	Alive	No	No	NA
+TCGA-50-8457	63	Female	Current Reformed Smoker For < Or = 15 Years	30	IA	M0	N0	NA	44	1.4	LIVING	Alive	No	No	NA
+TCGA-50-8459	68	Male	Current Smoker	10	IIB	M0	N0	NA	231	7.6	LIVING	Alive	No	No	NA
+TCGA-50-8460	74	Male	NA	NA	IA	M0	N0	NA	105	3.5	LIVING	Alive	No	No	NA
+TCGA-53-7624	40	Female	Current Smoker	50	IV	M1	N0	1043	NA	34.3	DECEASED	Dead	No	No	NA
+TCGA-53-7626	76	Female	Current Reformed Smoker For < Or = 15 Years	35	IIA	M0	N1	929	NA	30.6	DECEASED	Dead	No	No	NA
+TCGA-53-7813	51	Female	Current Reformed Smoker For < Or = 15 Years	35	IIIB	M0	N0	NA	418	13.8	LIVING	Alive	No	No	NA
+TCGA-53-A4EZ	63	Male	Current Reformed Smoker For > 15 Years	40	IIA	Mx	N1	NA	280	9.2	LIVING	Alive	No	No	NA
+TCGA-55-1592	65	Male	Current Reformed Smoker For < Or = 15 Years	NA	IA	M0	N0	701	701	23.1	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-55-1594	68	Male	Current Smoker	NA	IIIA	M0	N2	NA	1178	38.8	LIVING	Alive	No	No	NA
+TCGA-55-1595	74	Female	Current Reformed Smoker For < Or = 15 Years	NA	IA	M0	N0	NA	1479	48.7	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-1596	55	Male	Current Smoker	50	IIB	M0	N1	NA	1375	45.2	LIVING	Alive	No	No	NA
+TCGA-55-5899	58	Male	Current Smoker	NA	IA	M0	N1	NA	87	2.9	LIVING	Alive	No	No	NA
+TCGA-55-6543	60	Female	Current Reformed Smoker For < Or = 15 Years	60	IA	Mx	N0	NA	2	0.1	LIVING	Alive	No	No	NA
+TCGA-55-6642	63	Male	Current Smoker	NA	IB	Mx	N0	NA	993	32.7	LIVING	Alive	No	No	NA
+TCGA-55-6712	71	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIA	Mx	N1	NA	24	0.8	LIVING	Alive	No	No	NA
+TCGA-55-6968	61	Male	Current Smoker	NA	IV	M1	N0	1293	NA	42.5	DECEASED	Dead	No	No	NA
+TCGA-55-6969	52	Male	Current Reformed Smoker For < Or = 15 Years	NA	IB	M0	N0	NA	1239	40.8	LIVING	Alive	No	No	NA
+TCGA-55-6970	67	Female	Current Reformed Smoker For < Or = 15 Years	NA	IIIA	Mx	N2	464	NA	15.3	DECEASED	Dead	No	No	NA
+TCGA-55-6971	59	Female	Current Reformed Smoker For < Or = 15 Years	60	IB	Mx	N0	NA	25	0.8	LIVING	Alive	No	No	NA
+TCGA-55-6972	72	Male	Current Smoker	NA	IB	M0	N0	NA	1475	48.5	LIVING	Alive	No	No	NA
+TCGA-55-6975	61	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIB	M0	N1	118	NA	3.9	DECEASED	Dead	No	No	NA
+TCGA-55-6978	81	Male	Lifelong Non-Smoker	NA	IIA	Mx	N0	167	NA	5.5	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-55-6979	59	Female	Current Reformed Smoker For > 15 Years	NA	IIB	M0	N1	237	NA	7.8	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-55-6980	56	Male	Lifelong Non-Smoker	NA	IA	M0	N0	NA	67	2.2	LIVING	Alive	No	No	NA
+TCGA-55-6981	53	Female	Current Reformed Smoker For > 15 Years	NA	IIIA	M0	N2	1379	NA	45.4	DECEASED	Dead	No	No	NA
+TCGA-55-6982	79	Female	Lifelong Non-Smoker	NA	IIB	M0	N1	995	NA	32.7	DECEASED	Dead	No	No	NA
+TCGA-55-6983	81	Male	Current Reformed Smoker For < Or = 15 Years	60	IIB	M0	N1	NA	1826	60.1	LIVING	Alive	No	No	NA
+TCGA-55-6984	71	Female	NA	NA	IIB	M0	N1	760	NA	25	DECEASED	Dead	No	No	NA
+TCGA-55-6985	58	Female	Current Reformed Smoker For < Or = 15 Years	50	IB	Mx	N0	NA	1233	40.6	LIVING	Alive	No	No	NA
+TCGA-55-6986	74	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	2151	70.8	LIVING	Alive	No	No	NA
+TCGA-55-6987	77	Male	Current Reformed Smoker For < Or = 15 Years	NA	IA	M0	N0	NA	1170	38.5	LIVING	Alive	No	No	NA
+TCGA-55-7227	77	Male	Current Reformed Smoker For > 15 Years	NA	IIIA	Mx	N1	NA	53	1.7	LIVING	Alive	No	No	NA
+TCGA-55-7281	70	Female	Current Reformed Smoker For < Or = 15 Years	20	IA	M0	N0	NA	18	0.6	LIVING	Alive	No	No	NA
+TCGA-55-7283	76	Female	Current Reformed Smoker For > 15 Years	5	IIIA	Mx	N2	NA	35	1.2	LIVING	Alive	No	No	NA
+TCGA-55-7284	74	Male	Current Reformed Smoker For > 15 Years	NA	IIB	Mx	N0	NA	121	4	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-55-7570	60	Male	Current Smoker	NA	IA	Mx	N0	NA	6	0.2	LIVING	Alive	No	No	NA
+TCGA-55-7573	72	Female	Current Reformed Smoker For > 15 Years	NA	IA	Mx	N0	NA	4	0.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-7574	64	Female	Current Reformed Smoker For < Or = 15 Years	2	IB	M0	N0	NA	95	3.1	LIVING	Alive	No	No	NA
+TCGA-55-7576	54	Male	Current Smoker	NA	IB	M0	N0	NA	40	1.3	LIVING	Alive	No	No	NA
+TCGA-55-7724	76	Female	Current Reformed Smoker For < Or = 15 Years	50	IB	Mx	N0	NA	0	0	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-7725	68	Female	Current Reformed Smoker For > 15 Years	16	IA	Mx	N0	NA	39	1.3	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-7726	72	Female	Current Reformed Smoker For > 15 Years	30	IA	Mx	N0	NA	39	1.3	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-7727	70	Male	Current Smoker	NA	IIIA	Mx	N2	NA	34	1.1	LIVING	Alive	No	No	NA
+TCGA-55-7728	64	Female	Current Reformed Smoker For < Or = 15 Years	30	IB	Mx	N0	NA	24	0.8	LIVING	Alive	No	No	NA
+TCGA-55-7815	76	Male	Lifelong Non-Smoker	NA	IB	Mx	N0	NA	54	1.8	LIVING	Alive	No	No	NA
+TCGA-55-7903	64	Male	Current Smoker	40	IA	Mx	N0	NA	19	0.6	LIVING	Alive	No	No	NA
+TCGA-55-7907	77	Male	Current Reformed Smoker For > 15 Years	80	IIA	Mx	N1	NA	16	0.5	LIVING	Alive	No	No	NA
+TCGA-55-7910	50	Female	Current Reformed Smoker For < Or = 15 Years	15	IIA	M0	N0	NA	197	6.5	LIVING	Alive	No	No	NA
+TCGA-55-7911	70	Female	Current Reformed Smoker For > 15 Years	96	IA	Mx	N0	NA	21	0.7	LIVING	Alive	No	No	NA
+TCGA-55-7913	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA-55-7914	71	Female	Current Smoker	5	IIA	Mx	N1	NA	3	0.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-7994	81	Male	Current Smoker	28	IIB	Mx	N0	NA	31	1	LIVING	Alive	No	No	NA
+TCGA-55-7995	73	Female	Current Reformed Smoker For < Or = 15 Years	60	IA	M0	N0	NA	5	0.2	LIVING	Alive	No	No	NA
+TCGA-55-8085	64	Male	Current Smoker	NA	IA	M0	N0	NA	33	1.1	LIVING	Alive	No	No	NA
+TCGA-55-8087	59	Female	Lifelong Non-Smoker	NA	IB	Mx	N0	NA	21	0.7	LIVING	Alive	No	No	NA
+TCGA-55-8089	56	Male	Current Smoker	97	IA	M0	N0	NA	100	3.3	LIVING	Alive	No	No	NA
+TCGA-55-8090	80	Male	Current Smoker	NA	IA	M0	N0	NA	6	0.2	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-55-8091	74	Male	Current Reformed Smoker For > 15 Years	NA	IB	Mx	N0	NA	43	1.4	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-8092	75	Male	Current Reformed Smoker For < Or = 15 Years	40	IIB	Mx	N0	NA	26	0.9	LIVING	Alive	No	No	NA
+TCGA-55-8094	51	Male	Current Reformed Smoker For < Or = 15 Years	70	IV	M1b	N0	NA	4	0.1	LIVING	Alive	No	No	NA
+TCGA-55-8096	67	Female	Current Smoker	104	IB	Mx	N0	NA	47	1.5	LIVING	Alive	No	No	NA
+TCGA-55-8097	60	Female	Current Reformed Smoker For < Or = 15 Years	35	IA	Mx	N0	NA	15	0.5	LIVING	Alive	No	No	NA
+TCGA-55-8203	69	Female	Current Smoker	50	IA	M0	N0	NA	4	0.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-8204	87	Female	Current Reformed Smoker For > 15 Years	NA	IB	Mx	N0	NA	0	0	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-8205	76	Female	Current Reformed Smoker For < Or = 15 Years	30	IIB	M0	N0	NA	33	1.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-8206	56	Male	Lifelong Non-Smoker	NA	IA	M0	N0	NA	46	1.5	LIVING	Alive	No	No	NA
+TCGA-55-8207	73	Male	Current Reformed Smoker For > 15 Years	NA	IB	Mx	N0	NA	66	2.2	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-55-8208	73	Female	Current Smoker	50	IA	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-55-8299	61	Female	Current Reformed Smoker For < Or = 15 Years	20	IA	Mx	N0	NA	216	7.1	LIVING	Alive	No	No	NA
+TCGA-55-8301	58	Male	Current Smoker	100	IB	Mx	N0	NA	44	1.4	LIVING	Alive	No	No	NA
+TCGA-55-8505	62	Male	Lifelong Non-Smoker	NA	IIIA	Mx	N2	NA	29	1	LIVING	Alive	No	No	NA
+TCGA-55-8506	62	Female	Current Smoker	NA	IIB	Mx	N0	NA	11	0.4	LIVING	Alive	No	No	NA
+TCGA-55-8507	53	Male	Current Smoker	120	IA	Mx	N0	NA	8	0.3	LIVING	Alive	No	No	NA
+TCGA-55-8508	60	Female	Current Smoker	NA	IIA	Mx	N1	NA	15	0.5	LIVING	Alive	No	No	NA
+TCGA-55-8510	55	Female	Current Smoker	NA	IB	Mx	N0	NA	228	7.5	LIVING	Alive	No	No	NA
+TCGA-55-8511	73	Female	Current Smoker	58	IB	Mx	N0	NA	9	0.3	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-8512	41	Male	Current Smoker	19	IV	M1b	N1	NA	3	0.1	LIVING	Alive	No	No	NA
+TCGA-55-8513	77	Female	Lifelong Non-Smoker	NA	IIB	Mx	N0	NA	146	4.8	LIVING	Alive	No	No	NA
+TCGA-55-8514	70	Female	Current Reformed Smoker For < Or = 15 Years	20	IB	Mx	N0	NA	202	6.6	LIVING	Alive	No	No	NA
+TCGA-55-8614	76	Male	Current Reformed Smoker For > 15 Years	40	IB	Mx	N0	NA	41	1.3	LIVING	Alive	No	No	NA
+TCGA-55-8615	67	Male	Current Smoker	67	IIIA	Mx	N2	NA	15	0.5	LIVING	Alive	No	No	NA
+TCGA-55-8616	58	Female	Current Reformed Smoker For < Or = 15 Years	NA	IB	M0	N0	NA	48	1.6	LIVING	Alive	No	No	NA
+TCGA-55-8619	72	Female	Lifelong Non-Smoker	NA	IIB	Mx	N0	NA	49	1.6	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-8620	60	Male	Current Reformed Smoker For < Or = 15 Years	154	IV	M1b	N1	NA	66	2.2	LIVING	Alive	No	No	NA
+TCGA-55-8621	75	Female	Current Reformed Smoker For < Or = 15 Years	30	IA	Mx	N0	NA	106	3.5	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-A48X	63	Female	Current Reformed Smoker For < Or = 15 Years	36	IIA	M0	N1	NA	33	1.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-A48Y	69	Male	Current Smoker	50	IIA	M0	N0	NA	42	1.4	LIVING	Alive	No	No	NA
+TCGA-55-A48Z	60	Female	Current Reformed Smoker For < Or = 15 Years	40	IIIB	Mx	N3	NA	29	1	LIVING	Alive	No	No	NA
+TCGA-55-A490	78	Male	Current Reformed Smoker For > 15 Years	34	IIA	Mx	N0	NA	48	1.6	LIVING	Alive	No	No	NA
+TCGA-55-A491	81	Female	Current Reformed Smoker For > 15 Years	45	IA	Mx	N0	NA	0	0	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-A492	70	Female	Current Reformed Smoker For > 15 Years	35	IA	Mx	N0	NA	1	0	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-55-A493	54	Female	Current Smoker	53	IB	M0	N0	NA	28	0.9	LIVING	Alive	No	No	NA
+TCGA-55-A494	61	Female	Current Reformed Smoker For > 15 Years	7	IB	Mx	N0	NA	5	0.2	LIVING	Alive	No	No	NA
+TCGA-55-A4DF	88	Male	Current Reformed Smoker For > 15 Years	60	IA	Mx	N0	NA	47	1.5	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-55-A4DG	71	Male	Current Reformed Smoker For < Or = 15 Years	100	IA	Mx	N0	NA	162	5.3	LIVING	Alive	No	No	NA
+TCGA-55-A57B	80	Female	Lifelong Non-Smoker	NA	IA	M0	N0	NA	21	0.7	LIVING	Alive	No	No	NA
+TCGA-62-8394	65	Female	Lifelong Non-Smoker	NA	IIIB	M0	N2	139	NA	4.6	DECEASED	Dead	No	No	NA
+TCGA-62-8395	80	Female	Lifelong Non-Smoker	NA	IIB	M0	N0	NA	705	23.2	LIVING	Alive	No	No	NA
+TCGA-62-8397	70	Female	Lifelong Non-Smoker	NA	IIB	M0	N0	NA	940	30.9	LIVING	Alive	No	No	NA
+TCGA-62-8399	62	Male	Current Reformed Smoker For < Or = 15 Years	70	IIIA	M0	N2	NA	2093	68.8	LIVING	Alive	No	No	NA
+TCGA-62-8402	73	Female	Lifelong Non-Smoker	NA	IIIA	M0	N2	NA	1445	47.5	LIVING	Alive	No	No	NA
+TCGA-62-A46O	65	Female	Current Smoker	48	IB	M0	N0	1454	NA	47.8	DECEASED	Dead	No	No	NA
+TCGA-62-A46P	65	Male	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	594	NA	19.5	DECEASED	Dead	No	No	NA
+TCGA-62-A46R	54	Female	Current Reformed Smoker For < Or = 15 Years	25	IB	M0	N0	1725	NA	56.7	DECEASED	Dead	No	No	NA
+TCGA-62-A46S	73	Male	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	1653	NA	54.4	DECEASED	Dead	No	No	NA
+TCGA-62-A46U	71	Female	Lifelong Non-Smoker	NA	IIB	M0	N1	NA	1708	56.2	LIVING	Alive	No	No	NA
+TCGA-62-A46V	78	Female	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	1631	53.7	LIVING	Alive	No	No	NA
+TCGA-62-A46Y	70	Female	Lifelong Non-Smoker	NA	IIIA	M0	N2	414	NA	13.6	DECEASED	Dead	No	No	NA
+TCGA-62-A470	84	Male	Current Reformed Smoker For > 15 Years	30	IB	M0	N0	1194	NA	39.3	DECEASED	Dead	No	No	NA
+TCGA-62-A471	64	Male	Current Reformed Smoker For < Or = 15 Years	30	IIB	M0	N1	NA	883	29	LIVING	Alive	No	No	NA
+TCGA-62-A472	70	Male	Current Smoker	60	IIB	M0	N0	NA	540	17.8	LIVING	Alive	No	No	NA
+TCGA-64-1676	58	Male	Current Smoker	60	IA	M0	N0	NA	1728	56.8	LIVING	Alive	No	No	NA
+TCGA-64-1677	77	Female	Current Smoker	50	IIIA	M0	N2	628	NA	20.7	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-64-1678	70	Female	Current Reformed Smoker For > 15 Years	20	IIA	M0	N0	NA	1189	39.1	LIVING	Alive	No	No	NA
+TCGA-64-1679	58	Female	Current Smoker	40	IIIA	M0	N2	NA	1686	55.5	LIVING	Alive	No	No	NA
+TCGA-64-1680	63	Male	Current Reformed Smoker For > 15 Years	50	IV	M1	N2	NA	1126	37	LIVING	Alive	No	No	NA
+TCGA-64-1681	61	Female	Current Reformed Smoker For > 15 Years	NA	IA	M0	N0	1167	NA	38.4	DECEASED	Dead	No	No	NA
+TCGA-64-5774	60	Male	Current Reformed Smoker For < Or = 15 Years	45	IB	M0	N0	NA	2550	83.9	LIVING	Alive	No	No	NA
+TCGA-64-5775	71	Male	Current Smoker	110	IIIA	M0	N0	62	62	2	DECEASED	Dead	NA	 Yes, pharmaceutical treatment prior to resection 	NA
+TCGA-64-5778	60	Male	Current Reformed Smoker For < Or = 15 Years	68	IB	M0	N0	NA	926	30.5	LIVING	Alive	No	No	NA
+TCGA-64-5779	61	Male	Current Reformed Smoker For < Or = 15 Years	40	IIIA	M0	N2	NA	507	16.7	LIVING	Alive	No	No	NA
+TCGA-64-5781	55	Female	Current Reformed Smoker For < Or = 15 Years	25	IB	M0	N0	NA	1202	39.5	LIVING	Alive	No	No	NA
+TCGA-64-5815	74	Male	Current Reformed Smoker For > 15 Years	30	IIB	M0	N1	NA	224	7.4	LIVING	Alive	No	No	NA
+TCGA-67-3770	70	Female	Current Reformed Smoker For > 15 Years	NA	IA	M0	N0	NA	31	1	LIVING	Alive	No	No	NA
+TCGA-67-3771	77	Female	Current Reformed Smoker For < Or = 15 Years	NA	IA	M0	N0	NA	610	20.1	LIVING	Alive	No	No	NA
+TCGA-67-3772	82	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	573	18.8	LIVING	Alive	No	No	NA
+TCGA-67-3773	84	Female	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	427	14	LIVING	Alive	No	No	NA
+TCGA-67-3774	73	Female	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	385	12.7	LIVING	Alive	No	No	NA
+TCGA-67-4679	69	Male	Current Reformed Smoker For < Or = 15 Years	NA	NA	M0	N0	NA	448	14.7	LIVING	Alive	No	No	NA
+TCGA-67-6215	52	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	162	5.3	LIVING	Alive	No	No	NA
+TCGA-67-6216	57	Female	Lifelong Non-Smoker	NA	IA	M0	N0	NA	141	4.6	LIVING	Alive	No	No	NA
+TCGA-67-6217	73	Female	Current Reformed Smoker For > 15 Years	NA	IIA	M0	N1	NA	422	13.9	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-69-7760	73	Male	Lifelong Non-Smoker	NA	IIB	M0	N0	NA	154	5.1	LIVING	Alive	No	No	NA
+TCGA-69-7761	84	Male	Current Reformed Smoker For > 15 Years	20	IB	Mx	N0	NA	186	6.1	LIVING	Alive	No	No	NA
+TCGA-69-7763	69	Male	Current Reformed Smoker For < Or = 15 Years	7.5	IA	M0	N0	NA	690	22.7	LIVING	Alive	No	No	NA
+TCGA-69-7764	75	Male	Current Reformed Smoker For > 15 Years	30	IA	M0	N0	NA	414	13.6	LIVING	Alive	No	No	NA
+TCGA-69-7765	56	Male	Current Reformed Smoker For < Or = 15 Years	NA	IV	Mx	N0	NA	129	4.2	LIVING	Alive	No	No	NA
+TCGA-69-7973	42	Female	Current Reformed Smoker For < Or = 15 Years	25	IB	M0	N0	NA	230	7.6	LIVING	Alive	No	No	NA
+TCGA-69-7974	54	Female	Current Reformed Smoker For < Or = 15 Years	30	IIIA	Mx	N2	NA	184	6.1	LIVING	Alive	No	No	NA
+TCGA-69-7978	59	Male	Current Smoker	80	IIB	Mx	N1	NA	70	2.3	LIVING	Alive	No	No	NA
+TCGA-69-7979	71	Female	Current Smoker	28	IB	Mx	N0	NA	89	2.9	LIVING	Alive	No	No	NA
+TCGA-69-7980	69	Female	Current Reformed Smoker For < Or = 15 Years	80	I	M0	N0	NA	382	12.6	LIVING	Alive	No	No	NA
+TCGA-69-8253	59	Female	Current Reformed Smoker For < Or = 15 Years	7.8	IIA	Mx	N1	NA	100	3.3	LIVING	Alive	No	No	NA
+TCGA-69-8254	85	Male	Current Reformed Smoker For > 15 Years	40	NA	NA	NA	NA	77	2.5	LIVING	Alive	No	No	NA
+TCGA-69-8255	71	Male	Current Smoker	40	IA	M0	N0	NA	129	4.2	LIVING	Alive	No	No	NA
+TCGA-69-A59K	60	Female	Current Reformed Smoker For < Or = 15 Years	25	IIB	M0	N0	NA	214	7	LIVING	Alive	No	No	NA
+TCGA-71-6725	48	Female	Current Smoker	NA	IB	M0	N0	NA	61	2	LIVING	Alive	No	No	NA
+TCGA-73-4659	66	Male	Current Reformed Smoker For > 15 Years	12	IIIA	M0	N2	711	711	23.4	DECEASED	Dead	No	No	NA
+TCGA-73-4662	65	Female	Current Reformed Smoker For > 15 Years	10	IA	M0	N0	NA	912	30	LIVING	Alive	No	No	NA
+TCGA-73-4666	52	Female	Current Reformed Smoker For < Or = 15 Years	10	IV	M1	N0	NA	618	20.3	LIVING	Alive	No	No	NA
+TCGA-73-4668	66	Female	Current Reformed Smoker For < Or = 15 Years	55	IIB	M0	N1	NA	467	15.4	LIVING	Alive	No	No	NA
+TCGA-73-4670	69	Female	Current Reformed Smoker For < Or = 15 Years	30	IV	M1	N0	NA	14	0.5	LIVING	Alive	No	No	NA
+TCGA-73-4675	59	Male	Current Reformed Smoker For < Or = 15 Years	41	IIIA	M0	N1	NA	40	1.3	LIVING	Alive	No	No	NA
+TCGA-73-4676	45	Male	Current Reformed Smoker For < Or = 15 Years	48	IIA	M0	N1	NA	122	4	LIVING	Alive	NA	 Yes, pharmaceutical treatment prior to resection 	NA
+TCGA-73-4677	74	Male	Current Reformed Smoker For > 15 Years	NA	IA	M0	N0	38	38	1.3	DECEASED	Dead	No	No	NA
+TCGA-73-7498	58	Female	Current Reformed Smoker For < Or = 15 Years	28	IA	M0	N0	NA	621	20.4	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-73-7499	81	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	519	17.1	LIVING	Alive	No	No	NA
+TCGA-73-A9RS	41	Male	Current Smoker	11	IIB	M0	N0	NA	305	10	LIVING	Alive	No	No	NA
+TCGA-75-5122	NA	Male	Current Reformed Smoker For > 15 Years	20	IB	M0	N0	NA	NA	NA	DECEASED	Dead	NA	No	NA
+TCGA-75-5125	NA	Male	Current Reformed Smoker For > 15 Years	25	IIB	M0	N1	NA	NA	NA	LIVING	Alive	NA	No	NA
+TCGA-75-5126	NA	Female	Current Reformed Smoker For < Or = 15 Years	40	IIIA	M0	N2	NA	NA	NA	LIVING	Alive	NA	No	NA
+TCGA-75-5146	NA	Male	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	NA	NA	LIVING	Alive	NA	No	NA
+TCGA-75-5147	NA	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	NA	NA	LIVING	Alive	NA	No	NA
+TCGA-75-6203	NA	Female	Lifelong Non-Smoker	0	IIIA	M0	N2	NA	NA	NA	LIVING	Alive	No	No	NA
+TCGA-75-6205	NA	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	NA	NA	DECEASED	Dead	No	No	NA
+TCGA-75-6206	NA	Male	Current Reformed Smoker For > 15 Years	20	IB	M0	N0	NA	NA	NA	LIVING	Alive	No	No	NA
+TCGA-75-6207	NA	Male	Current Reformed Smoker For > 15 Years	10	IIIA	M0	N2	NA	NA	NA	DECEASED	Dead	No	No	NA
+TCGA-75-6211	NA	Female	Current Smoker	34	IB	M0	N0	NA	NA	NA	DECEASED	Dead	No	No	NA
+TCGA-75-6212	NA	Female	Lifelong Non-Smoker	NA	IIA	M0	N1	NA	NA	NA	LIVING	Alive	No	No	NA
+TCGA-75-6214	NA	Female	Current Smoker	40	IIIA	M0	N2	NA	NA	NA	LIVING	Alive	No	No	NA
+TCGA-75-7025	NA	Male	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	NA	NA	LIVING	Alive	No	No	NA
+TCGA-75-7027	NA	Male	Current Smoker	50	IB	M0	N0	NA	NA	NA	LIVING	Alive	No	No	NA
+TCGA-75-7030	NA	Male	Lifelong Non-Smoker	NA	IIB	M0	N0	NA	NA	NA	LIVING	Alive	No	No	NA
+TCGA-75-7031	NA	Female	Current Reformed Smoker For > 15 Years	5	IB	M0	N0	NA	NA	NA	LIVING	Alive	No	No	NA
+TCGA-78-7145	52	Female	Current Reformed Smoker For < Or = 15 Years	25	IV	M1	N1	826	NA	27.2	DECEASED	Dead	No	No	NA
+TCGA-78-7146	71	Female	Current Reformed Smoker For < Or = 15 Years	6	IIIA	M0	N2	173	NA	5.7	DECEASED	Dead	No	No	NA
+TCGA-78-7147	67	Female	Current Smoker	50	IIB	M0	N1	586	NA	19.3	DECEASED	Dead	No	No	NA
+TCGA-78-7148	71	Male	Current Smoker	57	IIB	M0	N1	626	NA	20.6	DECEASED	Dead	No	No	NA
+TCGA-78-7149	71	Male	Current Smoker	115	IIIB	M0	N0	NA	1093	36	LIVING	Alive	No	No	NA
+TCGA-78-7150	59	Male	Current Reformed Smoker For < Or = 15 Years	37	IIB	M0	N1	666	NA	21.9	DECEASED	Dead	No	No	NA
+TCGA-78-7152	65	Male	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	NA	1202	39.5	LIVING	Alive	No	No	NA
+TCGA-78-7153	65	Female	Current Reformed Smoker For < Or = 15 Years	20	IB	M0	N0	NA	760	25	LIVING	Alive	No	No	NA
+TCGA-78-7154	72	Male	Current Reformed Smoker For < Or = 15 Years	112.5	IIIA	M0	N2	593	NA	19.5	DECEASED	Dead	No	No	NA
+TCGA-78-7155	68	Male	Current Reformed Smoker For < Or = 15 Years	48	IB	M0	N0	1171	NA	38.5	DECEASED	Dead	No	No	NA
+TCGA-78-7156	62	Male	Current Reformed Smoker For > 15 Years	84	IV	M1	N1	976	NA	32.1	DECEASED	Dead	No	No	NA
+TCGA-78-7158	59	Female	Current Reformed Smoker For < Or = 15 Years	14	IIIB	M0	N2	179	NA	5.9	DECEASED	Dead	No	No	NA
+TCGA-78-7159	60	Female	Current Reformed Smoker For < Or = 15 Years	21	IA	M0	Nx	NA	1221	40.2	LIVING	Alive	No	No	NA
+TCGA-78-7160	61	Male	Current Reformed Smoker For < Or = 15 Years	43.8	IV	M1	N2	NA	678	22.3	LIVING	Alive	No	No	NA
+TCGA-78-7161	69	Female	Current Reformed Smoker For < Or = 15 Years	27.8	IIB	M0	N0	NA	215	7.1	LIVING	Alive	No	No	NA
+TCGA-78-7162	75	Male	Current Smoker	12	IA	M0	N0	3169	NA	104.2	DECEASED	Dead	No	No	NA
+TCGA-78-7163	60	Male	Current Reformed Smoker For < Or = 15 Years	41	IB	M0	N0	NA	6812	224.1	LIVING	Alive	No	No	NA
+TCGA-78-7166	84	Male	Current Reformed Smoker For > 15 Years	38	IIB	M0	N1	258	NA	8.5	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-78-7167	77	Male	Current Smoker	64	IV	M1	N0	2681	NA	88.2	DECEASED	Dead	No	No	NA
+TCGA-78-7220	53	Female	Current Smoker	35	IIIA	M0	N2	807	NA	26.5	DECEASED	Dead	No	No	NA
+TCGA-78-7535	45	Male	Current Smoker	35	IB	M0	N0	949	NA	31.2	DECEASED	Dead	No	No	NA
+TCGA-78-7536	69	Male	Current Reformed Smoker For < Or = 15 Years	44	IIIA	M0	N2	244	NA	8	DECEASED	Dead	No	No	NA
+TCGA-78-7537	72	Male	Current Reformed Smoker For > 15 Years	20	IB	M0	N0	1622	NA	53.4	DECEASED	Dead	No	No	NA
+TCGA-78-7539	75	Female	Current Reformed Smoker For > 15 Years	2.2	IIA	M0	N0	NA	327	10.8	LIVING	Alive	No	No	NA
+TCGA-78-7540	66	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	881	29	LIVING	Alive	No	No	NA
+TCGA-78-7542	56	Male	Current Smoker	60	IB	M0	N0	321	NA	10.6	DECEASED	Dead	No	No	NA
+TCGA-78-7633	67	Male	Current Reformed Smoker For < Or = 15 Years	94	IB	M0	N0	NA	994	32.7	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-78-8640	59	Male	Current Smoker	45	IIA	M0	N1	NA	6346	208.8	LIVING	Alive	No	No	NA
+TCGA-78-8648	58	Female	Current Smoker	45	IIB	M0	N0	1209	NA	39.8	DECEASED	Dead	No	No	NA
+TCGA-78-8655	77	Female	Current Reformed Smoker For < Or = 15 Years	10	IA	M0	N0	NA	2360	77.6	LIVING	Alive	No	No	NA
+TCGA-78-8660	69	Male	Current Reformed Smoker For < Or = 15 Years	11	IIB	M0	N1	321	NA	10.6	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-78-8662	53	Female	Current Smoker	45	IB	M0	N0	3361	NA	110.6	DECEASED	Dead	No	No	NA
+TCGA-80-5607	NA	Female	Current Reformed Smoker For > 15 Years	15	IIB	M0	N1	NA	NA	NA	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-80-5608	NA	Female	Current Smoker	26	IA	M0	N0	NA	NA	NA	LIVING	Alive	No	No	NA
+TCGA-80-5611	NA	Male	Current Reformed Smoker For < Or = 15 Years	60	IB	M0	N0	NA	NA	NA	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-83-5908	59	Female	Current Reformed Smoker For < Or = 15 Years	69	IA	M0	N0	NA	420	13.8	LIVING	Alive	No	No	NA
+TCGA-86-6562	52	Male	Lifelong Non-Smoker	NA	IIA	M0	N1	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-86-6851	73	Female	Current Smoker	52	IIA	M0	N1	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-86-7701	66	Male	Lifelong Non-Smoker	0	IV	M1	N0	NA	11	0.4	LIVING	Alive	No	No	NA
+TCGA-86-7711	70	Male	Current Smoker	50	IIA	M0	N1	NA	27	0.9	LIVING	Alive	No	No	NA
+TCGA-86-7713	70	Male	Lifelong Non-Smoker	NA	IIA	M0	N0	NA	7	0.2	LIVING	Alive	No	No	NA
+TCGA-86-7714	61	Female	Current Smoker	43	IIIA	M0	N2	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-86-7953	69	Female	Lifelong Non-Smoker	NA	IA	M0	N0	NA	34	1.1	LIVING	Alive	No	No	NA
+TCGA-86-7954	68	Female	Current Reformed Smoker For > 15 Years	8	IB	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-86-7955	62	Male	Lifelong Non-Smoker	NA	IB	M0	N0	NA	14	0.5	LIVING	Alive	No	No	NA
+TCGA-86-8054	61	Male	Current Smoker	9	IIB	M0	N1	NA	19	0.6	LIVING	Alive	No	No	NA
+TCGA-86-8055	79	Male	Current Smoker	60	IIA	M0	N1	NA	10	0.3	LIVING	Alive	No	No	NA
+TCGA-86-8056	63	Female	Current Reformed Smoker For > 15 Years	36	IIIA	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-86-8073	58	Male	Current Smoker	40	IB	M0	N0	NA	13	0.4	LIVING	Alive	No	No	NA
+TCGA-86-8074	62	Female	Current Smoker	40	IIA	M0	N1	NA	24	0.8	LIVING	Alive	No	No	NA
+TCGA-86-8075	66	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	43	1.4	LIVING	Alive	No	No	NA
+TCGA-86-8076	42	Male	Lifelong Non-Smoker	NA	IA	M0	N0	NA	26	0.9	LIVING	Alive	No	No	NA
+TCGA-86-8278	63	Female	Lifelong Non-Smoker	NA	IIB	M0	N1	NA	23	0.8	LIVING	Alive	No	No	NA
+TCGA-86-8279	46	Male	Lifelong Non-Smoker	NA	IIA	M0	N1	NA	21	0.7	LIVING	Alive	No	No	NA
+TCGA-86-8280	54	Female	Lifelong Non-Smoker	NA	IIA	M0	N0	NA	16	0.5	LIVING	Alive	No	No	NA
+TCGA-86-8281	75	Male	Current Reformed Smoker For > 15 Years	30	IA	M0	Nx	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-86-8358	44	Male	Current Smoker	20	IB	M0	N0	NA	19	0.6	LIVING	Alive	No	No	NA
+TCGA-86-8359	52	Male	Current Smoker	36	IIIA	M0	N2	NA	26	0.9	LIVING	Alive	No	No	NA
+TCGA-86-8585	57	Male	Lifelong Non-Smoker	NA	IB	M0	N0	NA	35	1.2	LIVING	Alive	No	No	NA
+TCGA-86-8668	61	Female	Lifelong Non-Smoker	NA	IA	M0	N0	NA	45	1.5	LIVING	Alive	No	No	NA
+TCGA-86-8669	64	Male	Current Smoker	47	IA	M0	N0	NA	34	1.1	LIVING	Alive	No	No	NA
+TCGA-86-8671	72	Female	Lifelong Non-Smoker	NA	IIB	M0	N1	NA	18	0.6	LIVING	Alive	No	No	NA
+TCGA-86-8672	59	Male	Lifelong Non-Smoker	NA	IIB	M0	N0	NA	15	0.5	LIVING	Alive	No	No	NA
+TCGA-86-8673	61	Male	Current Smoker	54	IB	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-86-8674	50	Male	Current Reformed Smoker For < Or = 15 Years	37.5	IIA	M0	N1	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-86-A456	78	Female	Current Reformed Smoker For < Or = 15 Years	NA	IA	M0	N0	NA	10	0.3	LIVING	Alive	No	No	NA
+TCGA-86-A4JF	56	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIB	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-86-A4P7	63	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	14	0.5	LIVING	Alive	No	No	NA
+TCGA-86-A4P8	59	Female	Lifelong Non-Smoker	NA	IIIA	Mx	N2	NA	39	1.3	LIVING	Alive	No	No	NA
+TCGA-91-6828	70	Male	Current Reformed Smoker For > 15 Years	NA	IA	M0	N0	NA	38	1.3	LIVING	Alive	No	No	NA
+TCGA-91-6829	78	Male	Current Reformed Smoker For < Or = 15 Years	94.5	IB	Mx	N0	1258	NA	41.4	DECEASED	Dead	No	No	NA
+TCGA-91-6830	65	Female	Current Reformed Smoker For < Or = 15 Years	12	IIA	Mx	N1	NA	1	0	LIVING	Alive	No	No	NA
+TCGA-91-6831	66	Male	Current Smoker	NA	IB	Mx	N0	NA	39	1.3	LIVING	Alive	No	No	NA
+TCGA-91-6835	81	Female	Current Reformed Smoker For > 15 Years	25	IA	M0	N0	NA	35	1.2	LIVING	Alive	No	No	NA
+TCGA-91-6836	52	Female	Current Smoker	50	IB	Mx	N0	NA	11	0.4	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-91-6840	59	Female	Current Reformed Smoker For > 15 Years	50	IA	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-91-6847	62	Female	Current Reformed Smoker For > 15 Years	NA	IB	Mx	N0	NA	842	27.7	LIVING	Alive	No	No	NA
+TCGA-91-6848	59	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIIA	Mx	N2	NA	127	4.2	LIVING	Alive	No	No	NA
+TCGA-91-6849	75	Female	Current Reformed Smoker For > 15 Years	30	IIIA	Mx	N2	NA	35	1.2	LIVING	Alive	No	No	NA
+TCGA-91-7771	62	Male	Current Reformed Smoker For < Or = 15 Years	75	IIB	Mx	N0	NA	31	1	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-91-8496	63	Female	Lifelong Non-Smoker	NA	IB	Mx	Nx	NA	197	6.5	LIVING	Alive	No	No	NA
+TCGA-91-8497	75	Female	Lifelong Non-Smoker	NA	IA	Mx	N0	NA	174	5.7	LIVING	Alive	No	No	NA
+TCGA-91-8499	76	Female	Current Smoker	90	IA	Mx	N0	NA	36	1.2	LIVING	Alive	No	No	NA
+TCGA-91-A4BC	59	Male	Current Reformed Smoker For < Or = 15 Years	30	IIA	Mx	N0	NA	44	1.4	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-91-A4BD	78	Male	Current Reformed Smoker For > 15 Years	NA	IIA	Mx	N1	NA	218	7.2	LIVING	Alive	No	No	NA
+TCGA-93-7347	76	Female	Current Reformed Smoker For > 15 Years	11	IA	Mx	N0	NA	297	9.8	LIVING	Alive	No	No	NA
+TCGA-93-7348	75	Female	Current Reformed Smoker For < Or = 15 Years	42	IA	Mx	N0	NA	127	4.2	LIVING	Alive	No	No	NA
+TCGA-93-8067	77	Male	Current Reformed Smoker For < Or = 15 Years	20	IB	Mx	N0	NA	186	6.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-93-A4JN	71	Male	Current Reformed Smoker For > 15 Years	40	IV	M1a	N0	NA	382	12.6	LIVING	Alive	No	No	NA
+TCGA-93-A4JO	70	Male	Current Reformed Smoker For < Or = 15 Years	50	IA	Mx	N0	33	NA	1.1	DECEASED	Dead	No	No	NA
+TCGA-93-A4JP	64	Male	Lifelong Non-Smoker	NA	IV	M1b	Nx	NA	269	8.8	LIVING	Alive	No	No	NA
+TCGA-93-A4JQ	49	Male	Current Reformed Smoker For > 15 Years	NA	IA	Mx	N0	NA	100	3.3	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-95-7039	54	Female	Current Smoker	34	IIB	Mx	N0	NA	34	1.1	LIVING	Alive	No	No	NA
+TCGA-95-7043	63	Female	Current Reformed Smoker For < Or = 15 Years	40	IA	Mx	N0	NA	2	0.1	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-95-7562	71	Male	Current Reformed Smoker For > 15 Years	10	IIA	M0	N1	87	NA	2.9	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-95-7567	61	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIB	M0	N1	NA	163	5.4	LIVING	Alive	No	No	NA
+TCGA-95-7944	71	Male	Current Smoker	50	IA	M0	N0	NA	21	0.7	LIVING	Alive	No	No	NA
+TCGA-95-7947	67	Male	Current Reformed Smoker For < Or = 15 Years	100	IA	M0	N0	NA	40	1.3	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-95-7948	42	Female	Current Reformed Smoker For > 15 Years	0.15	IB	M0	N0	NA	133	4.4	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-95-8039	72	Male	Lifelong Non-Smoker	NA	IA	Mx	N0	NA	27	0.9	LIVING	Alive	No	No	NA
+TCGA-95-8494	67	Male	Current Reformed Smoker, Duration Not Specified 	NA	IIA	M0	N1	NA	71	2.3	LIVING	Alive	No	No	NA
+TCGA-95-A4VK	74	Female	Current Reformed Smoker For > 15 Years	45	IIIA	M0	N2	NA	121	4	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-95-A4VN	62	Female	Current Reformed Smoker For < Or = 15 Years	42	IIA	M0	N1	NA	142	4.7	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-95-A4VP	66	Female	Current Reformed Smoker For < Or = 15 Years	20	IIIA	M0	N2	NA	168	5.5	LIVING	Alive	No	No	NA
+TCGA-97-7546	76	Female	Current Reformed Smoker For > 15 Years	25	IA	Mx	N0	NA	964	31.7	LIVING	Alive	No	No	NA
+TCGA-97-7547	67	Female	Current Reformed Smoker For > 15 Years	30	IB	Mx	N0	NA	1435	47.2	LIVING	Alive	No	No	NA
+TCGA-97-7552	70	Male	Current Reformed Smoker For > 15 Years	40	IB	Mx	N0	NA	1476	48.6	LIVING	Alive	No	No	NA
+TCGA-97-7553	58	Female	Current Smoker	20	IA	Mx	N0	NA	1332	43.8	LIVING	Alive	No	No	NA
+TCGA-97-7554	83	Female	Current Reformed Smoker For > 15 Years	30	IIIA	M0	N2	NA	264	8.7	LIVING	Alive	No	No	NA
+TCGA-97-7937	65	Male	Current Reformed Smoker For > 15 Years	35	IB	Mx	N0	NA	181	6	LIVING	Alive	No	No	NA
+TCGA-97-7938	76	Female	Current Reformed Smoker For > 15 Years	40	IA	Mx	N0	18	NA	0.6	DECEASED	Dead	No	No	NA
+TCGA-97-7941	72	Female	Current Reformed Smoker For > 15 Years	22.5	IA	Mx	N0	NA	22	0.7	LIVING	Alive	No	No	NA
+TCGA-97-8171	81	Male	Current Smoker	65	IV	M1a	N2	NA	107	3.5	LIVING	Alive	No	No	NA
+TCGA-97-8172	75	Female	Current Reformed Smoker For > 15 Years	20	IB	M0	N0	NA	182	6	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-97-8174	67	Male	Current Reformed Smoker For > 15 Years	40	IIA	M0	N0	164	NA	5.4	DECEASED	Dead	No	No	NA
+TCGA-97-8175	55	Female	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	87	2.9	LIVING	Alive	No	No	NA
+TCGA-97-8176	63	Male	Current Reformed Smoker For < Or = 15 Years	40	IIIA	M0	N1	NA	252	8.3	LIVING	Alive	No	No	NA
+TCGA-97-8177	59	Female	Lifelong Non-Smoker	NA	IB	M0	N0	NA	147	4.8	LIVING	Alive	No	No	NA
+TCGA-97-8179	72	Male	Current Reformed Smoker For > 15 Years	60	IA	M0	N0	NA	15	0.5	LIVING	Alive	No	No	NA
+TCGA-97-8547	78	Female	Lifelong Non-Smoker	NA	IIIA	Mx	N2	NA	148	4.9	LIVING	Alive	No	No	NA
+TCGA-97-8552	55	Female	Lifelong Non-Smoker	NA	I	Mx	N0	NA	115	3.8	LIVING	Alive	No	No	NA
+TCGA-97-A4LX	81	Male	Current Reformed Smoker For > 15 Years	120	IB	M0	N0	NA	272	8.9	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-97-A4M0	60	Female	Current Reformed Smoker For < Or = 15 Years	34	IB	M0	N0	NA	216	7.1	LIVING	Alive	No	No	NA
+TCGA-97-A4M1	52	Female	Current Reformed Smoker For > 15 Years	3	IA	M0	N0	NA	209	6.9	LIVING	Alive	No	No	NA
+TCGA-97-A4M2	66	Male	Current Smoker	100	IA	M0	N0	NA	197	6.5	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-97-A4M3	69	Female	Current Reformed Smoker For > 15 Years	37.5	IA	M0	N0	NA	237	7.8	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-97-A4M5	83	Male	Current Reformed Smoker For > 15 Years	6	IA	M0	N0	NA	132	4.3	LIVING	Alive	No	No	NA
+TCGA-97-A4M6	45	Female	Lifelong Non-Smoker	NA	IA	M0	N0	NA	185	6.1	LIVING	Alive	No	No	NA
+TCGA-97-A4M7	74	Male	Current Reformed Smoker For > 15 Years	40	IA	M0	N0	NA	271	8.9	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-99-7458	74	Female	Current Reformed Smoker For < Or = 15 Years	52	IIIA	M0	N0	NA	251	8.3	LIVING	Alive	No	No	NA
+TCGA-99-8025	72	Female	Current Reformed Smoker For < Or = 15 Years	20	IIIA	M0	N2	NA	427	14	LIVING	Alive	No	No	NA
+TCGA-99-8028	50	Female	Current Reformed Smoker For < Or = 15 Years	30	IA	M0	N0	NA	459	15.1	LIVING	Alive	No	No	NA
+TCGA-99-8032	61	Male	Current Smoker	90	IA	M0	N0	NA	44	1.4	LIVING	Alive	No	No	NA
+TCGA-99-8033	74	Female	Lifelong Non-Smoker	NA	IV	M1	Nx	NA	170	5.6	LIVING	Alive	No	No	NA
+TCGA-99-AA5R	70	Female	Current Smoker	46	IA	M0	N0	NA	189	6.2	LIVING	Alive	No	No	NA
+TCGA-J2-8192	65	Female	Lifelong Non-Smoker	NA	IIA	Mx	N1	NA	154	5.1	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-J2-8194	69	Female	Current Reformed Smoker For > 15 Years	20	IIB	Mx	N0	NA	114	3.8	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-J2-A4AD	61	Female	Current Smoker	120	IA	Mx	N0	NA	287	9.4	LIVING	Alive	No	No	NA
+TCGA-J2-A4AE	77	Female	Lifelong Non-Smoker	NA	IA	Mx	N0	NA	282	9.3	LIVING	Alive	No	No	NA
+TCGA-J2-A4AG	66	Female	Current Reformed Smoker For > 15 Years	25	IA	Mx	N0	NA	238	7.8	LIVING	Alive	No	No	NA
+TCGA-L4-A4E5	48	Female	Current Reformed Smoker For < Or = 15 Years	33	I	M0	N0	NA	213	7	LIVING	Alive	No	No	NA
+TCGA-L9-A443	63	Female	Current Reformed Smoker For < Or = 15 Years	90	IA	Mx	N0	NA	116	3.8	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-L9-A444	60	Female	Current Smoker	10	IA	Mx	N0	NA	6	0.2	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-L9-A50W	75	Male	Current Reformed Smoker For > 15 Years	19	IIA	Mx	N1	NA	266	8.8	LIVING	Alive	No	No	NA
+TCGA-L9-A5IP	40	Female	Current Reformed Smoker For < Or = 15 Years	NA	IV	M1b	N2	58	NA	1.9	DECEASED	Dead	No	No	NA
+TCGA-L9-A7SV	69	Male	Current Reformed Smoker For > 15 Years	93	IIA	M0	N1	NA	111	3.7	LIVING	Alive	No	No	NA
+TCGA-L9-A8F4	64	Female	Current Smoker	14	IB	Mx	N0	NA	102	3.4	LIVING	Alive	No	No	NA
+TCGA-MN-A4N1	60	Male	Current Smoker	NA	IIA	M0	N1	NA	285	9.4	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-MN-A4N4	57	Male	Current Smoker	NA	IA	M0	N0	NA	622	20.5	LIVING	Alive	No	No	NA
+TCGA-MN-A4N5	63	Male	Current Reformed Smoker For < Or = 15 Years	NA	IA	M0	N0	NA	84	2.8	LIVING	Alive	No	No	NA
+TCGA-MP-A4SW	53	Male	Current Reformed Smoker For > 15 Years	15	IIB	M0	N1	1778	NA	58.5	DECEASED	Dead	No	No	NA
+TCGA-MP-A4T2	71	Male	Current Reformed Smoker For < Or = 15 Years	75	IA	M0	N0	1136	NA	37.4	DECEASED	Dead	No	No	NA
+TCGA-MP-A4T4	68	Female	Current Smoker	50	IIB	M0	N1	2617	NA	86.1	DECEASED	Dead	No	No	NA
+TCGA-MP-A4T6	76	Female	Current Reformed Smoker For > 15 Years	50	IIIA	Mx	N2	1790	NA	58.9	DECEASED	Dead	No	No	NA
+TCGA-MP-A4T7	75	Female	Current Reformed Smoker For < Or = 15 Years	50	IV	M1	N0	167	NA	5.5	DECEASED	Dead	No	No	NA
+TCGA-MP-A4T8	68	Male	Current Reformed Smoker For > 15 Years	25	IIIA	M0	N2	161	NA	5.3	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-MP-A4T9	54	Female	Current Reformed Smoker For < Or = 15 Years	24	IIIA	Mx	N2	1265	NA	41.6	DECEASED	Dead	No	No	NA
+TCGA-MP-A4TA	75	Female	Current Reformed Smoker For < Or = 15 Years	55	IA	M0	N0	950	NA	31.3	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-MP-A4TC	77	Male	Current Reformed Smoker For > 15 Years	125	IIIA	M0	N2	74	NA	2.4	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-MP-A4TD	71	Male	Current Reformed Smoker For > 15 Years	20	IIIA	M0	N2	307	NA	10.1	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-MP-A4TE	56	Male	Current Reformed Smoker For < Or = 15 Years	40	IIA	Mx	N0	896	NA	29.5	DECEASED	Dead	No	No	NA
+TCGA-MP-A4TF	58	Female	Current Reformed Smoker For < Or = 15 Years	40	IIA	M0	N0	336	NA	11.1	DECEASED	Dead	No	No	NA
+TCGA-MP-A4TH	70	Female	Current Reformed Smoker For > 15 Years	20	IA	M0	N0	NA	142	4.7	LIVING	Alive	No	No	NA
+TCGA-MP-A4TI	72	Male	Current Reformed Smoker For > 15 Years	35	IIA	M0	N1	429	NA	14.1	DECEASED	Dead	No	No	NA
+TCGA-MP-A4TJ	62	Female	Current Smoker	NA	IA	M0	N0	339	NA	11.2	DECEASED	Dead	No	No	NA
+TCGA-MP-A4TK	56	Female	Current Reformed Smoker For < Or = 15 Years	28	IIB	Mx	N1	582	NA	19.1	DECEASED	Dead	No	No	NA
+TCGA-MP-A5C7	76	Female	Current Reformed Smoker For > 15 Years	15	IB	M0	N0	NA	1490	49	LIVING	Alive	No	No	NA
+TCGA-NJ-A4YF	50	Female	Current Reformed Smoker For > 15 Years	30	IA	M0	N0	NA	1720	56.6	LIVING	Alive	No	No	NA
+TCGA-NJ-A4YG	65	Male	Current Reformed Smoker For < Or = 15 Years	104	IB	M0	N0	NA	1726	56.8	LIVING	Alive	No	No	NA
+TCGA-NJ-A4YI	87	Female	Current Reformed Smoker For > 15 Years	3	IIIA	M0	N2	4	NA	0.1	DECEASED	Dead	No	No	NA
+TCGA-NJ-A4YP	52	Male	Current Reformed Smoker, Duration Not Specified 	60	IB	M0	N0	NA	50	1.6	LIVING	Alive	No	No	NA
+TCGA-NJ-A4YQ	69	Female	Current Reformed Smoker For < Or = 15 Years	40	IA	M0	N0	NA	886	29.1	LIVING	Alive	No	No	NA
+TCGA-NJ-A55A	76	Female	Current Reformed Smoker For > 15 Years	25	IB	M0	N0	NA	3	0.1	LIVING	Alive	No	No	NA
+TCGA-NJ-A55O	56	Female	Current Reformed Smoker For < Or = 15 Years	30	IIA	M0	N1	NA	13	0.4	LIVING	Alive	No	No	NA
+TCGA-NJ-A55R	67	Male	Current Reformed Smoker For > 15 Years	5	IA	Mx	N0	NA	603	19.8	LIVING	Alive	No	No	NA
+TCGA-NJ-A7XG	49	Male	Current Reformed Smoker For > 15 Years	NA	IIIA	M0	N1	NA	295	9.7	LIVING	Alive	No	No	NA
+TCGA-O1-A52J	74	Female	Current Reformed Smoker For > 15 Years	45	IA	Mx	N0	1798	NA	59.1	DECEASED	Dead	No	No	NA
+TCGA-S2-AA1A	68	Female	Current Reformed Smoker For > 15 Years	95	IA	M0	N0	NA	121	4	LIVING	Alive	No	No	NA
+TCGA-18-3406	67	Male	Current Reformed Smoker For < Or = 15 Years	200	IA	M0	N0	371	NA	12.2	DECEASED	Dead	No	No	NA
+TCGA-18-3407	72	Male	Current Reformed Smoker For > 15 Years	40	IB	M0	N0	136	NA	4.47	DECEASED	Dead	No	No	NA
+TCGA-18-3408	77	Female	Current Reformed Smoker For < Or = 15 Years	30	IB	M0	N0	NA	2099	69.05	LIVING	Alive	No	No	NA
+TCGA-18-3409	74	Male	Current Reformed Smoker For > 15 Years	20	IA	M0	N0	NA	2417	79.51	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-18-3410	81	Male	Current Reformed Smoker For > 15 Years	NA	IIB	M0	N0	146	NA	4.8	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-18-3411	63	Female	Current Smoker	50	IIIA	M0	N2	NA	1415	46.55	LIVING	Alive	No	No	NA
+TCGA-18-3412	52	Male	Current Reformed Smoker For < Or = 15 Years	25	IB	M0	N0	345	NA	11.35	DECEASED	Dead	No	No	NA
+TCGA-18-3414	73	Male	Current Reformed Smoker For < Or = 15 Years	25	IV	M1	N1	716	NA	23.55	DECEASED	Dead	No	No	NA
+TCGA-18-3415	77	Male	Current Reformed Smoker For > 15 Years	30	IB	M0	N0	NA	1810	59.54	LIVING	Alive	No	No	NA
+TCGA-18-3416	83	Male	Current Reformed Smoker For > 15 Years	40	IIB	M0	N1	NA	956	31.45	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-18-3417	65	Male	Current Reformed Smoker For > 15 Years	25	IV	M1	N1	NA	758	24.93	LIVING	Alive	No	No	NA
+TCGA-18-3419	73	Male	Current Reformed Smoker For < Or = 15 Years	50	IIB	M0	N1	NA	53	1.74	LIVING	Alive	No	No	NA
+TCGA-18-3421	65	Male	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	NA	1331	43.78	LIVING	Alive	No	No	NA
+TCGA-18-4083	63	Male	Current Smoker	45	IIB	M0	N1	188	NA	6.18	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-18-4086	64	Male	Current Reformed Smoker For < Or = 15 Years	30	IB	M0	N0	85	85	2.8	DECEASED	Dead	No	No	NA
+TCGA-18-4721	74	Male	Current Reformed Smoker For < Or = 15 Years	NA	IA	M0	N0	NA	2754	90.59	LIVING	Alive	No	No	NA
+TCGA-18-5592	57	Male	Current Reformed Smoker For > 15 Years	40	IIB	M0	N0	NA	92	3.03	LIVING	Alive	No	No	NA
+TCGA-18-5595	50	Male	Lifelong Non-Smoker	NA	IB	M0	N0	827	827	27.2	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-21-1070	60	Female	Current Reformed Smoker For < Or = 15 Years	15	IIIA	M0	N0	NA	3516	115.66	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-21-1071	67	Male	Current Smoker	90	IB	M0	N0	1426	1426	46.91	DECEASED	Dead	No	No	NA
+TCGA-21-1075	57	Male	Current Smoker	74	IIB	M0	N1	NA	2134	70.2	LIVING	Alive	No	No	NA
+TCGA-21-1076	54	Female	Current Reformed Smoker For < Or = 15 Years	35	IB	M0	N0	NA	1852	60.92	LIVING	Alive	No	No	NA
+TCGA-21-1077	64	Male	Current Reformed Smoker For < Or = 15 Years	56	IIB	M0	N1	1058	1058	34.8	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-21-1078	77	Male	Current Reformed Smoker For < Or = 15 Years	9	IB	M0	N0	474	474	15.59	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-21-1079	71	Male	Current Reformed Smoker For > 15 Years	80	IIIA	M0	N0	965	965	31.74	DECEASED	Dead	No	No	NA
+TCGA-21-1081	69	Male	Current Reformed Smoker For < Or = 15 Years	45	IIB	M0	N1	284	284	9.34	DECEASED	Dead	No	No	NA
+TCGA-21-1082	61	Male	NA	NA	IB	M0	N0	NA	3644	119.87	LIVING	Alive	No	No	NA
+TCGA-21-1083	75	Male	Current Smoker	240	IA	M0	N0	1315	267	43.26	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-21-5782	68	Female	Current Reformed Smoker For < Or = 15 Years	48	IB	M0	N0	962	962	31.64	DECEASED	Dead	No	No	NA
+TCGA-21-5784	80	Female	Current Reformed Smoker For > 15 Years	14	IB	M0	N0	NA	908	29.87	LIVING	Alive	No	No	NA
+TCGA-21-5786	64	Male	Current Smoker	75	IB	M0	N0	NA	661	21.74	LIVING	Alive	No	No	NA
+TCGA-21-5787	65	Male	Current Reformed Smoker For < Or = 15 Years	100	IIIA	M0	N2	329	329	10.82	DECEASED	Dead	No	No	NA
+TCGA-21-A5DI	77	Male	Current Reformed Smoker For > 15 Years	NA	IA	M0	N0	NA	979	32.2	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-22-0940	71	Male	Current Reformed Smoker For > 15 Years	25	IIA	M0	N1	669	608	22.01	DECEASED	Dead	No	No	NA
+TCGA-22-0944	61	Male	Current Smoker	38	IB	M0	N0	223	223	7.34	DECEASED	Dead	No	No	NA
+TCGA-22-1000	76	Male	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	454	NA	14.93	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-22-1002	69	Male	Current Reformed Smoker For < Or = 15 Years	85	IA	M0	N0	131	131	4.31	DECEASED	Dead	No	No	NA
+TCGA-22-1005	63	Male	Current Reformed Smoker For < Or = 15 Years	40	IA	M0	N0	1953	1953	64.24	DECEASED	Dead	No	No	NA
+TCGA-22-1011	73	Male	Current Smoker	83	IB	M0	N0	53	53	1.74	DECEASED	Dead	No	No	NA
+TCGA-22-1012	80	Female	Current Reformed Smoker For < Or = 15 Years	60	IB	M0	N0	429	429	14.11	DECEASED	Dead	No	No	NA
+TCGA-22-1016	65	Male	Current Reformed Smoker For > 15 Years	40	IB	M0	N0	822	822	27.04	DECEASED	Dead	No	No	NA
+TCGA-22-4591	80	Male	Current Smoker	NA	IIIA	M0	N2	623	623	20.49	DECEASED	Dead	No	No	NA
+TCGA-22-4593	77	Male	Current Reformed Smoker For < Or = 15 Years	30	IIA	M0	N0	1067	1067	35.1	DECEASED	Dead	No	No	NA
+TCGA-22-4594	60	Female	Current Reformed Smoker For < Or = 15 Years	40	IIIA	M0	N2	1470	1470	48.36	DECEASED	Dead	No	No	NA
+TCGA-22-4595	57	Male	Current Smoker	37	IIIA	NA	N2	734	734	24.14	DECEASED	Dead	No	No	NA
+TCGA-22-4596	69	Female	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	17	17	0.56	DECEASED	Dead	No	No	NA
+TCGA-22-4599	73	Female	Current Smoker	25	IB	M0	N0	1161	1161	38.19	DECEASED	Dead	No	No	NA
+TCGA-22-4601	73	Female	Current Smoker	60	IIIA	M0	N0	1057	1057	34.77	DECEASED	Dead	No	No	NA
+TCGA-22-4604	73	Male	Current Smoker	50	IIA	M0	N1	399	399	13.13	DECEASED	Dead	No	No	NA
+TCGA-22-4607	75	Male	Current Reformed Smoker For > 15 Years	20	IB	M0	N0	587	587	19.31	DECEASED	Dead	No	No	NA
+TCGA-22-4613	73	Female	Current Reformed Smoker For > 15 Years	30	IA	M0	N0	358	358	11.78	DECEASED	Dead	No	No	NA
+TCGA-22-5471	75	Male	Current Reformed Smoker For < Or = 15 Years	50	IB	M0	N0	NA	964	31.71	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-22-5472	67	Male	Current Reformed Smoker For < Or = 15 Years	35	IB	M0	N0	1975	1975	64.97	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-22-5473	78	Male	Current Reformed Smoker For > 15 Years	45	IB	M0	N0	1933	1933	63.59	DECEASED	Dead	No	No	NA
+TCGA-22-5474	74	Male	Current Reformed Smoker For < Or = 15 Years	50	IB	M0	N0	445	445	14.64	DECEASED	Dead	No	No	NA
+TCGA-22-5477	65	Male	Current Smoker	100	IA	M0	N0	1346	1346	44.28	DECEASED	Dead	No	No	NA
+TCGA-22-5478	79	Male	Current Reformed Smoker For < Or = 15 Years	NA	IB	M0	N0	24	24	0.79	DECEASED	Dead	No	No	NA
+TCGA-22-5479	64	Male	Current Reformed Smoker For < Or = 15 Years	35	IB	M0	N0	NA	1651	54.31	LIVING	Alive	No	No	NA
+TCGA-22-5480	66	Female	Current Reformed Smoker For < Or = 15 Years	50	IA	M0	N0	2170	2170	71.38	DECEASED	Dead	No	No	NA
+TCGA-22-5481	72	Female	Current Reformed Smoker For < Or = 15 Years	75	IIB	M0	N1	2409	NA	79.24	DECEASED	Dead	No	No	NA
+TCGA-22-5482	81	Male	Current Reformed Smoker For < Or = 15 Years	60	IB	M0	N0	357	357	11.74	DECEASED	Dead	No	No	NA
+TCGA-22-5483	74	Male	Current Reformed Smoker For < Or = 15 Years	50	IIA	M0	N1	573	573	18.85	DECEASED	Dead	No	No	NA
+TCGA-22-5485	58	Female	Current Smoker	60	IA	M0	N0	916	916	30.13	DECEASED	Dead	No	No	NA
+TCGA-22-5489	64	Male	Current Reformed Smoker For < Or = 15 Years	70	IA	M0	N0	1912	1912	62.89	DECEASED	Dead	No	No	NA
+TCGA-22-5491	74	Male	Current Smoker	57	IA	M0	N0	1713	1713	56.35	DECEASED	Dead	No	No	NA
+TCGA-22-5492	73	Female	Current Reformed Smoker For < Or = 15 Years	50	IIIA	M0	N2	506	506	16.64	DECEASED	Dead	No	No	NA
+TCGA-33-4532	68	Male	Current Smoker	53	IB	M0	N0	NA	2524	83.03	LIVING	Alive	No	No	NA
+TCGA-33-4533	76	Female	Current Reformed Smoker For < Or = 15 Years	50	IB	M0	N0	NA	3469	114.11	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-33-4538	66	Male	Current Smoker	51	IIIA	M0	N2	2979	NA	97.99	DECEASED	Dead	No	No	NA
+TCGA-33-4547	68	Male	Current Reformed Smoker For > 15 Years	40	IB	M0	N0	NA	1311	43.13	LIVING	Alive	No	No	NA
+TCGA-33-4566	40	Male	Current Smoker	20	IB	M0	N0	5287	NA	173.91	DECEASED	Dead	No	No	NA
+TCGA-33-4582	55	Male	Current Smoker	86	IA	M0	N0	3149	NA	103.59	DECEASED	Dead	No	No	NA
+TCGA-33-4583	73	Male	Current Reformed Smoker For < Or = 15 Years	46	IA	M0	N0	NA	4299	141.41	LIVING	Alive	No	No	NA
+TCGA-33-4586	57	Male	Current Reformed Smoker For < Or = 15 Years	108	IIIA	M0	N2	428	NA	14.08	DECEASED	Dead	No	No	NA
+TCGA-33-4589	62	Female	Current Smoker	45	IIB	M0	N1	47	NA	1.55	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-33-6737	71	Male	Current Reformed Smoker For < Or = 15 Years	20	IIIA	M0	N2	601	NA	19.77	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-33-6738	80	Male	Current Reformed Smoker For < Or = 15 Years	50	IIIA	Mx	N2	NA	822	27.04	LIVING	Alive	No	No	NA
+TCGA-33-A4WN	60	Male	Current Smoker	60	IB	Mx	N0	143	NA	4.7	DECEASED	Dead	No	No	NA
+TCGA-33-A5GW	67	Male	Current Reformed Smoker For < Or = 15 Years	50	IIA	Mx	N1	NA	9	0.3	LIVING	Alive	No	No	NA
+TCGA-33-AAS8	59	Female	Current Reformed Smoker For < Or = 15 Years	60	IA	Mx	N0	1114	NA	36.64	DECEASED	Dead	No	No	NA
+TCGA-33-AASB	66	Male	Current Smoker	40	IB	Mx	N0	211	NA	6.94	DECEASED	Dead	No	No	NA
+TCGA-33-AASD	83	Male	Current Smoker	84	IA	Mx	N0	3376	NA	111.05	DECEASED	Dead	No	No	NA
+TCGA-33-AASI	65	Female	Current Reformed Smoker For < Or = 15 Years	60	IIB	Mx	N1	1344	NA	44.21	DECEASED	Dead	No	No	NA
+TCGA-33-AASJ	60	Male	Current Reformed Smoker For < Or = 15 Years	NA	IB	Mx	N0	3600	NA	118.42	DECEASED	Dead	No	No	NA
+TCGA-33-AASL	57	Female	Current Smoker	60	IA	Mx	N0	826	NA	27.17	DECEASED	Dead	No	No	NA
+TCGA-34-2596	70	Male	Current Reformed Smoker For > 15 Years	60	IIB	M0	N1	80	80	2.63	DECEASED	Dead	No	No	NA
+TCGA-34-2600	76	Female	Current Reformed Smoker For < Or = 15 Years	50	IA	M0	N0	1874	1874	61.64	DECEASED	Dead	No	No	NA
+TCGA-34-2604	81	Female	Current Smoker	132	IB	M0	N0	958	958	31.51	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-34-2605	76	Male	Current Reformed Smoker For < Or = 15 Years	60	IIIB	M0	N1	881	881	28.98	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-34-2608	84	Male	Current Reformed Smoker For > 15 Years	60	IB	M0	N0	1000	1000	32.89	DECEASED	Dead	No	No	NA
+TCGA-34-2609	81	Male	Current Reformed Smoker For < Or = 15 Years	60	IIB	M0	N1	951	951	31.28	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-34-5231	72	Male	Current Reformed Smoker For > 15 Years	50	IA	M0	N0	NA	1528	50.26	LIVING	Alive	No	No	NA
+TCGA-34-5232	75	Female	NA	NA	IIA	M0	N1	NA	1575	51.81	LIVING	Alive	No	No	NA
+TCGA-34-5234	71	Female	Current Reformed Smoker For < Or = 15 Years	40	IA	M0	N0	NA	994	32.7	LIVING	Alive	No	No	NA
+TCGA-34-5236	60	Male	NA	NA	IIB	M0	N0	276	NA	9.08	DECEASED	Dead	No	No	NA
+TCGA-34-5239	75	Male	NA	NA	IIIA	M0	N0	NA	329	10.82	LIVING	Alive	No	No	NA
+TCGA-34-5240	73	Female	Current Smoker	56	IIB	M0	N1	NA	235	7.73	LIVING	Alive	No	No	NA
+TCGA-34-5927	70	Female	NA	NA	IA	M0	N0	NA	698	22.96	LIVING	Alive	No	No	NA
+TCGA-34-5928	83	Female	Current Reformed Smoker For > 15 Years	40	IIB	M0	N1	NA	169	5.56	LIVING	Alive	No	No	NA
+TCGA-34-5929	78	Female	Current Reformed Smoker For > 15 Years	40	IB	M0	N0	151	NA	4.97	DECEASED	Dead	No	No	NA
+TCGA-34-7107	70	Male	Current Reformed Smoker For < Or = 15 Years	NA	II	M0	N0	34	NA	1.12	DECEASED	Dead	No	No	NA
+TCGA-34-8454	62	Female	Current Reformed Smoker For < Or = 15 Years	90	IIIA	M0	N1	NA	166	5.46	LIVING	Alive	No	No	NA
+TCGA-34-8455	67	Male	Current Reformed Smoker For < Or = 15 Years	50	IV	M1a	N0	123	NA	4.05	DECEASED	Dead	No	No	NA
+TCGA-34-8456	71	Female	Current Reformed Smoker, Duration Not Specified 	20	IIA	M0	N1	NA	203	6.68	LIVING	Alive	No	No	NA
+TCGA-34-A5IX	80	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIB	M0	N0	NA	636	20.92	LIVING	Alive	No	No	NA
+TCGA-37-3783	51	Male	NA	NA	IIIA	M0	N2	NA	122	4.01	LIVING	Alive	No	No	NA
+TCGA-37-3789	65	Male	Lifelong Non-Smoker	NA	IB	NA	N0	NA	13	0.43	LIVING	Alive	No	No	NA
+TCGA-37-3792	69	Male	Lifelong Non-Smoker	NA	IB	M0	N0	NA	12	0.39	LIVING	Alive	No	No	NA
+TCGA-37-4129	52	Female	Current Reformed Smoker For < Or = 15 Years	30	IA	M0	N0	NA	213	7.01	LIVING	Alive	No	No	NA
+TCGA-37-4132	61	Female	Lifelong Non-Smoker	NA	IV	M1	N0	NA	227	7.47	LIVING	Alive	No	No	NA
+TCGA-37-4133	63	Male	Current Reformed Smoker For < Or = 15 Years	40	IIIA	M0	N0	NA	238	7.83	LIVING	Alive	No	No	NA
+TCGA-37-4135	68	Male	Current Reformed Smoker For < Or = 15 Years	45	IB	M0	N0	NA	207	6.81	LIVING	Alive	No	No	NA
+TCGA-37-4141	65	Female	Lifelong Non-Smoker	NA	IA	M0	N0	NA	12	0.39	LIVING	Alive	No	No	NA
+TCGA-37-5819	64	Male	Current Reformed Smoker For < Or = 15 Years	45	IIIA	M0	N2	NA	103	3.39	LIVING	Alive	No	No	NA
+TCGA-37-A5EL	NA	NA	NA	NA	NA	NA	NA	NA	NA		NA	NA	NA	NA	NA
+TCGA-37-A5EM	49	Male	NA	NA	II	M0	N0	NA	112	3.68	LIVING	Alive	No	No	NA
+TCGA-37-A5EN	59	Male	NA	NA	IIIB	M0	N2	NA	356	11.71	LIVING	Alive	No	No	NA
+TCGA-39-5011	70	Female	Current Reformed Smoker For < Or = 15 Years	45	IA	M0	N0	NA	1454	47.83	LIVING	Alive	No	No	NA
+TCGA-39-5016	44	Male	Current Reformed Smoker For < Or = 15 Years	40	IIA	M0	N1	NA	2253	74.11	LIVING	Alive	No	No	NA
+TCGA-39-5019	70	Male	Current Reformed Smoker For > 15 Years	30	IB	M0	N0	NA	1361	44.77	LIVING	Alive	No	No	NA
+TCGA-39-5021	70	Male	Current Reformed Smoker For < Or = 15 Years	114	IB	M0	N0	2086	2086	68.62	DECEASED	Dead	No	No	NA
+TCGA-39-5022	76	Male	Current Reformed Smoker For < Or = 15 Years	35	IB	M0	N0	1679	NA	55.23	DECEASED	Dead	No	No	NA
+TCGA-39-5024	65	Female	Current Reformed Smoker For < Or = 15 Years	40	IIIA	M0	N2	NA	2130	70.07	LIVING	Alive	No	No	NA
+TCGA-39-5027	73	Male	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	NA	1849	60.82	LIVING	Alive	No	No	NA
+TCGA-39-5028	75	Male	Current Reformed Smoker For > 15 Years	30	IIIA	M0	N1	52	52	1.71	DECEASED	Dead	No	No	NA
+TCGA-39-5029	67	Male	Current Reformed Smoker For < Or = 15 Years	192	IIIA	M0	N2	740	740	24.34	DECEASED	Dead	No	No	NA
+TCGA-39-5030	81	Female	Current Reformed Smoker For > 15 Years	8	IIIA	M0	N2	59	59	1.94	DECEASED	Dead	No	No	NA
+TCGA-39-5031	76	Female	Current Reformed Smoker For < Or = 15 Years	60	IA	M0	N0	NA	833	27.4	LIVING	Alive	No	No	NA
+TCGA-39-5034	73	Female	Current Reformed Smoker For < Or = 15 Years	84	IIB	M0	N0	1107	1107	36.41	DECEASED	Dead	No	No	NA
+TCGA-39-5035	72	Female	Current Reformed Smoker For < Or = 15 Years	47	IA	M0	N0	NA	474	15.59	LIVING	Alive	No	No	NA
+TCGA-39-5036	73	Male	Current Reformed Smoker For < Or = 15 Years	63	IB	M0	N0	NA	1084	35.66	LIVING	Alive	No	No	NA
+TCGA-39-5037	65	Male	Current Smoker	26	IIA	M0	N1	NA	24	0.79	LIVING	Alive	No	No	NA
+TCGA-39-5039	76	Male	Current Reformed Smoker For > 15 Years	64	IIA	M0	N0	544	544	17.89	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-43-2576	62	Female	Current Reformed Smoker For < Or = 15 Years	20	IIIA	M0	N2	NA	556	18.29	LIVING	Alive	No	No	NA
+TCGA-43-2578	59	Female	Current Reformed Smoker For < Or = 15 Years	64	IA	M0	N0	NA	550	18.09	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-43-2581	47	Female	Current Smoker	30	IIIA	M0	N1	NA	399	13.13	LIVING	Alive	No	No	NA
+TCGA-43-3394	52	Male	Current Smoker	15	IB	M0	N0	NA	352	11.58	LIVING	Alive	No	No	NA
+TCGA-43-3920	71	Male	Current Reformed Smoker For < Or = 15 Years	50	IB	M0	N0	NA	268	8.82	LIVING	Alive	No	No	NA
+TCGA-43-5668	78	Male	Current Reformed Smoker For > 15 Years	20	IIA	M0	N1	NA	258	8.49	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-43-6143	70	Male	Current Reformed Smoker For < Or = 15 Years	114	IB	M0	N0	NA	214	7.04	LIVING	Alive	No	No	NA
+TCGA-43-6647	69	Female	Current Reformed Smoker For < Or = 15 Years	36	IIB	Mx	N1	NA	183	6.02	LIVING	Alive	No	No	NA
+TCGA-43-6770	59	Female	Current Smoker	34	IB	Mx	N0	NA	85	2.8	LIVING	Alive	No	No	NA
+TCGA-43-6771	85	Male	Current Reformed Smoker For > 15 Years	40	IB	Mx	N0	166	NA	5.46	DECEASED	Dead	No	No	NA
+TCGA-43-6773	76	Male	Current Reformed Smoker For > 15 Years	NA	IIB	Mx	N1	116	NA	3.82	DECEASED	Dead	No	No	NA
+TCGA-43-8115	72	Female	Current Reformed Smoker For < Or = 15 Years	55.83	IIA	Mx	N1	NA	202	6.64	LIVING	Alive	No	No	NA
+TCGA-43-8116	73	Male	Current Smoker	35	IA	M0	N0	NA	193	6.35	LIVING	Alive	No	No	NA
+TCGA-43-8118	55	Female	Current Smoker	20	IA	M0	N0	89	NA	2.93	DECEASED	Dead	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-43-A474	66	Male	Current Reformed Smoker For < Or = 15 Years	47	IIA	M0	N0	NA	262	8.62	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-43-A475	67	Female	Current Reformed Smoker For < Or = 15 Years	100	IIB	M0	N0	NA	206	6.78	LIVING	Alive	No	No	NA
+TCGA-43-A56U	76	Female	Current Reformed Smoker For < Or = 15 Years	20.5	IA	Mx	N0	NA	55	1.81	LIVING	Alive	No	No	NA
+TCGA-43-A56V	61	Male	Current Reformed Smoker For < Or = 15 Years	48	IIIA	M0	N2	NA	154	5.07	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-46-3765	59	Female	Current Smoker	NA	IA	M0	N0	NA	396	13.03	LIVING	Alive	No	No	NA
+TCGA-46-3766	62	Female	Current Reformed Smoker For < Or = 15 Years	NA	IA	M0	N0	NA	365	12.01	LIVING	Alive	No	No	NA
+TCGA-46-3767	76	Male	Current Reformed Smoker For > 15 Years	NA	IA	M0	N0	NA	396	13.03	LIVING	Alive	No	No	NA
+TCGA-46-3768	58	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIIA	M0	N1	304	NA	10	DECEASED	Dead	No	No	NA
+TCGA-46-3769	57	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIB	M0	N0	NA	121	3.98	LIVING	Alive	No	No	NA
+TCGA-46-6025	71	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIB	M0	N1	NA	29	0.95	LIVING	Alive	No	No	NA
+TCGA-46-6026	81	Male	Current Reformed Smoker For > 15 Years	NA	IIB	M0	N1	NA	18	0.59	LIVING	Alive	No	No	NA
+TCGA-51-4079	73	Female	Current Reformed Smoker For < Or = 15 Years	25	IB	NA	N0	12	NA	0.39	DECEASED	Dead	No	No	NA
+TCGA-51-4080	65	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIIB	NA	N1	12	NA	0.39	DECEASED	Dead	No	No	NA
+TCGA-51-4081	55	Male	Current Smoker	80	IIB	M0	N1	NA	63	2.07	LIVING	Alive	No	No	NA
+TCGA-56-1622	58	Male	Current Reformed Smoker For < Or = 15 Years	86	IB	M0	N0	881	881	28.98	DECEASED	Dead	No	No	NA
+TCGA-56-5897	74	Male	Current Reformed Smoker For > 15 Years	NA	IA	Mx	N0	NA	3	0.1	LIVING	Alive	No	No	NA
+TCGA-56-5898	69	Male	Current Smoker	NA	IA	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-56-6545	77	Female	Current Reformed Smoker For < Or = 15 Years	NA	IB	M0	N0	NA	62	2.04	LIVING	Alive	No	No	NA
+TCGA-56-6546	67	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIA	Mx	N0	NA	26	0.86	LIVING	Alive	No	No	NA
+TCGA-56-7823	58	Female	Current Reformed Smoker For < Or = 15 Years	80	IIA	M0	N1	NA	77	2.53	LIVING	Alive	No	No	NA
+TCGA-56-8082	80	Female	Current Reformed Smoker For > 15 Years	NA	IIA	Mx	N0	NA	26	0.86	LIVING	Alive	No	No	NA
+TCGA-56-8083	56	Male	Current Reformed Smoker For < Or = 15 Years	30	IB	Mx	N0	NA	2	0.07	LIVING	Alive	No	No	NA
+TCGA-56-8201	74	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIB	Mx	N0	NA	28	0.92	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-56-8304	73	Female	Current Smoker	58	IA	Mx	N0	NA	106	3.49	LIVING	Alive	No	No	NA
+TCGA-56-8305	72	Male	Current Reformed Smoker For > 15 Years	100	IB	M0	N0	NA	105	3.45	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-56-8307	55	Female	Current Smoker	35	IIB	M0	N0	NA	27	0.89	LIVING	Alive	No	No	NA
+TCGA-56-8308	79	Male	Current Reformed Smoker For > 15 Years	63	IIB	Mx	N0	NA	217	7.14	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-56-8309	66	Male	Current Smoker	50	IA	Mx	N0	NA	18	0.59	LIVING	Alive	No	No	NA
+TCGA-56-8504	74	Male	Current Reformed Smoker For < Or = 15 Years	NA	IB	Mx	N0	NA	178	5.86	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-56-8622	68	Male	Current Reformed Smoker For > 15 Years	40	IB	M0	N0	NA	55	1.81	LIVING	Alive	No	No	NA
+TCGA-56-8624	84	Male	Current Reformed Smoker For > 15 Years	20	IIB	Mx	N0	NA	36	1.18	LIVING	Alive	No	No	NA
+TCGA-56-8625	66	Female	Current Smoker	NA	IIIA	Mx	N1	NA	63	2.07	LIVING	Alive	No	No	NA
+TCGA-56-8626	59	Male	Current Smoker	50	IA	Mx	N0	NA	17	0.56	LIVING	Alive	No	No	NA
+TCGA-56-8628	78	Male	Current Reformed Smoker For < Or = 15 Years	NA	IA	Mx	N0	NA	16	0.53	LIVING	Alive	No	No	NA
+TCGA-56-8629	63	Male	Current Reformed Smoker For < Or = 15 Years	66	IIA	Mx	N0	NA	34	1.12	LIVING	Alive	No	No	NA
+TCGA-56-A49D	67	Male	Current Reformed Smoker For < Or = 15 Years	53	IIIA	Mx	N2	NA	38	1.25	LIVING	Alive	No	No	NA
+TCGA-56-A4BW	55	Male	Current Reformed Smoker For < Or = 15 Years	120	IIA	M0	N1	NA	2	0.07	LIVING	Alive	No	No	NA
+TCGA-56-A4BX	70	Male	Current Reformed Smoker For < Or = 15 Years	83	IIA	Mx	N0	NA	46	1.51	LIVING	Alive	No	No	NA
+TCGA-56-A4BY	66	Male	Current Reformed Smoker For < Or = 15 Years	65	IB	Mx	N0	NA	31	1.02	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-56-A4ZJ	75	Female	Current Reformed Smoker For < Or = 15 Years	100	IA	M0	N0	NA	25	0.82	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-56-A4ZK	76	Female	Current Reformed Smoker For < Or = 15 Years	NA	IB	M0	N0	NA	4	0.13	LIVING	Alive	No	No	NA
+TCGA-56-A5DR	81	Male	Lifelong Non-Smoker	NA	IA	Mx	N0	NA	4	0.13	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-56-A5DS	72	Female	Current Smoker	50	IB	Mx	N0	NA	8	0.26	LIVING	Alive	No	No	NA
+TCGA-56-A62T	78	Male	Current Smoker	102	IIA	Mx	N0	NA	5	0.16	LIVING	Alive	No	No	NA
+TCGA-58-8386	75	Male	Current Smoker	65	IV	M1	Nx	1	NA	0.03	DECEASED	Dead	No	No	NA
+TCGA-58-8387	60	Male	Current Reformed Smoker For < Or = 15 Years	40	IIA	M0	N0	403	NA	13.26	DECEASED	Dead	No	No	NA
+TCGA-58-8388	60	Male	Current Smoker	80	IB	M0	N0	NA	378	12.43	LIVING	Alive	No	No	NA
+TCGA-58-8390	70	Male	Current Reformed Smoker For < Or = 15 Years	120	IIA	M0	N0	NA	272	8.95	LIVING	Alive	No	No	NA
+TCGA-58-8391	57	Female	Current Smoker	30	IIIA	M0	N2	NA	1342	44.14	LIVING	Alive	No	No	NA
+TCGA-58-8392	70	Male	Current Smoker	80	IB	M0	N0	501	NA	16.48	DECEASED	Dead	No	No	NA
+TCGA-58-8393	68	Female	Current Smoker	7	IB	M0	N0	NA	20	0.66	LIVING	Alive	No	No	NA
+TCGA-58-A46J	64	Male	Current Smoker	NA	IIB	M0	N1	NA	1973	64.9	LIVING	Alive	No	No	NA
+TCGA-58-A46K	59	Male	Current Reformed Smoker For < Or = 15 Years	10	IIIA	M0	N2	1045	NA	34.38	DECEASED	Dead	No	No	NA
+TCGA-58-A46L	73	Male	Current Reformed Smoker, Duration Not Specified 	NA	IIIA	M0	N2	NA	1113	36.61	LIVING	Alive	No	No	NA
+TCGA-58-A46M	61	Male	Current Smoker	NA	IIB	M0	N1	NA	707	23.26	LIVING	Alive	No	No	NA
+TCGA-58-A46N	52	Male	Current Smoker	50	IB	M0	N0	NA	540	17.76	LIVING	Alive	No	No	NA
+TCGA-60-2695	74	Female	Current Reformed Smoker For > 15 Years	64	IB	M0	N0	NA	474	15.59	LIVING	Alive	No	No	NA
+TCGA-60-2698	62	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIB	M0	N1	311	NA	10.23	DECEASED	Dead	No	No	NA
+TCGA-60-2707	70	Male	Current Reformed Smoker For > 15 Years	49	IB	M0	N0	NA	661	21.74	LIVING	Alive	No	No	NA
+TCGA-60-2708	64	Female	Current Reformed Smoker For < Or = 15 Years	20	IIB	M0	N1	NA	2083	68.52	LIVING	Alive	No	No	NA
+TCGA-60-2709	69	Male	Current Smoker	157.5	IB	Mx	N0	NA	1505	49.51	LIVING	Alive	No	No	NA
+TCGA-60-2710	67	Female	Current Reformed Smoker For < Or = 15 Years	63	IIA	M0	N1	NA	1686	55.46	LIVING	Alive	NA	 Yes, pharmaceutical treatment prior to resection 	NA
+TCGA-60-2711	64	Female	Current Reformed Smoker For < Or = 15 Years	39	IB	M0	N0	NA	889	29.24	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-60-2712	79	Female	Current Reformed Smoker For > 15 Years	10	IIB	M0	N1	274	274	9.01	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-60-2713	64	Male	Current Smoker	110	IB	M0	N0	NA	1456	47.89	LIVING	Alive	No	No	NA
+TCGA-60-2714	66	Female	Current Reformed Smoker For < Or = 15 Years	90	IIB	M0	N1	NA	512	16.84	LIVING	Alive	NA	 Yes, pharmaceutical treatment prior to resection 	NA
+TCGA-60-2715	51	Male	Current Reformed Smoker For < Or = 15 Years	25	IA	M0	N0	1075	NA	35.36	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-60-2716	39	Male	Lifelong Non-Smoker	NA	IIB	M0	N1	NA	1181	38.85	LIVING	Alive	No	No	NA
+TCGA-60-2719	83	Female	Current Reformed Smoker For > 15 Years	7	IB	M0	N0	NA	932	30.66	LIVING	Alive	No	No	NA
+TCGA-60-2720	60	Female	Current Reformed Smoker For < Or = 15 Years	110	IB	M0	N0	NA	97	3.19	LIVING	Alive	No	No	NA
+TCGA-60-2721	73	Male	Current Reformed Smoker For < Or = 15 Years	93	IB	M0	N0	NA	794	26.12	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-60-2722	66	Male	Current Reformed Smoker For < Or = 15 Years	90	IIB	M0	N1	NA	733	24.11	LIVING	Alive	No	No	NA
+TCGA-60-2723	74	Female	Current Reformed Smoker For < Or = 15 Years	58	IB	M0	N0	NA	693	22.8	LIVING	Alive	No	No	NA
+TCGA-60-2724	47	Male	Current Reformed Smoker For < Or = 15 Years	60	IIIA	M0	N1	NA	37	1.22	LIVING	Alive	No	No	NA
+TCGA-60-2725	74	Male	Current Reformed Smoker For > 15 Years	56	IB	M0	N0	NA	719	23.65	LIVING	Alive	No	No	NA
+TCGA-60-2726	56	Male	Current Reformed Smoker For < Or = 15 Years	42	IIA	M0	N1	358	358	11.78	DECEASED	Dead	No	No	NA
+TCGA-63-5128	NA	Male	Current Reformed Smoker For < Or = 15 Years	NA	IB	M0	N0	NA	NA		DECEASED	Dead	NA	No	NA
+TCGA-63-5131	NA	Male	Current Reformed Smoker For < Or = 15 Years	50	IIB	M0	N1	NA	NA		DECEASED	Dead	NA	No	NA
+TCGA-63-6202	NA	Male	Current Reformed Smoker For < Or = 15 Years	35	IIA	M0	N0	NA	NA		LIVING	Alive	No	No	NA
+TCGA-63-7020	NA	Male	Current Reformed Smoker For < Or = 15 Years	50	IA	M0	N0	NA	NA		LIVING	Alive	No	No	NA
+TCGA-63-7021	NA	Male	Current Reformed Smoker For < Or = 15 Years	21	IA	M0	N0	NA	NA		LIVING	Alive	No	No	NA
+TCGA-63-7022	NA	Female	Current Reformed Smoker For < Or = 15 Years	30	IA	M0	N0	NA	NA		LIVING	Alive	No	No	NA
+TCGA-63-7023	NA	Male	Current Reformed Smoker For < Or = 15 Years	55	IIA	M0	N1	NA	NA		LIVING	Alive	No	No	NA
+TCGA-63-A5M9	NA	NA	NA	NA	NA	NA	NA	NA	NA		NA	NA	NA	NA	NA
+TCGA-63-A5MB	62	Male	Current Reformed Smoker For > 15 Years	25	IB	M0	N0	NA	2758	90.72	LIVING	Alive	No	No	NA
+TCGA-63-A5MG	68	Male	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	1769	58.19	LIVING	Alive	No	No	NA
+TCGA-63-A5MH	68	Male	Current Reformed Smoker, Duration Not Specified 	35	IA	M0	N0	NA	1772	58.29	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-63-A5MI	65	Male	Current Reformed Smoker For < Or = 15 Years	50	IIIA	M0	N2	NA	1399	46.02	LIVING	Alive	No	No	NA
+TCGA-63-A5MJ	54	Male	Current Smoker	NA	IIB	M0	N1	NA	1524	50.13	LIVING	Alive	No	No	NA
+TCGA-63-A5ML	68	Male	Current Reformed Smoker For < Or = 15 Years	60	IB	M0	N0	NA	1163	38.26	LIVING	Alive	No	No	NA
+TCGA-63-A5MM	69	Female	Current Reformed Smoker For > 15 Years	30	IIB	M0	N1	456	NA	15	DECEASED	Dead	No	No	NA
+TCGA-63-A5MN	78	Female	Lifelong Non-Smoker	NA	IIB	M0	N0	345	NA	11.35	DECEASED	Dead	No	No	NA
+TCGA-63-A5MP	56	Male	Current Reformed Smoker For < Or = 15 Years	41	IIB	M0	N1	NA	769	25.3	LIVING	Alive	No	No	NA
+TCGA-63-A5MR	70	Female	Current Reformed Smoker For < Or = 15 Years	120	IB	M0	N0	NA	2367	77.86	LIVING	Alive	No	No	NA
+TCGA-63-A5MS	78	Male	Current Reformed Smoker For > 15 Years	6	IB	M0	N0	NA	2025	66.61	LIVING	Alive	No	No	NA
+TCGA-63-A5MT	74	Male	Current Reformed Smoker For < Or = 15 Years	100	IIB	M0	N0	NA	498	16.38	LIVING	Alive	No	No	NA
+TCGA-63-A5MU	48	Male	Current Reformed Smoker For < Or = 15 Years	15	IIB	M0	N1	723	NA	23.78	DECEASED	Dead	No	No	NA
+TCGA-63-A5MV	69	Male	Current Reformed Smoker For < Or = 15 Years	50	IIA	M0	N0	NA	787	25.89	LIVING	Alive	No	No	NA
+TCGA-63-A5MW	76	Male	Current Reformed Smoker For < Or = 15 Years	60	IB	M0	N0	NA	140	4.61	LIVING	Alive	No	No	NA
+TCGA-63-A5MY	63	Male	Current Reformed Smoker For < Or = 15 Years	40	IA	M0	N0	NA	6	0.2	LIVING	Alive	No	No	NA
+TCGA-66-2727	55	Female	Current Reformed Smoker For < Or = 15 Years	56	IB	M0	N0	516	NA	16.97	DECEASED	Dead	No	No	NA
+TCGA-66-2734	62	Female	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	NA	1311	43.13	LIVING	Alive	No	No	NA
+TCGA-66-2742	70	Male	Current Reformed Smoker For > 15 Years	44	IV	M1	N1	NA	641	21.09	LIVING	Alive	No	No	NA
+TCGA-66-2744	71	Male	Current Reformed Smoker For < Or = 15 Years	63	IIB	M0	N1	NA	30	0.99	LIVING	Alive	No	No	NA
+TCGA-66-2754	67	Male	Current Reformed Smoker For < Or = 15 Years	40	IIIA	M0	N2	NA	61	2.01	LIVING	Alive	No	No	NA
+TCGA-66-2755	63	Male	Current Reformed Smoker For > 15 Years	20	IB	M0	N0	NA	28	0.92	LIVING	Alive	No	No	NA
+TCGA-66-2756	68	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIIB	M0	N0	NA	30	0.99	LIVING	Alive	No	No	NA
+TCGA-66-2757	65	Female	Current Reformed Smoker For < Or = 15 Years	72	IA	M0	N0	NA	30	0.99	LIVING	Alive	No	No	NA
+TCGA-66-2758	71	Male	Current Reformed Smoker For < Or = 15 Years	56	IB	M0	N0	NA	639	21.02	LIVING	Alive	No	No	NA
+TCGA-66-2759	66	Male	Current Reformed Smoker For > 15 Years	16	IIIA	M0	N2	NA	762	25.07	LIVING	Alive	No	No	NA
+TCGA-66-2763	63	Female	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	NA	30	0.99	LIVING	Alive	No	No	NA
+TCGA-66-2765	64	Male	Current Reformed Smoker For < Or = 15 Years	108	IB	M0	N0	NA	61	2.01	LIVING	Alive	No	No	NA
+TCGA-66-2766	54	Male	Current Reformed Smoker For < Or = 15 Years	80	IIIA	M0	N2	NA	31	1.02	LIVING	Alive	No	No	NA
+TCGA-66-2767	62	Male	Current Reformed Smoker For < Or = 15 Years	43	IIIB	M0	N3	NA	61	2.01	LIVING	Alive	No	No	NA
+TCGA-66-2769	75	Male	Current Reformed Smoker For > 15 Years	33	IIIB	M0	N0	215	NA	7.07	DECEASED	Dead	No	No	NA
+TCGA-66-2770	79	Male	Current Reformed Smoker For > 15 Years	25	IB	M0	N0	NA	700	23.03	LIVING	Alive	No	No	NA
+TCGA-66-2771	60	Male	Current Reformed Smoker For < Or = 15 Years	70	IIB	M0	N1	NA	578	19.01	LIVING	Alive	No	No	NA
+TCGA-66-2773	69	Male	Current Reformed Smoker For > 15 Years	58	IB	M0	N0	92	NA	3.03	DECEASED	Dead	No	No	NA
+TCGA-66-2777	71	Male	Current Reformed Smoker For < Or = 15 Years	12	IB	M0	N0	NA	61	2.01	LIVING	Alive	No	No	NA
+TCGA-66-2778	68	Female	Current Reformed Smoker For < Or = 15 Years	37	IIIB	M0	N3	NA	578	19.01	LIVING	Alive	No	No	NA
+TCGA-66-2780	65	Male	Current Reformed Smoker For > 15 Years	28	IB	M0	N0	366	NA	12.04	DECEASED	Dead	No	No	NA
+TCGA-66-2781	67	Male	Current Reformed Smoker For < Or = 15 Years	80	IB	M0	N0	NA	121	3.98	LIVING	Alive	No	No	NA
+TCGA-66-2782	71	Male	Current Reformed Smoker For < Or = 15 Years	50	IIB	M0	N0	365	NA	12.01	DECEASED	Dead	No	No	NA
+TCGA-66-2783	67	Male	Current Reformed Smoker For < Or = 15 Years	65	IIIB	M0	N3	NA	759	24.97	LIVING	Alive	No	No	NA
+TCGA-66-2785	65	Male	Current Reformed Smoker For < Or = 15 Years	70	IB	M0	N0	NA	60	1.97	LIVING	Alive	No	No	NA
+TCGA-66-2786	68	Female	Current Reformed Smoker For < Or = 15 Years	74	IA	M0	N0	NA	790	25.99	LIVING	Alive	No	No	NA
+TCGA-66-2787	57	Male	Current Reformed Smoker For < Or = 15 Years	40	IA	M0	N0	NA	1217	40.03	LIVING	Alive	No	No	NA
+TCGA-66-2788	56	Male	Current Reformed Smoker For < Or = 15 Years	80	IB	M0	N0	NA	699	22.99	LIVING	Alive	No	No	NA
+TCGA-66-2789	73	Male	Current Reformed Smoker For < Or = 15 Years	40	IIIB	M0	N3	123	NA	4.05	DECEASED	Dead	No	No	NA
+TCGA-66-2791	66	Male	Current Reformed Smoker For < Or = 15 Years	25	IIIB	M0	N3	153	NA	5.03	DECEASED	Dead	No	No	NA
+TCGA-66-2792	58	Male	Current Reformed Smoker For < Or = 15 Years	10	IIB	M0	N1	NA	913	30.03	LIVING	Alive	No	No	NA
+TCGA-66-2793	68	Male	Current Reformed Smoker For < Or = 15 Years	112	IIIB	M0	N1	306	NA	10.07	DECEASED	Dead	No	No	NA
+TCGA-66-2794	64	Male	Current Reformed Smoker For < Or = 15 Years	100	IIIB	M0	N2	NA	1645	54.11	LIVING	Alive	No	No	NA
+TCGA-66-2795	68	Male	Current Reformed Smoker For < Or = 15 Years	86	IIIB	M0	N1	NA	122	4.01	LIVING	Alive	No	No	NA
+TCGA-66-2800	70	Male	Current Reformed Smoker For < Or = 15 Years	75	IIIB	M0	N0	NA	1492	49.08	LIVING	Alive	No	No	NA
+TCGA-68-7757	74	Male	Current Reformed Smoker For < Or = 15 Years	25	IA	Mx	N0	NA	211	6.94	LIVING	Alive	No	No	NA
+TCGA-68-8250	66	Male	Current Reformed Smoker For < Or = 15 Years	50	IA	Mx	N0	NA	244	8.03	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-68-8251	78	Male	Current Reformed Smoker For > 15 Years	52	IB	M0	N0	NA	96	3.16	LIVING	Alive	No	No	NA
+TCGA-68-A59J	74	Female	Current Reformed Smoker For < Or = 15 Years	45	IB	Mx	N0	NA	104	3.42	LIVING	Alive	No	No	NA
+TCGA-6A-AB49	73	Female	Current Reformed Smoker For > 15 Years	50	IB	Mx	N0	NA	NA		DECEASED	Dead	No	No	NA
+TCGA-70-6722	47	Male	Lifelong Non-Smoker	NA	IIIA	M0	N1	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-70-6723	65	Male	Lifelong Non-Smoker	NA	IIA	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-77-6842	79	Male	Current Reformed Smoker For < Or = 15 Years	22.5	IIB	M0	N1	899	NA	29.57	DECEASED	Dead	No	No	NA
+TCGA-77-6843	74	Male	Current Smoker	30	IIA	M0	N1	2224	NA	73.16	DECEASED	Dead	No	No	NA
+TCGA-77-6844	74	Male	Current Reformed Smoker For < Or = 15 Years	45	IIIA	M0	N1	2284	NA	75.13	DECEASED	Dead	No	No	NA
+TCGA-77-6845	69	Male	Current Reformed Smoker For < Or = 15 Years	51	IIB	M0	N0	708	NA	23.29	DECEASED	Dead	No	No	NA
+TCGA-77-8128	60	Male	Current Smoker	113	IIIA	M0	N2	1150	NA	37.83	DECEASED	Dead	No	No	NA
+TCGA-77-8130	69	Male	Current Reformed Smoker For < Or = 15 Years	32.25	IIB	M0	N1	NA	2522	82.96	LIVING	Alive	No	No	NA
+TCGA-77-8131	72	Male	Current Reformed Smoker For < Or = 15 Years	69	IB	M0	Nx	383	NA	12.6	DECEASED	Dead	No	No	NA
+TCGA-77-8133	74	Male	Current Smoker	22	IIA	M0	N1	1640	NA	53.95	DECEASED	Dead	No	No	NA
+TCGA-77-8136	74	Female	Current Smoker	135	IIB	M0	N1	1189	NA	39.11	DECEASED	Dead	No	No	NA
+TCGA-77-8138	74	Male	Current Reformed Smoker For < Or = 15 Years	54	IB	M0	N0	539	NA	17.73	DECEASED	Dead	No	No	NA
+TCGA-77-8139	72	Male	Current Smoker	52	IIB	M0	N0	NA	3166	104.14	LIVING	Alive	No	No	NA
+TCGA-77-8140	66	Female	Current Reformed Smoker For < Or = 15 Years	78	IIB	M0	N1	351	NA	11.55	DECEASED	Dead	No	No	NA
+TCGA-77-8143	76	Male	Current Reformed Smoker For < Or = 15 Years	30	IIIA	M0	N2	803	NA	26.41	DECEASED	Dead	No	No	NA
+TCGA-77-8144	70	Male	Current Smoker	59	IB	M0	N0	NA	833	27.4	LIVING	Alive	No	No	NA
+TCGA-77-8145	73	Male	Current Smoker	57	IIIB	M0	N1	212	NA	6.97	DECEASED	Dead	No	No	NA
+TCGA-77-8148	68	Male	Current Reformed Smoker For < Or = 15 Years	60	IIIA	M0	N1	NA	293	9.64	LIVING	Alive	No	No	NA
+TCGA-77-8150	64	Male	Current Smoker	46	IIIA	M0	N1	1655	NA	54.44	DECEASED	Dead	No	No	NA
+TCGA-77-8153	77	Female	Current Reformed Smoker For > 15 Years	25	IB	M0	N0	NA	1684	55.39	LIVING	Alive	No	No	NA
+TCGA-77-8154	67	Male	Current Reformed Smoker For < Or = 15 Years	40	IA	M0	N0	NA	1092	35.92	LIVING	Alive	No	No	NA
+TCGA-77-8156	60	Male	Current Smoker	57.5	IB	M0	N0	NA	10	0.33	LIVING	Alive	No	No	NA
+TCGA-77-A5FZ	64	Male	Current Reformed Smoker For < Or = 15 Years	141	IIIB	M0	N0	3838	NA	126.25	DECEASED	Dead	No	No	NA
+TCGA-77-A5G1	75	Male	Current Reformed Smoker For < Or = 15 Years	53	IIIA	M0	N1	NA	3714	122.17	LIVING	Alive	No	No	NA
+TCGA-77-A5G3	63	Male	Current Reformed Smoker For < Or = 15 Years	40	IIB	M0	N1	NA	3576	117.63	LIVING	Alive	No	No	NA
+TCGA-77-A5G6	66	Male	Current Smoker	74	IIIA	M0	N2	678	NA	22.3	DECEASED	Dead	No	No	NA
+TCGA-77-A5G7	63	Male	Current Smoker	69	IA	M0	N0	180	NA	5.92	DECEASED	Dead	No	No	NA
+TCGA-77-A5G8	70	Male	Current Reformed Smoker For < Or = 15 Years	90	IIB	M0	N0	NA	1290	42.43	LIVING	Alive	No	No	NA
+TCGA-77-A5GA	76	Male	Current Reformed Smoker For > 15 Years	99	IB	M0	N0	NA	36	1.18	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-77-A5GB	90	Male	Current Smoker	52	IB	M0	Nx	937	NA	30.82	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-77-A5GF	70	Male	Current Reformed Smoker For < Or = 15 Years	60	IIA	M0	N1	NA	722	23.75	LIVING	Alive	No	No	NA
+TCGA-77-A5GH	81	Male	Current Reformed Smoker For > 15 Years	11	IB	M0	N0	NA	713	23.45	LIVING	Alive	No	No	NA
+TCGA-79-5596	NA	Male	Current Reformed Smoker For < Or = 15 Years	40	IIIA	M0	N1	NA	NA		LIVING	Alive	NA	No	NA
+TCGA-85-6175	63	Female	Lifelong Non-Smoker	NA	IIB	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-85-6560	59	Male	Current Reformed Smoker For < Or = 15 Years	40	IIA	M0	N1	NA	11	0.36	LIVING	Alive	No	No	NA
+TCGA-85-6561	66	Male	Current Reformed Smoker For < Or = 15 Years	35	IB	M0	Nx	NA	24	0.79	LIVING	Alive	No	No	NA
+TCGA-85-6798	57	Male	Current Smoker	35	IIIA	M0	N1	NA	34	1.12	LIVING	Alive	No	No	NA
+TCGA-85-8048	62	Male	Current Smoker	50	IA	M0	N0	NA	26	0.86	LIVING	Alive	No	No	NA
+TCGA-85-8049	57	Male	Lifelong Non-Smoker	NA	IB	M0	N0	NA	60	1.97	LIVING	Alive	No	No	NA
+TCGA-85-8052	53	Male	Current Smoker	40	IIB	M0	N0	NA	16	0.53	LIVING	Alive	No	No	NA
+TCGA-85-8070	71	Male	Current Smoker	50	IB	M0	N0	NA	43	1.41	LIVING	Alive	No	No	NA
+TCGA-85-8071	52	Male	Current Smoker	30	IIA	M0	N1	NA	14	0.46	LIVING	Alive	No	No	NA
+TCGA-85-8072	60	Male	Current Smoker	15	IA	M0	N0	NA	36	1.18	LIVING	Alive	No	No	NA
+TCGA-85-8276	62	Male	Current Smoker	20	IIA	M0	N1	NA	13	0.43	LIVING	Alive	No	No	NA
+TCGA-85-8277	70	Male	Lifelong Non-Smoker	NA	IIIA	M0	N1	NA	11	0.36	LIVING	Alive	No	No	NA
+TCGA-85-8287	72	Male	Current Smoker	50	IA	M0	N0	NA	13	0.43	LIVING	Alive	No	No	NA
+TCGA-85-8288	70	Male	Current Smoker	50	IIA	M0	N1	NA	54	1.78	LIVING	Alive	No	No	NA
+TCGA-85-8350	61	Male	Current Smoker	40	IA	M0	N0	NA	60	1.97	LIVING	Alive	No	No	NA
+TCGA-85-8351	72	Male	Current Smoker	60	IIA	M0	N1	NA	55	1.81	LIVING	Alive	No	No	NA
+TCGA-85-8352	67	Male	Current Smoker	50	IIIA	M0	N1	NA	67	2.2	LIVING	Alive	No	No	NA
+TCGA-85-8353	72	Male	Current Smoker	50	IIIA	M0	N1	NA	54	1.78	LIVING	Alive	No	No	NA
+TCGA-85-8354	53	Male	Current Smoker	30	IB	M0	N0	NA	61	2.01	LIVING	Alive	No	No	NA
+TCGA-85-8355	63	Male	Lifelong Non-Smoker	NA	IA	M0	N0	NA	20	0.66	LIVING	Alive	No	No	NA
+TCGA-85-8479	66	Male	Current Reformed Smoker For < Or = 15 Years	90	IA	M0	N0	NA	22	0.72	LIVING	Alive	No	No	NA
+TCGA-85-8481	70	Male	Current Reformed Smoker For < Or = 15 Years	80	IIB	M0	N0	NA	21	0.69	LIVING	Alive	No	No	NA
+TCGA-85-8580	52	Female	Current Reformed Smoker For < Or = 15 Years	38	IB	M0	N0	NA	28	0.92	LIVING	Alive	No	No	NA
+TCGA-85-8582	49	Male	Current Smoker	40	IA	M0	N0	NA	4	0.13	LIVING	Alive	No	No	NA
+TCGA-85-8584	71	Male	Current Smoker	50	IIA	M0	N1	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-85-8664	73	Male	Current Smoker	60	IIB	M0	N1	NA	3	0.1	LIVING	Alive	No	No	NA
+TCGA-85-8666	65	Male	Current Smoker	55	IB	M0	N0	NA	14	0.46	LIVING	Alive	No	No	NA
+TCGA-85-A4CL	65	Male	Current Smoker	40	IA	M0	N0	NA	15	0.49	LIVING	Alive	No	No	NA
+TCGA-85-A4CN	56	Female	Current Reformed Smoker For < Or = 15 Years	NA	IIB	M0	N1	NA	6	0.2	LIVING	Alive	No	No	NA
+TCGA-85-A4JB	74	Male	Current Smoker	25	IIB	M0	N0	NA	-10	0	LIVING	Alive	No	No	NA
+TCGA-85-A4JC	84	Male	Current Smoker	25	IIA	M0	N0	NA	-10	0	LIVING	Alive	No	No	NA
+TCGA-85-A4PA	61	Male	Current Reformed Smoker For < Or = 15 Years	40	IB	M0	N0	NA	-6	0	LIVING	Alive	No	No	NA
+TCGA-85-A4QQ	68	Male	Current Smoker	50	IB	M0	N0	NA	-2	0	LIVING	Alive	No	No	NA
+TCGA-85-A4QR	67	Male	Current Reformed Smoker For < Or = 15 Years	50	IB	M0	N0	NA	25	0.82	LIVING	Alive	No	No	NA
+TCGA-85-A50M	47	Male	Current Reformed Smoker For < Or = 15 Years	15	IIA	M0	N0	NA	19	0.63	LIVING	Alive	No	No	NA
+TCGA-85-A50Z	57	Male	Current Smoker	45	IIA	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-85-A510	74	Female	Current Smoker	45	IIB	M0	N1	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-85-A511	62	Male	Current Smoker	40	IIB	M0	N1	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-85-A512	46	Male	Current Smoker	25	IIA	M0	N1	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-85-A513	60	Female	Lifelong Non-Smoker	NA	IA	M0	Nx	NA	24	0.79	LIVING	Alive	No	No	NA
+TCGA-85-A53L	63	Male	Current Reformed Smoker For < Or = 15 Years	30	IIA	M0	N0	NA	13	0.43	LIVING	Alive	No	No	NA
+TCGA-85-A5B5	58	Male	Current Reformed Smoker For < Or = 15 Years	15	IA	M0	N0	NA	111	3.65	LIVING	Alive	No	No	NA
+TCGA-90-6837	64	Male	Current Reformed Smoker For < Or = 15 Years	40	IIB	Mx	N0	NA	42	1.38	LIVING	Alive	No	No	NA
+TCGA-90-A4ED	69	Male	Current Reformed Smoker For > 15 Years	30	IB	Mx	N0	NA	244	8.03	LIVING	Alive	No	No	NA
+TCGA-90-A4EE	53	Male	Current Smoker	68	IIA	Mx	N1	NA	331	10.89	LIVING	Alive	No	No	NA
+TCGA-90-A59Q	61	Female	Current Smoker	80	IIA	Mx	N1	NA	269	8.85	LIVING	Alive	No	No	NA
+TCGA-92-8063	52	Male	Current Smoker	74	IIIA	Mx	N2	NA	122	4.01	LIVING	Alive	No	No	NA
+TCGA-92-8064	58	Male	Current Reformed Smoker For < Or = 15 Years	30	IB	Mx	N0	NA	160	5.26	LIVING	Alive	No	No	NA
+TCGA-92-8065	74	Female	Current Reformed Smoker For > 15 Years	14	IIB	Mx	N0	NA	70	2.3	LIVING	Alive	No	No	NA
+TCGA-94-7033	73	Male	Current Reformed Smoker For < Or = 15 Years	30	IB	Mx	N0	NA	87	2.86	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-94-8035	64	Male	Current Smoker	50	IIB	Mx	N0	NA	111	3.65	LIVING	Alive	No	No	NA
+TCGA-94-8490	70	Male	Current Reformed Smoker, Duration Not Specified 	NA	IIB	M0	N0	NA	153	5.03	LIVING	Alive	No	No	NA
+TCGA-94-8491	73	Male	Current Reformed Smoker For > 15 Years	56	IIA	M0	N1	NA	31	1.02	LIVING	Alive	No	No	NA
+TCGA-94-A4VJ	71	Female	Current Reformed Smoker For < Or = 15 Years	37.5	IA	M0	N0	NA	43	1.41	LIVING	Alive	No	No	NA
+TCGA-94-A5I4	61	Male	Current Reformed Smoker For < Or = 15 Years	80	IIA	Mx	N1	NA	155	5.1	LIVING	Alive	No	No	NA
+TCGA-94-A5I6	62	Male	Current Reformed Smoker For < Or = 15 Years	80	IIB	M0	N0	NA	185	6.09	LIVING	Alive	No	No	NA
+TCGA-96-8169	67	Female	Current Reformed Smoker For < Or = 15 Years	35	IA	M0	N0	NA	189	6.22	LIVING	Alive	No	No	NA
+TCGA-96-8170	75	Female	Current Reformed Smoker For < Or = 15 Years	50	IIA	M0	N1	NA	211	6.94	LIVING	Alive	No	No	NA
+TCGA-96-A4JK	65	Male	Current Smoker	110	IIA	M0	N1	NA	273	8.98	LIVING	Alive	 Yes, history of prior malignancy 	 Yes, pharmaceutical treatment prior to resection 	NA
+TCGA-96-A4JL	78	Female	Lifelong Non-Smoker	NA	IIA	M0	N1	NA	183	6.02	LIVING	Alive	No	No	NA
+TCGA-98-8020	56	Female	Lifelong Non-Smoker	NA	IIIA	M0	N2	84	NA	2.76	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-98-8021	75	Female	Current Reformed Smoker For < Or = 15 Years	60	IA	M0	N0	NA	413	13.59	LIVING	Alive	No	No	NA
+TCGA-98-8022	61	Male	Current Reformed Smoker For < Or = 15 Years	117	IA	M0	N0	NA	224	7.37	LIVING	Alive	No	No	NA
+TCGA-98-8023	70	Male	Current Smoker	75	IIIA	M0	N1	NA	308	10.13	LIVING	Alive	No	No	NA
+TCGA-98-A538	67	Male	Current Reformed Smoker For < Or = 15 Years	35	IIB	M0	N0	NA	120	3.95	LIVING	Alive	No	No	NA
+TCGA-98-A539	63	Male	Current Smoker	75	IIB	M0	N0	NA	118	3.88	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-98-A53A	70	Male	Current Smoker	80	IB	M0	N0	NA	274	9.01	LIVING	Alive	No	No	NA
+TCGA-98-A53B	69	Male	Current Smoker	40	IB	M0	N0	61	NA	2.01	DECEASED	Dead	No	No	NA
+TCGA-98-A53C	77	Female	Current Reformed Smoker For < Or = 15 Years	112.5	IA	M0	N0	NA	311	10.23	LIVING	Alive	No	No	NA
+TCGA-98-A53I	64	Male	Current Reformed Smoker For < Or = 15 Years	70	IIA	M0	N1	NA	99	3.26	LIVING	Alive	No	No	NA
+TCGA-98-A53J	77	Male	Current Reformed Smoker For > 15 Years	100	IB	M0	N0	NA	159	5.23	LIVING	Alive	No	No	NA
+TCGA-J1-A4AH	70	Male	Current Reformed Smoker For < Or = 15 Years	100	IIA	Mx	N0	NA	222	7.3	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-L3-A4E7	71	Male	Current Smoker	25	IB	M0	N0	NA	35	1.15	LIVING	Alive	No	No	NA
+TCGA-L3-A524	45	Female	Current Smoker	25.6	IIB	M0	N0	NA	449	14.77	LIVING	Alive	No	No	NA
+TCGA-LA-A446	68	Male	Current Smoker	26	IA	Mx	N0	NA	36	1.18	LIVING	Alive	No	No	NA
+TCGA-LA-A7SW	71	Male	Current Reformed Smoker For < Or = 15 Years	37	IIIA	Mx	N1	NA	146	4.8	LIVING	Alive	No	No	NA
+TCGA-60-2697	41	Male	NA	NA	IIA	M0	N2	372	NA	12.24	DECEASED	Dead	No	 Yes, pharmaceutical treatment prior to resection 	NA
+TCGA-60-2703	73	Male	Current Reformed Smoker For < Or = 15 Years	50	IIB	M0	N1	2945	NA	96.88	DECEASED	Dead	No	No	NA
+TCGA-60-2704	73	Male	Current Smoker	60	IIB	M0	N1	1154	NA	37.96	DECEASED	Dead	No	No	NA
+TCGA-33-4587	63	Female	Current Reformed Smoker For < Or = 15 Years	NA	IB	Mx	N0	1656	NA	54.47	DECEASED	Dead	No	No	NA
+TCGA-22-4605	78	Female	Current Reformed Smoker For < Or = 15 Years	75	IB	M0	N0	974	NA	32.04	DECEASED	Dead	No	No	NA
+TCGA-22-4609	81	Male	Current Smoker	77	IA	M0	N0	291	NA	9.57	DECEASED	Dead	No	No	NA
+TCGA-39-5040	59	Male	Current Reformed Smoker For < Or = 15 Years	60	IIIA	M0	N2	519	NA	17.07	DECEASED	Dead	No	No	NA
+TCGA-43-5670	70	Male	Current Reformed Smoker For > 15 Years	30	IIA	M0	N0	NA	549	18.06	LIVING	Alive	No	No	NA
+TCGA-21-5783	76	Male	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	2680	NA	88.16	DECEASED	Dead	No	No	NA
+TCGA-51-6867	72	Female	Current Reformed Smoker For < Or = 15 Years	40	I	M0	N0	1856	NA	61.05	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-77-7138	67	Male	Current Reformed Smoker For > 15 Years	20	IB	M0	N0	340	NA	11.18	DECEASED	Dead	No	No	NA
+TCGA-77-7139	56	Male	Current Reformed Smoker For < Or = 15 Years	2	IIB	M0	N1	NA	2737	90.03	LIVING	Alive	No	No	NA
+TCGA-77-7140	69	Female	Lifelong Non-Smoker	NA	IIB	M0	N1	632	NA	20.79	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-77-7141	64	Male	Current Reformed Smoker For < Or = 15 Years	70	IB	M0	N0	NA	15	0.49	LIVING	Alive	No	No	NA
+TCGA-77-7142	59	Female	Current Reformed Smoker For < Or = 15 Years	52.5	IB	M0	N0	NA	1286	42.3	LIVING	Alive	No	No	NA
+TCGA-56-7221	79	Male	Current Reformed Smoker For > 15 Years	25	NA	NA	N0	NA	30	0.99	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-56-7222	60	Male	Current Smoker	23	NA	NA	N0	NA	13	0.43	LIVING	Alive	No	No	NA
+TCGA-56-7223	66	Male	Current Reformed Smoker For < Or = 15 Years	NA	IIIA	Mx	N1	NA	30	0.99	LIVING	Alive	No	No	NA
+TCGA-77-7335	62	Female	Current Reformed Smoker For > 15 Years	52	IIIB	M0	N2	2133	NA	70.16	DECEASED	Dead	No	No	NA
+TCGA-77-7337	65	Male	Current Reformed Smoker For < Or = 15 Years	79.5	IIB	M0	N1	3253	NA	107.01	DECEASED	Dead	No	No	NA
+TCGA-77-7338	64	Male	Current Smoker	41.25	IB	M0	N0	5	NA	0.16	DECEASED	Dead	No	No	NA
+TCGA-92-7341	71	Male	Current Smoker	50	IB	Mx	N0	NA	106	3.49	LIVING	Alive	No	No	NA
+TCGA-98-7454	73	Male	Current Reformed Smoker For > 15 Years	60	IB	M0	N0	NA	115	3.78	LIVING	Alive	No	No	NA
+TCGA-77-7463	75	Male	Current Reformed Smoker For < Or = 15 Years	42	IB	M0	N0	1423	NA	46.81	DECEASED	Dead	No	No	NA
+TCGA-77-7465	58	Male	Current Smoker	120	IIA	M0	N1	NA	479	15.76	LIVING	Alive	No	No	NA
+TCGA-96-7544	83	Male	Current Smoker	65	IIB	Mx	N1	NA	1213	39.9	LIVING	Alive	No	No	NA
+TCGA-96-7545	73	Male	Current Reformed Smoker For < Or = 15 Years	116	IA	Mx	N0	NA	1324	43.55	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-94-7557	73	Male	Current Smoker	NA	IB	M0	N0	5	NA	0.16	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-56-7579	61	Male	Current Reformed Smoker For < Or = 15 Years	2	IIIA	M0	N1	NA	44	1.45	LIVING	Alive	No	No	NA
+TCGA-56-7580	84	Male	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	40	1.32	LIVING	Alive	No	No	NA
+TCGA-56-7582	83	Male	Current Reformed Smoker For > 15 Years	NA	IB	M0	N0	NA	26	0.86	LIVING	Alive	No	No	NA
+TCGA-52-7622	62	Female	Current Reformed Smoker For < Or = 15 Years	22	IA	M0	N0	NA	541	17.8	LIVING	Alive	No	No	NA
+TCGA-43-7656	71	Male	Current Reformed Smoker For < Or = 15 Years	45	IA	Mx	N0	NA	212	6.97	LIVING	Alive	No	No	NA
+TCGA-43-7657	68	Female	Current Reformed Smoker For < Or = 15 Years	45	IA	Mx	N0	NA	48	1.58	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-43-7658	75	Female	Current Reformed Smoker For < Or = 15 Years	12	IA	M0	N0	NA	2023	66.55	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-85-7696	64	Male	Current Reformed Smoker For < Or = 15 Years	30	IA	M0	N0	NA	18	0.59	LIVING	Alive	No	No	NA
+TCGA-85-7697	49	Male	Current Reformed Smoker For > 15 Years	30	IIB	M0	N0	NA	10	0.33	LIVING	Alive	No	No	NA
+TCGA-85-7698	48	Male	Current Reformed Smoker For > 15 Years	44	IA	M0	N0	NA	49	1.61	LIVING	Alive	No	No	NA
+TCGA-85-7699	73	Male	Current Reformed Smoker For > 15 Years	74	IIIA	M0	N0	NA	1	0.03	LIVING	Alive	No	No	NA
+TCGA-85-7710	59	Female	Current Smoker	45	IA	M0	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-56-7730	73	Male	Current Smoker	NA	IIA	M0	N0	NA	6	0.2	LIVING	Alive	No	No	NA
+TCGA-56-7731	66	Female	Current Reformed Smoker For < Or = 15 Years	100	IB	Mx	N0	NA	0	0	LIVING	Alive	No	No	NA
+TCGA-68-7755	60	Female	Current Reformed Smoker For < Or = 15 Years	78	IIA	M0	N1	NA	83	2.73	LIVING	Alive	No	No	NA
+TCGA-68-7756	84	Male	Current Reformed Smoker For > 15 Years	20	IIIA	Mx	N1	NA	202	6.64	LIVING	Alive	No	No	NA
+TCGA-90-7766	66	Female	Current Smoker	30	IA	Mx	N0	NA	47	1.55	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-90-7767	56	Male	Current Reformed Smoker For > 15 Years	25	IIB	Mx	N1	NA	89	2.93	LIVING	Alive	No	No	NA
+TCGA-90-7769	55	Male	Current Reformed Smoker For > 15 Years	36	IIB	Mx	N1	NA	18	0.59	LIVING	Alive	No	No	NA
+TCGA-52-7809	74	Male	Current Smoker	60	IB	M0	N0	166	NA	5.46	DECEASED	Dead	No	No	NA
+TCGA-52-7810	60	Female	Current Reformed Smoker For > 15 Years	20	IIB	M0	N0	NA	923	30.36	LIVING	Alive	No	No	NA
+TCGA-52-7812	68	Male	Current Reformed Smoker For < Or = 15 Years	30	IIA	M0	N2	835	NA	27.47	DECEASED	Dead	No	No	NA
+TCGA-56-7822	75	Male	Current Reformed Smoker For < Or = 15 Years	60	IIB	M0	N1	NA	1	0.03	LIVING	Alive	No	No	NA
+TCGA-85-7843	50	Male	Current Smoker	35	IIA	M0	N1	NA	35	1.15	LIVING	Alive	No	No	NA
+TCGA-85-7844	71	Male	Current Smoker	40	IB	M0	N0	NA	38	1.25	LIVING	Alive	No	No	NA
+TCGA-94-7943	80	Male	Current Reformed Smoker For > 15 Years	30	IA	Mx	Nx	NA	143	4.7	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-85-7950	46	Male	Current Smoker	27	IB	M0	N0	NA	60	1.97	LIVING	Alive	No	No	NA
+TCGA-90-7964	70	Male	Current Reformed Smoker For < Or = 15 Years	180	IB	Mx	N0	NA	100	3.29	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-77-8007	68	Male	Current Smoker	100	IIB	M0	N1	198	NA	6.51	DECEASED	Dead	No	No	NA
+TCGA-77-8008	68	Male	Current Reformed Smoker For < Or = 15 Years	61.5	IB	M0	N0	2639	NA	86.81	DECEASED	Dead	No	No	NA
+TCGA-77-8009	68	Male	Current Reformed Smoker For < Or = 15 Years	97.5	IIB	M0	N1	NA	1641	53.98	LIVING	Alive	No	No	NA
+TCGA-MF-A522	54	Male	Current Reformed Smoker For < Or = 15 Years	45	IB	Mx	N0	NA	83	2.73	LIVING	Alive	No	No	NA
+TCGA-NC-A5HD	79	Male	Current Reformed Smoker For < Or = 15 Years	50	IIB	M0	N0	2	NA	0.07	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-NC-A5HE	60	Male	Current Reformed Smoker For < Or = 15 Years	30	IIB	M0	N1	NA	1722	56.64	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-NC-A5HF	74	Male	Current Smoker	NA	IIIB	Mx	N0	138	NA	4.54	DECEASED	Dead	No	No	NA
+TCGA-NC-A5HG	59	Male	Current Reformed Smoker For < Or = 15 Years	80	IIIA	M0	N2	NA	1548	50.92	LIVING	Alive	No	No	NA
+TCGA-NC-A5HH	53	Male	Current Smoker	60	IA	M0	N0	NA	37	1.22	LIVING	Alive	No	No	NA
+TCGA-NC-A5HI	68	Female	Current Smoker	60	IB	M0	N0	NA	1135	37.34	LIVING	Alive	No	No	NA
+TCGA-NC-A5HJ	59	Male	Current Reformed Smoker For < Or = 15 Years	78	IIB	M0	N0	418	NA	13.75	DECEASED	Dead	No	No	NA
+TCGA-NC-A5HK	58	Female	Current Reformed Smoker For < Or = 15 Years	40	IIB	M0	N0	NA	128	4.21	LIVING	Alive	No	No	NA
+TCGA-NC-A5HL	73	Male	Current Reformed Smoker For < Or = 15 Years	40	IIA	M0	N0	88	NA	2.89	DECEASED	Dead	No	No	NA
+TCGA-NC-A5HM	76	Male	Current Reformed Smoker For > 15 Years	50	IB	M0	N0	NA	29	0.95	LIVING	Alive	 Yes, history of synchronous and or bilateral malignancy 	No	NA
+TCGA-NC-A5HN	77	Male	Current Reformed Smoker For < Or = 15 Years	100	IIA	M0	N1	NA	894	29.41	LIVING	Alive	No	No	NA
+TCGA-NC-A5HO	70	Female	Current Reformed Smoker For < Or = 15 Years	30	IIIA	M0	N1	NA	789	25.95	LIVING	Alive	No	No	NA
+TCGA-NC-A5HP	69	Male	Current Smoker	50	IV	M1b	N0	NA	730	24.01	LIVING	Alive	No	No	NA
+TCGA-NC-A5HQ	70	Male	Current Smoker	NA	IIIA	M0	N2	448	NA	14.74	DECEASED	Dead	No	No	NA
+TCGA-NC-A5HR	75	Female	Current Reformed Smoker For < Or = 15 Years	35	IIA	M0	N1	NA	623	20.49	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-NC-A5HT	69	Male	Current Reformed Smoker For < Or = 15 Years	50	IIIA	M0	N1	NA	419	13.78	LIVING	Alive	No	No	NA
+TCGA-NK-A5CR	77	Male	Current Reformed Smoker For > 15 Years	40	IB	Mx	N0	NA	2178	71.64	LIVING	Alive	No	No	NA
+TCGA-NK-A5CT	70	Male	Current Reformed Smoker For > 15 Years	80	IA	M0	N0	NA	1761	57.93	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-NK-A5CX	73	Male	Current Reformed Smoker For < Or = 15 Years	40	IIA	Mx	N0	NA	111	3.65	LIVING	Alive	No	No	NA
+TCGA-NK-A5D1	57	Male	Current Reformed Smoker For > 15 Years	90	IIA	M0	N1	NA	511	16.81	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-NK-A7XE	66	Male	Current Reformed Smoker, Duration Not Specified 	80	IIIB	M0	N2	NA	13	0.43	LIVING	Alive	 Yes, history of prior malignancy 	No	NA
+TCGA-O2-A52N	78	Male	Current Reformed Smoker For < Or = 15 Years	4.125	I	Mx	N0	1006	NA	33.09	DECEASED	Dead	No	No	NA
+TCGA-O2-A52Q	44	Female	Current Smoker	1	III	Mx	N1	113	NA	3.72	DECEASED	Dead	No	No	NA
+TCGA-O2-A52S	57	Female	Current Reformed Smoker For < Or = 15 Years	3	III	Mx	N2	387	NA	12.73	DECEASED	Dead	No	No	NA
+TCGA-O2-A52V	75	Female	Current Reformed Smoker For < Or = 15 Years	1	II	Mx	N0	1335	NA	43.91	DECEASED	Dead	No	No	NA
+TCGA-O2-A52W	63	Male	Current Reformed Smoker For < Or = 15 Years	2.5	I	Mx	N0	261	NA	8.59	DECEASED	Dead	 Yes, history of prior malignancy 	No	NA
+TCGA-O2-A5IB	71	Female	Current Reformed Smoker For < Or = 15 Years	2.5	III	Mx	N1	340	NA	11.18	DECEASED	Dead	No	No	NA
+TCGA-XC-AA0X	77	Female	Current Smoker	30	IA	M0	N0	6	NA	0.2	DECEASED	Dead	No	No	NA
