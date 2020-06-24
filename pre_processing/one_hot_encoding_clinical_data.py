@@ -1,11 +1,15 @@
+"""one_hot_encoding_clinical_data.py: One-hot encoding of
+categorical data on 'clinical_data.csv'"""
+
 import os
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 
+DATA = os.path.join(os.pardir, "data", "clinical_data")
 
 encoder = OneHotEncoder(handle_unknown="ignore")
-data = pd.read_csv(os.path.join(os.pardir, "data", "clinical_data.csv"), sep="\t",
+data = pd.read_csv(os.path.join(DATA, "clinical_data.csv"), sep="\t",
                    index_col="SAMPLE_ID")
 details = ""
 
@@ -40,7 +44,7 @@ if __name__ == '__main__':
     data.drop(columns=["STAGE"], inplace=True)
 
     with open(
-            os.path.join(os.pardir, "data", "Encoded_Clinical_Data.txt"),
+            os.path.join(DATA, "Encoded_Clinical_Data.txt"),
             "w", encoding="utf-8"
     ) as file:
         file.write(details)
@@ -48,4 +52,4 @@ if __name__ == '__main__':
     data.dropna(inplace=True)
 
     # Done
-    data.to_csv(os.path.join(os.pardir, "data", "encoded_clinical_data.csv"), "\t")
+    data.to_csv(os.path.join(DATA, "encoded_clinical_data.csv"), "\t")
