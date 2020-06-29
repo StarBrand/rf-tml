@@ -1,13 +1,13 @@
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-from parameters import PARAMETERS
 from models import RandomForest, CONFIG
 
-data = pd.read_csv(os.path.join(os.pardir, "data", PARAMETERS["folder"], "{}.csv".format(PARAMETERS["file"])),
-                   sep="\t", index_col=0)
-input_data = data.drop(columns=PARAMETERS["columns_to_drop"])
-labels = data[PARAMETERS["labels"]]
+PATH = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(PATH, os.pardir, "data")
+LABEL = "M_STAGE"
 
 
 def pca(raw_data: pd.DataFrame) -> pd.DataFrame:
@@ -18,16 +18,36 @@ def pca(raw_data: pd.DataFrame) -> pd.DataFrame:
     :return: An array with input data
     """
     index = raw_data.index
+    normalized_data = StandardScaler().fit_transform(raw_data)
     return pd.DataFrame(
-        PCA("mle", random_state=CONFIG["seed"]).fit_transform(raw_data),
+        PCA("mle", random_state=CONFIG["seed"]).fit_transform(normalized_data),
         index=index
     )
 
 
 if __name__ == "__main__":
-    name = PARAMETERS["name"]
-    if PARAMETERS["pca"]:
-        input_data = pca(input_data)
-        name += "_pca"
-    random_forest = RandomForest(input_data, labels)
-    random_forest.execute_test(name, PARAMETERS["option"])
+    for folder in os.listdir(DATA_PATH):
+        print("Using folder {}".format(folder))
+        for file in os.listdir(os.path.join(DATA_PATH, folder)):
+            name, format_file = file.split(".")
+            print("\tUsing {} to classify".format(name))
+            if format_file == "csv":
+                data = pd.read_csv(os.path.join(DATA_PATH, folder, file),
+                                   sep="\t", index_col=0)
+                input_data = data.drop(columns=LABEL)
+                labels = data[LABEL]
+                try:
+                    for pca_on in [False, True]:
+                        pca_log = ""
+                        if pca_on:
+                            input_data = pca(input_data)
+                            name += "_pca"
+                            pca_log = " and pca"
+                        random_forest = RandomForest(input_data, labels)
+                        for option, option_name in [("split", "test set"), ("cv", "5-Fold Cross Validation"),
+                                                    ("under", "undersampling"), ("over", "oversampling")]:
+                            print("\t\tClassifying using {}{}".format(option_name, pca_log))
+                            random_forest.execute_test(name, option)
+                except ValueError as e:
+                    # Not use clinical data (not encoded it will not work)
+                    print("\t\t Cannot use: {}".format(e))

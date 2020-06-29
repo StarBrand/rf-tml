@@ -3,6 +3,7 @@
 import os
 import sys
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 from copy import deepcopy
 from models.random_forest import CONFIG
@@ -11,6 +12,8 @@ from sklearn.utils import resample
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
+matplotlib.use('Agg')
 
 FOLDER = os.path.dirname(os.path.abspath(__file__))
 RESULTS_FOLDER = os.path.join(FOLDER, os.pardir, os.pardir, os.pardir, "results")
@@ -137,6 +140,8 @@ class RandomForest:
         folder = os.path.join(RESULTS_FOLDER, name, TYPE_OF_TEST[option])
         os.makedirs(folder, exist_ok=True)
         plt.savefig(os.path.join(folder, "confusion_matrix.png"))
+        plt.clf()
+        plt.close(c_m_display.figure_)
         with open(os.path.join(folder, "scores.csv"), "w", encoding="utf-8") as file:
             file.write(
                 "Accuracy,{acc}\n"
