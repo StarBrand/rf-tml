@@ -8,7 +8,6 @@ Using folder clinical_data
         Using clinical_data_no_tumor_stage to classify
                 Classifying using test set
                  Cannot use: could not convert string to float: 'Male'
-        Using Encoded_Aggregated_Data to classify
         Using encoded_clinical_data to classify
                 Classifying using test set
                 Classifying using 5-Fold Cross Validation
@@ -18,7 +17,6 @@ Using folder clinical_data
                 Classifying using 5-Fold Cross Validation and pca
                 Classifying using undersampling and pca
                 Classifying using oversampling and pca
-        Using Encoded_Clinical_Data to classify
         Using encoded_clinical_data_aggregated to classify
                 Classifying using test set
                 Classifying using 5-Fold Cross Validation
@@ -37,7 +35,6 @@ Using folder clinical_data
                 Classifying using 5-Fold Cross Validation and pca
                 Classifying using undersampling and pca
                 Classifying using oversampling and pca
-        Using Encoded_No_Stage_Data to classify
 Using folder merged_data
         Using clinical_data_count to classify
                 Classifying using test set

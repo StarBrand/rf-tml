@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from models import RandomForest, CONFIG
@@ -27,11 +26,13 @@ def pca(raw_data: pd.DataFrame) -> pd.DataFrame:
 
 if __name__ == "__main__":
     for folder in os.listdir(DATA_PATH):
+        if folder == "meta_data":
+            continue
         print("Using folder {}".format(folder))
         for file in os.listdir(os.path.join(DATA_PATH, folder)):
             name, format_file = file.split(".")
-            print("\tUsing {} to classify".format(name))
             if format_file == "csv":
+                print("\tUsing {} to classify".format(name))
                 data = pd.read_csv(os.path.join(DATA_PATH, folder, file),
                                    sep="\t", index_col=0)
                 input_data = data.drop(columns=LABEL)

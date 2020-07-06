@@ -1,0 +1,67 @@
+{
+    "clinical_data_count": {
+        "Clinical Data": "Clinical Data",
+        "Mutated Genes": "Count of mutation normalized",
+        "Name": "Clinical Data, Normalized Count"
+    },
+    "clinical_data_count_not_norm": {
+        "Clinical Data": "Clinical Data",
+        "Mutated Genes": "Count of mutation not normalized",
+        "Name": "Clinical Data, Not Normalized Count"
+    },
+    "clinical_data_mut": {
+        "Clinical Data": "Clinical Data",
+        "Mutated Genes": "Normalized mutated genes",
+        "Name": "Clinical Data, Normalized mutations"
+    },
+    "clinical_data_mut_count": {
+        "Clinical Data": "Clinical Data",
+        "Mutated Genes": "Count of mutation and mutated genes normalized",
+        "Name": "Clinical Data, Normalized mutations and total count"
+    },
+    "clinical_data_mut_count_not_norm": {
+        "Clinical Data": "Clinical Data",
+        "Mutated Genes": "Count of mutation and mutated genes not normalized",
+        "Name": "Clinical Data, Not normalized mutations and total count"
+    },
+    "clinical_data_mut_not_norm": {
+        "Clinical Data": "Clinical Data",
+        "Mutated Genes": "Not normalized mutated genes",
+        "Name": "Clinical Data, Not normalized mutations"
+    },
+    "count_mut": {
+        "Clinical Data": "None",
+        "Mutated Genes": "Count of mutation normalized",
+        "Name": "Count of mutation normalized"
+    },
+    "count_mut_not_norm": {
+        "Clinical Data": "None",
+        "Mutated Genes": "Count of mutation normalized",
+        "Name": "Count of mutation not normalized"
+    },
+    "encoded_clinical_data": {
+        "Clinical Data": "Clinical Data",
+        "Mutated Genes": "None",
+        "Name": "Clinical Data"
+    },
+    "encoded_clinical_data_aggregated": {
+        "Clinical Data": "Clinical Data with tumor stage aggregated",
+        "Mutated Genes": "None",
+        "Name": "Clinical Data, Aggregated stage"
+    },
+    "encoded_clinical_data_no_tumor_stage": {
+        "Clinical Data": "Clinical Data with no tumor stage",
+        "Mutated Genes": "None",
+        "Name": "Clinical Data, No stage"
+    },
+    "mutated_genes": {
+        "Clinical Data": "None",
+        "Mutated Genes": "Normalized mutated genes",
+        "Name": "Normalized mutations"
+    },
+    "mutated_genes_not_norm": {
+        "Clinical Data": "None",
+        "Mutated Genes": "Not normalized mutated genes",
+        "Name": "Not normalized mutations"
+    }
+}
