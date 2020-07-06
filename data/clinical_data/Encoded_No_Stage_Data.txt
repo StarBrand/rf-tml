@@ -1,0 +1,6 @@
+Smoking History Categories:
+	cat0: Current Reformed Smoker For < Or = 15 Years
+	cat1: Current Reformed Smoker For > 15 Years
+	cat2: Current Reformed Smoker, Duration Not Specified 
+	cat3: Current Smoker
+	cat4: Lifelong Non-Smoker
