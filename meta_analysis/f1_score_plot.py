@@ -34,13 +34,13 @@ def bar_plot(axes: Axes, df: pd.DataFrame, title: str) -> None:
     width = 1.0 / 4.5
     cross_validation = df[df["Cross Validation"] != "None"]
     labels = np.arange(len(cross_validation))
-    axes.bar(labels - (3 * width / 2), cross_validation["M1: F1-score"], width, color="b", label="5-Fold Cross Validation")
+    axes.bar(labels - (3 * width / 2), cross_validation["M1: F1-score"], width, color="#7AC5CD", label="5-Fold Cross Validation")
     under = df[df["Resampling"] == "Undersample"]
-    axes.bar(labels - (width / 2), under["M1: F1-score"], width, color="r", label="Undersample")
+    axes.bar(labels - (width / 2), under["M1: F1-score"], width, color="#C71585", label="Undersample")
     over = df[df["Resampling"] == "Oversample"]
-    axes.bar(labels + (width / 2) , over["M1: F1-score"], width, color="g", label="Oversample")
+    axes.bar(labels + (width / 2) , over["M1: F1-score"], width, color="#9ACD32", label="Oversample")
     test_set = df[(df["Resampling"] == "None") & (df["Cross Validation"] == "None")]
-    axes.bar(labels + (3 * width / 2), test_set["M1: F1-score"], width, color="k", label="Test Set 25%")
+    axes.bar(labels + (3 * width / 2), test_set["M1: F1-score"], width, color="#FFA500", label="Test Set 25%")
     axes.legend(fontsize=FONTSIZE)
     axes.set_xticks(labels)
     axes.tick_params(axis='x', rotation=DEGREES)
