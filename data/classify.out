@@ -1,0 +1,283 @@
+Using folder clinical_data
+        Using clinical_data to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                 Cannot use: could not convert string to float: 'Male'
+        Using clinical_data_aggregated to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                 Cannot use: could not convert string to float: 'Male'
+        Using clinical_data_no_tumor_stage to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                 Cannot use: could not convert string to float: 'Male'
+        Using encoded_clinical_data to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+        Using encoded_clinical_data_aggregated to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+        Using encoded_clinical_data_no_tumor_stage to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+Using folder merged_data
+        Using clinical_data_count to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+        Using clinical_data_count_not_norm to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+        Using clinical_data_mut to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+        Using clinical_data_mut_count to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+        Using clinical_data_mut_count_not_norm to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+        Using clinical_data_mut_not_norm to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+Using folder mutated_genes
+        Using count_mut to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+                 Cannot use: at least one array or dtype is required
+        Using count_mut_not_norm to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+                 Cannot use: at least one array or dtype is required
+        Using mutated_genes to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+        Using mutated_genes_not_norm to classify
+                Classifying using => validation: test set       resample: No resample   pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: No PCA
+                Classifying using => validation: test set       resample: oversampling  pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: No PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: No PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: test set       resample: undersampling pca: With PCA
+                Classifying using => validation: test set       resample: oversampling  pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: No resample   pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
+                Classifying using => validation: 5-Fold Cross Validation        resample: undersampling pca: With PCA
+                Classifying using => validation: 5-Fold Cross Validation        resample: oversampling  pca: With PCA
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:228: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(np.divide(matrix.diagonal(), matrix.sum(axis=0)))
+C:\Users\juans\PycharmProjects\rf-tml\pipeline\02-Classification\models\model.py:248: RuntimeWarning: invalid value encountered in true_divide
+  return 2 * np.nan_to_num(np.divide(np.multiply(a, b), a + b))
