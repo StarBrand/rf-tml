@@ -43,14 +43,17 @@ def bar_plot(axes: Axes, df: pd.DataFrame, title: str) -> None:
     :param title: Title of graph
     :return: None, alter axes
     """
-    width = 1.0 / 4.5
+    width = 1.0 / 3.5
     under = df[df["Resampling"] == "Undersample"]
     labels = np.arange(len(under))
-    axes.bar(labels - (width / 2), under["M1: F1-score"], width, color="#C71585", label="Undersample")
+    axes.bar(labels - width, under["M1: F1-score"], width,
+             color="#C71585", label="Undersample", edgecolor="black", linewidth=1.0)
     over = df[df["Resampling"] == "Oversample"]
-    axes.bar(labels + (width / 2), over["M1: F1-score"], width, color="#9ACD32", label="Oversample")
+    axes.bar(labels, over["M1: F1-score"], width,
+             color="#9ACD32", label="Oversample", edgecolor="black", linewidth=1.0)
     test_set = df[df["Resampling"] == "None"]
-    axes.bar(labels + (3 * width / 2), test_set["M1: F1-score"], width, color="#FFA500", label="No resample")
+    axes.bar(labels + width, test_set["M1: F1-score"], width,
+             color="#7AC5CD", label="No resample", edgecolor="black", linewidth=1.0)
     axes.legend(fontsize=FONTSIZE)
     axes.set_xticks(labels)
     axes.tick_params(axis='x', rotation=DEGREES)

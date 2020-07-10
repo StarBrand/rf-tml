@@ -12,8 +12,6 @@ DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "training_data", "clinic
 encoder = OneHotEncoder(handle_unknown="ignore")
 data = pd.read_csv(os.path.join(DATA, "clinical_data.tsv"), sep="\t",
                    index_col="SAMPLE_ID")
-aggregated_data = pd.read_csv(os.path.join(DATA, "clinical_data_aggregated.tsv"), sep="\t",
-                              index_col="SAMPLE_ID")
 no_stage_data = pd.read_csv(os.path.join(DATA, "clinical_data_no_tumor_stage.tsv"), sep="\t",
                             index_col="SAMPLE_ID")
 
@@ -83,27 +81,22 @@ def encode_tumor_stage(clinical_data: pd.DataFrame, detail: str) -> str:
 if __name__ == '__main__':
     # Age
     encode_age(data)
-    encode_age(aggregated_data)
     encode_age(no_stage_data)
 
     # Sex
     encode_sex(data)
-    encode_sex(aggregated_data)
     encode_sex(no_stage_data)
 
     # Smoking History
     details = encode_smoking_h(data)
-    aggregated_details = encode_smoking_h(aggregated_data)
     no_stage_details = encode_smoking_h(no_stage_data)
 
     # Stage
     details = encode_tumor_stage(data, details)
-    aggregated_details = encode_tumor_stage(aggregated_data, aggregated_details)
 
     for file_name, content in zip(["Encoded_Clinical_Data",
-                                   "Encoded_Aggregated_Data",
                                    "Encoded_No_Stage_Data"],
-                                  [details, aggregated_details, no_stage_details]):
+                                  [details, no_stage_details]):
         with open(
             os.path.join(DATA, "{}.txt".format(file_name)),
             "w", encoding="utf-8"
@@ -111,10 +104,8 @@ if __name__ == '__main__':
             file.write(content)
 
     data.dropna(inplace=True)
-    aggregated_data.dropna(inplace=True)
     no_stage_data.dropna(inplace=True)
 
     # Done
     data.to_csv(os.path.join(DATA, "encoded_clinical_data.tsv"), "\t")
-    aggregated_data.to_csv(os.path.join(DATA, "encoded_clinical_data_aggregated.tsv"), "\t")
     no_stage_data.to_csv(os.path.join(DATA, "encoded_clinical_data_no_tumor_stage.tsv"), "\t")

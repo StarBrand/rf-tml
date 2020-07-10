@@ -28,15 +28,6 @@ if __name__ == '__main__':
     # "Raw" clinical data
     data.to_csv(os.path.join(DATA, "clinical_data", "clinical_data.tsv"), sep="\t")
 
-    # Aggregated tumor stage clinical data
-    tumor_stages = pd.unique(data["STAGE"])
-    aggregated_tumor_stage = dict()
-    for stage in tumor_stages:
-        new_stage = stage.replace("A", "").replace("B", "")
-        aggregated_tumor_stage[stage] = new_stage
-    data.replace(aggregated_tumor_stage, inplace=True)
-    data.to_csv(os.path.join(DATA, "clinical_data", "clinical_data_aggregated.tsv"), sep="\t")
-
     # No tumor stage clinical data
     data.drop(columns=["STAGE"], inplace=True)
     data.to_csv(os.path.join(DATA, "clinical_data", "clinical_data_no_tumor_stage.tsv"), sep="\t")

@@ -1,80 +1,44 @@
 {
-    "clinical_data_count": {
-        "Clinical Data": "Clinical Data",
-        "Mutated Genes": "Count of mutation normalized",
-        "Name": "Clinical Data, Normalized Count",
-        "Label": "clinical data + norm TML"
-    },
-    "clinical_data_count_not_norm": {
-        "Clinical Data": "Clinical Data",
-        "Mutated Genes": "Count of mutation not normalized",
-        "Name": "Clinical Data, Not Normalized Count",
-        "Label": "clinical data + TML"
-    },
     "clinical_data_mut": {
         "Clinical Data": "Clinical Data",
-        "Mutated Genes": "Normalized mutated genes",
-        "Name": "Clinical Data, Normalized mutations",
-        "Label": "clinical data + norm GM"
+        "Mutated Genes": "Mutated genes",
+        "Name": "Clinical Data, Mutations",
+        "Label": "CF + MG"
     },
-    "clinical_data_mut_count": {
+    "clinical_data_tml": {
         "Clinical Data": "Clinical Data",
-        "Mutated Genes": "Count of mutation and mutated genes normalized",
-        "Name": "Clinical Data, Normalized mutations and total count",
-        "Label": "clinical data + norm GM + norm MTL"
+        "Mutated Genes": "Count of mutation",
+        "Name": "Clinical Data, total count",
+        "Label": "CF + TML"
     },
-    "clinical_data_mut_count_not_norm": {
-        "Clinical Data": "Clinical Data",
-        "Mutated Genes": "Count of mutation and mutated genes not normalized",
-        "Name": "Clinical Data, Not normalized mutations and total count",
-        "Label": "clinical data + GM + MTL"
-    },
-    "clinical_data_mut_not_norm": {
-        "Clinical Data": "Clinical Data",
-        "Mutated Genes": "Not normalized mutated genes",
-        "Name": "Clinical Data, Not normalized mutations",
-        "Label": "clinical data + GM"
+    "clinical_data_tml_no_stage": {
+        "Clinical Data": "Clinical Data with no tumor stage",
+        "Mutated Genes": "Count of mutation",
+        "Name": "Clinical Data, no tumor stage, total count",
+        "Label": "CF + TML - TS"
     },
     "count_mut": {
         "Clinical Data": "None",
-        "Mutated Genes": "Count of mutation normalized",
-        "Name": "Count of mutation normalized",
-        "Label": "norm TML"
-    },
-    "count_mut_not_norm": {
-        "Clinical Data": "None",
-        "Mutated Genes": "Count of mutation normalized",
-        "Name": "Count of mutation not normalized",
+        "Mutated Genes": "Count of mutation",
+        "Name": "Total count",
         "Label": "TML"
     },
     "encoded_clinical_data": {
         "Clinical Data": "Clinical Data",
         "Mutated Genes": "None",
         "Name": "Clinical Data",
-        "Label": "clinical data"
-    },
-    "encoded_clinical_data_aggregated": {
-        "Clinical Data": "Clinical Data with tumor stage aggregated",
-        "Mutated Genes": "None",
-        "Name": "Clinical Data, Aggregated stage",
-        "Label": "clinical data (aggr)"
+        "Label": "CF"
     },
     "encoded_clinical_data_no_tumor_stage": {
         "Clinical Data": "Clinical Data with no tumor stage",
         "Mutated Genes": "None",
         "Name": "Clinical Data, No stage",
-        "Label": "clinical data - TS"
+        "Label": "CF - TS"
     },
     "mutated_genes": {
         "Clinical Data": "None",
-        "Mutated Genes": "Normalized mutated genes",
-        "Name": "Normalized mutations",
-        "Label": "norm GM"
-    },
-    "mutated_genes_not_norm": {
-        "Clinical Data": "None",
-        "Mutated Genes": "Not normalized mutated genes",
-        "Name": "Not normalized mutations",
+        "Mutated Genes": "Mutated genes",
+        "Name": "Mutations",
         "Label": "GM"
     }
 }
