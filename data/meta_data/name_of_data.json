@@ -1,44 +1,44 @@
 {
     "clinical_data_mut": {
-        "Clinical Data": "Clinical Data",
+        "Clinical Data": "Clinical Features",
         "Mutated Genes": "Mutated genes",
-        "Name": "Clinical Data, Mutations",
+        "Name": "Clinical Features + Mutated Genes",
         "Label": "CF + MG"
     },
     "clinical_data_tml": {
-        "Clinical Data": "Clinical Data",
-        "Mutated Genes": "Count of mutation",
-        "Name": "Clinical Data, total count",
+        "Clinical Data": "Clinical Features",
+        "Mutated Genes": "TML",
+        "Name": "Clinical Features + TML",
         "Label": "CF + TML"
     },
     "clinical_data_tml_no_stage": {
-        "Clinical Data": "Clinical Data with no tumor stage",
-        "Mutated Genes": "Count of mutation",
-        "Name": "Clinical Data, no tumor stage, total count",
+        "Clinical Data": "Clinical Features with no tumor stage",
+        "Mutated Genes": "TML",
+        "Name": "Clinical Features + TML - Tumor Stage",
         "Label": "CF + TML - TS"
     },
-    "count_mut": {
+    "tml": {
         "Clinical Data": "None",
-        "Mutated Genes": "Count of mutation",
-        "Name": "Total count",
+        "Mutated Genes": "TML",
+        "Name": "TML",
         "Label": "TML"
     },
     "encoded_clinical_data": {
-        "Clinical Data": "Clinical Data",
+        "Clinical Data": "Clinical Features",
         "Mutated Genes": "None",
-        "Name": "Clinical Data",
+        "Name": "Clinical Features",
         "Label": "CF"
     },
     "encoded_clinical_data_no_tumor_stage": {
-        "Clinical Data": "Clinical Data with no tumor stage",
+        "Clinical Data": "Clinical Features with no tumor stage",
         "Mutated Genes": "None",
-        "Name": "Clinical Data, No stage",
+        "Name": "Clinical Features - Tumor Stage",
         "Label": "CF - TS"
     },
     "mutated_genes": {
         "Clinical Data": "None",
-        "Mutated Genes": "Mutated genes",
-        "Name": "Mutations",
+        "Mutated Genes": "Mutated Genes",
+        "Name": "Mutated Genes",
         "Label": "GM"
     }
 }

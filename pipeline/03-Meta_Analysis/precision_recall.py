@@ -3,6 +3,7 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.lines as mlines
 from matplotlib.axes import Axes
 
 FIGSIZE = (12, 8)
@@ -30,41 +31,51 @@ def scatter_plot(axes: Axes, df: pd.DataFrame, title: str):
     :param title: Title of plot
     :return: None, alter axes
     """
-    datum_labeled = list()
-    first_color = 3
-    already_pca = False
-    for resampling, shape in [("None", "s"), ("Oversample", "^"), ("Undersample", "o")]:
-        first_shape = True
-        for pca, color in [(True, "k"), (False, "w")]:
-            for _, datum in df[(df["Resampling"] == resampling) & (df["PCA"] == pca)].iterrows():
+    markers = ["s", "^", "o", "P", "p", "X", "*"]
+    labels = sorted(pd.unique(df["Label"]))
+    handles = list()
+    for index, label in enumerate(labels):
+        handles.append(mlines.Line2D([], [], color="#7AC5CD", marker=markers[index], linestyle="None",
+                                     markersize=MARKER_SIZE // 10, label=label))
+        for pca in [False, True]:
+            if index == len(labels) - 1:
                 graphical_params = {
-                    "edgecolor": 'k',
-                    "facecolor": color,
-                    "marker": shape,
-                    "s": MARKER_SIZE
+                    "color": "#7AC5CD", "marker": markers[0], "linestyle": "None",
+                    "markersize": MARKER_SIZE // 10, "label": "No PCA"
                 }
-                if first_shape:
-                    graphical_params["label"] = "Resample: {}".format(resampling)
-                    first_shape = False
-                    first_color -= 1
-                elif first_color == 0:
-                    if pca and not already_pca:
-                        graphical_params["label"] = "PCA"
-                        already_pca = True
-                    elif not pca:
-                        graphical_params["label"] = "No PCA"
-                        first_color -= 1
-                axes.scatter(datum["M1: Recall"],
-                             datum["M1: Precision"],
-                             **graphical_params)
-                axes.annotate(datum["Label"],
-                              (datum["M1: Recall"] - 0.02,
-                               datum["M1: Precision"] - 0.05))
+                if pca:
+                    graphical_params["markeredgecolor"] = "k"
+                    graphical_params["markeredgewidth"] = 2.0
+                    graphical_params["label"] = "PCA"
+                handles.append(mlines.Line2D([], [], **graphical_params))
+            for resampling, color in [("None", "#7AC5CD"), ("Oversample", "#9ACD32"), ("Undersample", "#C71585")]:
+                if index == len(labels) - 1 and pca:
+                    handles.append(mlines.Line2D([], [], color=color, marker=markers[0], linestyle="None",
+                                                 markersize=MARKER_SIZE // 10, label="Resample: {}".format(resampling)))
+                try:
+                    datum = df[
+                        (df["PCA"] == pca) &
+                        (df["Resampling"] == resampling) &
+                        (df["Label"] == label)
+                    ].iloc[0]
+                    graphical_params = {
+                        "facecolor": color,
+                        "marker": markers[index],
+                        "s": MARKER_SIZE
+                    }
+                    if pca:
+                        graphical_params["edgecolor"] = "k"
+                        graphical_params["linewidth"] = 2.0
+                    line = axes.scatter(datum["M1: Recall"],
+                                        datum["M1: Precision"],
+                                        **graphical_params)
+                except IndexError:
+                    pass
     axes.set_xlabel("Recall", fontsize=FONTSIZE)
     axes.set_ylabel("Precision", fontsize=FONTSIZE)
     axes.set_title("{}\n".format(title), fontsize=TITLESIZE)
-    axes.legend(fontsize=FONTSIZE, loc='upper center', bbox_to_anchor=(0.5, -0.1),
-                ncol=2, fancybox=True, shadow=True)
+    axes.legend(handles=handles, fontsize=FONTSIZE, loc='upper center', bbox_to_anchor=(0.5, -0.1),
+                ncol=4, fancybox=True, shadow=True)
     return
 
 

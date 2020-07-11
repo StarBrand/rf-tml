@@ -14,7 +14,7 @@ clinical_data_no_stage = pd.read_csv(os.path.join(DATA, "clinical_data", "encode
 clinical_data_no_stage.drop(columns="M_STAGE", inplace=True)
 mutated_genes = pd.read_csv(os.path.join(DATA, "mutated_genes", "mutated_genes.tsv"),
                             sep="\t", index_col="SAMPLE_ID")
-count_mut = pd.read_csv(os.path.join(DATA, "mutated_genes", "count_mut.tsv"),
+tml = pd.read_csv(os.path.join(DATA, "mutated_genes", "tml.tsv"),
                         sep="\t", index_col="SAMPLE_ID")
 
 
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     # Norm
     data = pd.concat([clinical_data, mutated_genes], axis=1, join="inner")
     data.to_csv(os.path.join(data_folder, "clinical_data_mut.tsv"), sep="\t")
-    data = pd.concat([clinical_data, count_mut], axis=1, join="inner")
+    data = pd.concat([clinical_data, tml], axis=1, join="inner")
     data.to_csv(os.path.join(data_folder, "clinical_data_tml.tsv"), sep="\t")
-    data = pd.concat([clinical_data_no_stage, count_mut], axis=1, join="inner")
+    data = pd.concat([clinical_data_no_stage, tml], axis=1, join="inner")
     data.to_csv(os.path.join(data_folder, "clinical_data_tml_no_stage.tsv"), sep="\t")

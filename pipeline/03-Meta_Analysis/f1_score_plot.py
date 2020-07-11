@@ -56,9 +56,9 @@ def bar_plot(axes: Axes, df: pd.DataFrame, title: str) -> None:
              color="#7AC5CD", label="No resample", edgecolor="black", linewidth=1.0)
     axes.legend(fontsize=FONTSIZE)
     axes.set_xticks(labels)
-    axes.tick_params(axis='x', rotation=DEGREES)
-    axes.set_xticklabels([tick_label.replace(", ", ",\n").replace(" and ", "\nand ") for tick_label in under.index])
-    axes.set_ylabel("F1-score, M1 prediction")
+    axes.tick_params(axis='x', rotation=DEGREES, labelsize=FONTSIZE)
+    axes.set_xticklabels([tick_label.replace(" +", "\n+").replace(" -", "\n-") for tick_label in under.index])
+    axes.set_ylabel("F1-score, M1 prediction", fontsize=FONTSIZE)
     axes.set_title("{}\n".format(title), fontsize=TITLESIZE)
     return
 
