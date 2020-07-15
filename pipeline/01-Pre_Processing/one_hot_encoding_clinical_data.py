@@ -43,7 +43,7 @@ def encode_sex(clinical_data: pd.DataFrame) -> None:
     return
 
 
-def encode_smoking_h(clinical_data: pd.DataFrame) -> str:
+def encode_smoking_h(clinical_data: pd.DataFrame) -> pd.DataFrame:
     """
     Encoding smoking history column on clinical_data
 
@@ -51,16 +51,18 @@ def encode_smoking_h(clinical_data: pd.DataFrame) -> str:
     :return: Return detail of encoded categorizes
     """
     smoking_h = encoder.fit_transform(pd.DataFrame(clinical_data["SMOKING_HISTORY"]).replace(np.nan, "None")).toarray()
-    detail = "Smoking History Categories:\n"
+    detail = pd.DataFrame({}, columns=["Attribute", "Category", "Encoding name"])
     for i, cat in enumerate(encoder.categories_[0]):
         if cat != "None":
-            detail += "\tcat{}: {}\n".format(i, cat)
+            detail = detail.append({"Attribute": "Smoking History",
+                                    "Category": cat,
+                                    "Encoding name": "smoke_h_cat_{}".format(i)}, ignore_index=True)
             clinical_data.insert(4 + i, "smoke_h_cat_{}".format(i), smoking_h[:, i], True)
     clinical_data.drop(columns=["SMOKING_HISTORY"], inplace=True)
     return detail
 
 
-def encode_tumor_stage(clinical_data: pd.DataFrame, detail: str) -> str:
+def encode_tumor_stage(clinical_data: pd.DataFrame, detail: pd.DataFrame) -> pd.DataFrame:
     """
     Encoding smoking history column on clinical_data
 
@@ -69,10 +71,11 @@ def encode_tumor_stage(clinical_data: pd.DataFrame, detail: str) -> str:
     :return: Return detail updated
     """
     stage = encoder.fit_transform(pd.DataFrame(clinical_data["STAGE"]).replace(np.nan, "None")).toarray()
-    detail += "Stage Categories:\n"
     for i, cat in enumerate(encoder.categories_[0]):
         if cat != "None":
-            detail += "\tcat{}: {}\n".format(i, cat)
+            detail = detail.append({"Attribute": "Stage",
+                                    "Category": cat,
+                                    "Encoding name": "stage_cat_{}".format(i)}, ignore_index=True)
             clinical_data.insert(4 + i, "stage_cat_{}".format(i), stage[:, i], True)
     clinical_data.drop(columns=["STAGE"], inplace=True)
     return detail
@@ -94,14 +97,8 @@ if __name__ == '__main__':
     # Stage
     details = encode_tumor_stage(data, details)
 
-    for file_name, content in zip(["Encoded_Clinical_Data",
-                                   "Encoded_No_Stage_Data"],
-                                  [details, no_stage_details]):
-        with open(
-            os.path.join(DATA, "{}.txt".format(file_name)),
-            "w", encoding="utf-8"
-        ) as file:
-            file.write(content)
+    details.to_csv(os.path.join(DATA, "Encoded_Clinical_Data.txt"), sep="\t", index=False)
+    no_stage_details.to_csv(os.path.join(DATA, "Encoded_No_Stage_Data.txt"), sep="\t", index=False)
 
     data.dropna(inplace=True)
     no_stage_data.dropna(inplace=True)

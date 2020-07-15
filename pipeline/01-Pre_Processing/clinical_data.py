@@ -24,6 +24,7 @@ data = pd.concat([data_patient, data_sample], axis=1, join="inner")
 data.set_index("SAMPLE_ID", inplace=True)
 data = pd.concat([data, m_stage], axis=1, join="inner")
 
+
 if __name__ == '__main__':
     # "Raw" clinical data
     data.to_csv(os.path.join(DATA, "clinical_data", "clinical_data.tsv"), sep="\t")

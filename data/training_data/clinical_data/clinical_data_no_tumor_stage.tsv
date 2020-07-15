@@ -98,17 +98,13 @@ TCGA-49-4505-01A-01D-1931-08	61.0	Female	Current Reformed Smoker For < Or = 15 Y
 TCGA-49-4506-01A-01D-1265-08	68.0	Female	Current Smoker	100.0	M0
 TCGA-49-4507-01A-01D-1265-08	73.0	Female	Current Reformed Smoker For < Or = 15 Years	78.0	M0
 TCGA-49-4510-01A-01D-1265-08	51.0	Female	Current Smoker	55.5	M0
-TCGA-49-4512-01A-21D-1855-08	69.0	Female	Lifelong Non-Smoker		M1
 TCGA-49-4514-01A-21D-1855-08	79.0	Female	Current Reformed Smoker For > 15 Years	65.0	M0
 TCGA-49-6742-01A-11D-1855-08	70.0	Male	Current Reformed Smoker For > 15 Years	10.0	M0
-TCGA-49-6743-01A-11D-1855-08	81.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M1
 TCGA-49-6744-01A-11D-1855-08	64.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M1
 TCGA-49-6745-01A-11D-1855-08	82.0	Male	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-49-6761-01A-31D-1945-08	68.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M1
 TCGA-49-6767-01A-11D-1855-08	46.0	Female	Current Smoker	30.0	M0
 TCGA-49-AAQV-01A-11D-A397-08	63.0	Female	Lifelong Non-Smoker		M1
 TCGA-49-AAR3-01A-11D-A410-08	69.0	Male			M1
-TCGA-49-AAR4-01A-12D-A410-08	51.0	Male	Current Smoker	35.0	M1
 TCGA-49-AAR9-01A-21D-A410-08	61.0	Male	Current Smoker		M0
 TCGA-49-AARE-01A-11D-A410-08	51.0	Female	Current Reformed Smoker For < Or = 15 Years	15.0	M0
 TCGA-49-AARN-01A-21D-A410-08	56.0	Female	Current Reformed Smoker, Duration Not Specified 		M0
@@ -161,7 +157,6 @@ TCGA-55-6642-01A-11D-1855-08	63.0	Male	Current Smoker		M0
 TCGA-55-6712-01A-11D-1855-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years		M1
 TCGA-55-6968-01A-11D-1945-08	61.0	Male	Current Smoker		M1
 TCGA-55-6969-01A-11D-1945-08	52.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-55-6970-01A-11D-1945-08	67.0	Female	Current Reformed Smoker For < Or = 15 Years		M1
 TCGA-55-6971-01A-11D-1945-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
 TCGA-55-6972-01A-11D-1945-08	72.0	Male	Current Smoker		M0
 TCGA-55-6975-01A-11D-1945-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
@@ -177,7 +172,6 @@ TCGA-55-6986-01A-11D-1945-08	74.0	Female	Lifelong Non-Smoker		M0
 TCGA-55-6987-01A-11D-1945-08	77.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
 TCGA-55-7227-01A-11D-2036-08	77.0	Male	Current Reformed Smoker For > 15 Years		M1
 TCGA-55-7281-01A-11D-2036-08	70.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-55-7283-01A-11D-2036-08	76.0	Female	Current Reformed Smoker For > 15 Years	5.0	M1
 TCGA-55-7284-01B-11D-2238-08	74.0	Male	Current Reformed Smoker For > 15 Years		M0
 TCGA-55-7570-01A-11D-2036-08	60.0	Male	Current Smoker		M0
 TCGA-55-7573-01A-11D-2036-08	72.0	Female	Current Reformed Smoker For > 15 Years		M0
@@ -186,7 +180,6 @@ TCGA-55-7576-01A-11D-2063-08	54.0	Male	Current Smoker		M0
 TCGA-55-7724-01A-11D-2167-08	76.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
 TCGA-55-7725-01A-11D-2167-08	68.0	Female	Current Reformed Smoker For > 15 Years	16.0	M0
 TCGA-55-7726-01A-11D-2167-08	72.0	Female	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-55-7727-01A-11D-2167-08	70.0	Male	Current Smoker		M1
 TCGA-55-7728-01A-11D-2184-08	64.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
 TCGA-55-7815-01A-11D-2167-08	76.0	Male	Lifelong Non-Smoker		M0
 TCGA-55-7903-01A-11D-2167-08	64.0	Male	Current Smoker	40.0	M0
@@ -213,7 +206,6 @@ TCGA-55-8207-01A-11D-2238-08	73.0	Male	Current Reformed Smoker For > 15 Years		M
 TCGA-55-8208-01A-11D-2238-08	73.0	Female	Current Smoker	50.0	M0
 TCGA-55-8299-01A-11D-2284-08	61.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
 TCGA-55-8301-01A-11D-2284-08	58.0	Male	Current Smoker	100.0	M0
-TCGA-55-8505-01A-11D-2393-08	62.0	Male	Lifelong Non-Smoker		M1
 TCGA-55-8506-01A-11D-2393-08	62.0	Female	Current Smoker		M0
 TCGA-55-8507-01A-11D-2393-08	53.0	Male	Current Smoker	120.0	M0
 TCGA-55-8508-01A-11D-2393-08	60.0	Female	Current Smoker		M1
@@ -223,14 +215,12 @@ TCGA-55-8512-01A-11D-2393-08	41.0	Male	Current Smoker	19.0	M1
 TCGA-55-8513-01A-11D-2393-08	77.0	Female	Lifelong Non-Smoker		M0
 TCGA-55-8514-01A-11D-2393-08	70.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
 TCGA-55-8614-01A-11D-2393-08	76.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-55-8615-01A-11D-2393-08	67.0	Male	Current Smoker	67.0	M1
 TCGA-55-8616-01A-11D-2393-08	58.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
 TCGA-55-8619-01A-11D-2393-08	72.0	Female	Lifelong Non-Smoker		M0
 TCGA-55-8620-01A-11D-2393-08	60.0	Male	Current Reformed Smoker For < Or = 15 Years	154.0	M1
 TCGA-55-8621-01A-11D-2393-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
 TCGA-55-A48X-01A-11D-A24D-08	63.0	Female	Current Reformed Smoker For < Or = 15 Years	36.0	M0
 TCGA-55-A48Y-01A-11D-A24D-08	69.0	Male	Current Smoker	50.0	M0
-TCGA-55-A48Z-01A-12D-A24P-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M1
 TCGA-55-A490-01A-11D-A24D-08	78.0	Male	Current Reformed Smoker For > 15 Years	34.0	M0
 TCGA-55-A491-01A-11D-A24D-08	81.0	Female	Current Reformed Smoker For > 15 Years	45.0	M0
 TCGA-55-A492-01A-11D-A24D-08	70.0	Female	Current Reformed Smoker For > 15 Years	35.0	M0
@@ -271,6 +261,7 @@ TCGA-67-3771-01A-01D-1040-01	77.0	Female	Current Reformed Smoker For < Or = 15 Y
 TCGA-67-3772-01A-01W-0928-08	82.0	Female	Lifelong Non-Smoker		M0
 TCGA-67-3773-01A-01D-1040-01	84.0	Female	Current Reformed Smoker For > 15 Years		M0
 TCGA-67-3774-01A-01D-1040-01	73.0	Female	Current Reformed Smoker For > 15 Years		M0
+TCGA-67-4679-01B-01D-1753-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
 TCGA-67-6215-01A-11D-1753-08	52.0	Female	Lifelong Non-Smoker		M0
 TCGA-67-6216-01A-11D-1753-08	57.0	Female	Lifelong Non-Smoker		M0
 TCGA-67-6217-01A-11D-1753-08	73.0	Female	Current Reformed Smoker For > 15 Years		M0
@@ -280,7 +271,6 @@ TCGA-69-7763-01A-11D-2167-08	69.0	Male	Current Reformed Smoker For < Or = 15 Yea
 TCGA-69-7764-01A-11D-2167-08	75.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
 TCGA-69-7765-01A-11D-2167-08	56.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
 TCGA-69-7973-01A-11D-2184-08	42.0	Female	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-69-7974-01A-11D-2184-08	54.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M1
 TCGA-69-7978-01A-11D-2184-08	59.0	Male	Current Smoker	80.0	M1
 TCGA-69-7979-01A-11D-2184-08	71.0	Female	Current Smoker	28.0	M0
 TCGA-69-7980-01A-11D-2184-08	69.0	Female	Current Reformed Smoker For < Or = 15 Years	80.0	M0
@@ -391,8 +381,6 @@ TCGA-91-6835-01A-11D-1855-08	81.0	Female	Current Reformed Smoker For > 15 Years	
 TCGA-91-6836-01A-21D-1855-08	52.0	Female	Current Smoker	50.0	M0
 TCGA-91-6840-01A-11D-1945-08	59.0	Female	Current Reformed Smoker For > 15 Years	50.0	M0
 TCGA-91-6847-01A-11D-1945-08	62.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-91-6848-01A-11D-1945-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years		M1
-TCGA-91-6849-01A-11D-1945-08	75.0	Female	Current Reformed Smoker For > 15 Years	30.0	M1
 TCGA-91-7771-01A-11D-2167-08	62.0	Male	Current Reformed Smoker For < Or = 15 Years	75.0	M0
 TCGA-91-8497-01A-11D-2393-08	75.0	Female	Lifelong Non-Smoker		M0
 TCGA-91-8499-01A-11D-2393-08	76.0	Female	Current Smoker	90.0	M0
@@ -432,7 +420,6 @@ TCGA-97-8175-01A-11D-2284-08	55.0	Female	Current Reformed Smoker For > 15 Years	
 TCGA-97-8176-01A-11D-2393-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
 TCGA-97-8177-01A-11D-2284-08	59.0	Female	Lifelong Non-Smoker		M0
 TCGA-97-8179-01A-11D-2284-08	72.0	Male	Current Reformed Smoker For > 15 Years	60.0	M0
-TCGA-97-8547-01A-11D-2393-08	78.0	Female	Lifelong Non-Smoker		M1
 TCGA-97-8552-01A-11D-2393-08	55.0	Female	Lifelong Non-Smoker		M0
 TCGA-97-A4LX-01A-11D-A24P-08	81.0	Male	Current Reformed Smoker For > 15 Years	120.0	M0
 TCGA-97-A4M0-01A-11D-A24P-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	34.0	M0
@@ -466,10 +453,8 @@ TCGA-MN-A4N5-01A-11D-A24P-08	63.0	Male	Current Reformed Smoker For < Or = 15 Yea
 TCGA-MP-A4SW-01A-21D-A24P-08	53.0	Male	Current Reformed Smoker For > 15 Years	15.0	M0
 TCGA-MP-A4T2-01A-11D-A24P-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	75.0	M0
 TCGA-MP-A4T4-01A-11D-A25L-08	68.0	Female	Current Smoker	50.0	M0
-TCGA-MP-A4T6-01A-32D-A25L-08	76.0	Female	Current Reformed Smoker For > 15 Years	50.0	M1
 TCGA-MP-A4T7-01A-11D-A24P-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M1
 TCGA-MP-A4T8-01A-11D-A24P-08	68.0	Male	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-MP-A4T9-01A-11D-A24P-08	54.0	Female	Current Reformed Smoker For < Or = 15 Years	24.0	M1
 TCGA-MP-A4TA-01A-21D-A24P-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	55.0	M0
 TCGA-MP-A4TC-01A-11D-A24P-08	77.0	Male	Current Reformed Smoker For > 15 Years	125.0	M0
 TCGA-MP-A4TD-01A-32D-A25L-08	71.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
@@ -566,7 +551,6 @@ TCGA-33-4583-01A-01D-1441-08	73.0	Male	Current Reformed Smoker For < Or = 15 Yea
 TCGA-33-4586-01A-01D-1441-08	57.0	Male	Current Reformed Smoker For < Or = 15 Years	108.0	M0
 TCGA-33-4589-01A-01D-1441-08	62.0	Female	Current Smoker	45.0	M0
 TCGA-33-6737-01A-11D-1817-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-33-6738-01A-11D-1945-08	80.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M1
 TCGA-33-A4WN-01A-11D-A25L-08	60.0	Male	Current Smoker	60.0	M0
 TCGA-33-A5GW-01A-11D-A27K-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M1
 TCGA-33-AAS8-01A-11D-A401-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
@@ -668,7 +652,6 @@ TCGA-56-8625-01A-11D-2395-08	66.0	Female	Current Smoker		M1
 TCGA-56-8626-01A-11D-2395-08	59.0	Male	Current Smoker	50.0	M0
 TCGA-56-8628-01A-11D-2395-08	78.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
 TCGA-56-8629-01A-11D-2395-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	66.0	M0
-TCGA-56-A49D-01A-11D-A24D-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	53.0	M1
 TCGA-56-A4BW-01A-11D-A24D-08	55.0	Male	Current Reformed Smoker For < Or = 15 Years	120.0	M0
 TCGA-56-A4BX-01A-11D-A24D-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	83.0	M0
 TCGA-56-A4BY-01A-11D-A24D-08	66.0	Male	Current Reformed Smoker For < Or = 15 Years	65.0	M0
@@ -851,7 +834,6 @@ TCGA-90-6837-01A-11D-1945-08	64.0	Male	Current Reformed Smoker For < Or = 15 Yea
 TCGA-90-A4ED-01A-31D-A257-08	69.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
 TCGA-90-A4EE-01A-11D-A257-08	53.0	Male	Current Smoker	68.0	M1
 TCGA-90-A59Q-01A-11D-A26M-08	61.0	Female	Current Smoker	80.0	M1
-TCGA-92-8063-01A-11D-2244-08	52.0	Male	Current Smoker	74.0	M1
 TCGA-92-8064-01A-11D-2244-08	58.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
 TCGA-92-8065-01A-11D-2244-08	74.0	Female	Current Reformed Smoker For > 15 Years	14.0	M0
 TCGA-94-7033-01A-11D-1945-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
@@ -961,7 +943,6 @@ TCGA-NK-A5D1-01A-11D-A26M-08	57.0	Male	Current Reformed Smoker For > 15 Years	90
 TCGA-NK-A7XE-01A-12D-A401-08	66.0	Male	Current Reformed Smoker, Duration Not Specified 	80.0	M0
 TCGA-O2-A52N-01A-11D-A26M-08	78.0	Male	Current Reformed Smoker For < Or = 15 Years	4.125	M0
 TCGA-O2-A52Q-01A-11D-A26M-08	44.0	Female	Current Smoker	1.0	M1
-TCGA-O2-A52S-01A-11D-A25L-08	57.0	Female	Current Reformed Smoker For < Or = 15 Years	3.0	M1
 TCGA-O2-A52V-01A-31D-A25L-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	1.0	M0
 TCGA-O2-A52W-01A-11D-A26M-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	2.5	M0
 TCGA-O2-A5IB-01A-11D-A27K-08	71.0	Female	Current Reformed Smoker For < Or = 15 Years	2.5	M1

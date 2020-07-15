@@ -15,7 +15,7 @@ clinical_data_no_stage.drop(columns="M_STAGE", inplace=True)
 mutated_genes = pd.read_csv(os.path.join(DATA, "mutated_genes", "mutated_genes.tsv"),
                             sep="\t", index_col="SAMPLE_ID")
 tml = pd.read_csv(os.path.join(DATA, "mutated_genes", "tml.tsv"),
-                        sep="\t", index_col="SAMPLE_ID")
+                  sep="\t", index_col="SAMPLE_ID")
 
 
 if __name__ == '__main__':

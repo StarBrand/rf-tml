@@ -88,7 +88,7 @@ def undersample(x_train: pd.DataFrame, y_train: pd.Series,
     under, over = abstract_resample(x_train, y_train, column_name)
     class_undersampled = resample(over,
                                   replace=True,
-                                  n_samples=under,
+                                  n_samples=len(under),
                                   random_state=CONFIG["seed"])
     x_new = pd.concat([class_undersampled, under])
     x_train = x_new.drop(columns=[column_name])
@@ -113,6 +113,7 @@ def important_feature(x_train: pd.DataFrame, y_train: pd.Series) -> dict:
 
 
 if __name__ == "__main__":
+    encoding = pd.read_csv(os.path.join(DATA_PATH, "clinical_data", "Encoded_Clinical_Data.txt"), sep="\t")
     for data, name in selected_data:
         print("\tUsing {} to classify".format(name))
         input_data = data.drop(columns=LABEL)
@@ -123,8 +124,34 @@ if __name__ == "__main__":
         under_sample = important_feature(*undersample(input_data, labels, LABEL))
         print("\t\tResample: {}".format("Oversample"))
         over_sample = important_feature(*oversample(input_data, labels, LABEL))
-        pd.DataFrame({
+        feature_importance = pd.DataFrame({
             "No Resample": no_resample,
             "Undersample": under_sample,
             "Oversample": over_sample
-        }).to_csv(os.path.join(META_DATA, "feature_importances_{}.csv".format(name)), sep=",")
+        })
+        for a_sample in [no_resample, under_sample, over_sample]:
+            a_sample["Sex"] = a_sample["female"] + a_sample["male"]
+            a_sample.pop("female")
+            a_sample.pop("male")
+            a_sample["Age"] = a_sample["older"] + a_sample["younger"]
+            a_sample.pop("older")
+            a_sample.pop("younger")
+            for attribute in pd.unique(encoding["Attribute"]):
+                a_sample[attribute] = 0
+                for cat in encoding[encoding["Attribute"] == attribute]["Encoding name"]:
+                    a_sample[attribute] += a_sample[cat]
+                    a_sample.pop(cat)
+        feature_importance_decoded = pd.DataFrame({
+            "No Resample": no_resample,
+            "Undersample": under_sample,
+            "Oversample": over_sample
+        })
+        decoding = encoding.set_index("Encoding name")
+        feature_importance.rename(index=decoding["Category"].to_dict(), inplace=True)
+        feature_importance.sort_values(by="No Resample", axis=0, ascending=False, inplace=True)
+        feature_importance.to_csv(os.path.join(META_DATA, "feature_importance_{}.tsv".format(name)), sep="\t")
+        feature_importance_decoded.sort_values(by="No Resample", axis=0, ascending=False, inplace=True)
+        feature_importance_decoded.to_csv(
+            os.path.join(META_DATA, "feature_importance_decoded_{}.tsv".format(name)),
+            sep="\t"
+        )

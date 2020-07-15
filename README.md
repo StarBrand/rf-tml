@@ -45,6 +45,8 @@ pip install -r requirements.txt
 
 ![preprocessing](https://github.com/StarBrand/rf-tml/wiki/Pre-Processing.png)
 
+*Note:* `data_mutations_extended.txt`, file that contains the data extracted on [`mutated_genes.tsv`](https://github.com/StarBrand/rf-tml/data/training_data/mutated_genes/mutated_genes.tsv) and [`tml.tsv`](https://github.com/StarBrand/rf-tml/data/training_data/mutated_genes/tml.tsv), is missing on this repository due to excessive size (0.98 GB). However, it can be downloaded from [cBioPortal](https://www.cbioportal.org/study/summary?id=nsclc_tcga_broad_2016). Files used on this study are `data_mutation_extended.txt`, `data_clinical_patient.txt` and `data_clinical_sample.txt`.
+
 Data (on [`training_data`](https://github.com/StarBrand/rf-tml/tree/master/data/training_data) folder) was generated from data saved on [`raw_data`](https://github.com/StarBrand/rf-tml/tree/master/data/raw_data). In case you want to regenerate, execute:
 
 ````bash
@@ -122,7 +124,7 @@ This generate 4 plot:
 
 ![featureimportance](https://github.com/StarBrand/rf-tml/wiki/Feature-Importance.png)
 
-To extract feature importences:
+To extract feature importance:
 
 ````bash
 cd 04-Feature-Importance
@@ -130,3 +132,4 @@ python extract_feature_importance.py
 cd ..
 ````
 
+This generates `.tsv` files on folder [meta_data](https://github.com/StarBrand/rf-tml/data/meta_data).
