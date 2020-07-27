@@ -11,6 +11,8 @@ META_DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "meta_data")
 
 FIGSIZE = (6, 4)
 FONTSIZE = 10
+MARKER_SIZE = 25
+DELTA = 5.e-3
 
 cf_tml = pd.read_csv(os.path.join(META_DATA, "feature_importance_decoded_CF + TML.tsv"), sep="\t",
                      index_col=0)
@@ -26,8 +28,10 @@ def plot_no_resample(axes: Axes, data: pd.DataFrame) -> None:
     :param data: Data to plot
     :return: None, alter axes
     """
-    axes.barh(data.index, data["No Resample"], height=[0.5]*len(data),
-              color="#7AC5CD", label="No resample", edgecolor="black", linewidth=1.0)
+    axes.barh(data.index, data["No Resample"] - DELTA, height=[0.]*len(data),
+              edgecolor="black", linewidth=1.0)
+    axes.scatter(data["No Resample"], data.index, marker='o',
+    	color="#0080FF", s=MARKER_SIZE, alpha=1.0)
     axes.set_xlabel("Feature Importance", fontsize=FONTSIZE)
     return
 
