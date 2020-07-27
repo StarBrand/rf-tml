@@ -151,6 +151,7 @@ if __name__ == "__main__":
         feature_importance.sort_values(by="No Resample", axis=0, ascending=False, inplace=True)
         feature_importance.to_csv(os.path.join(META_DATA, "feature_importance_{}.tsv".format(name)), sep="\t")
         feature_importance_decoded.sort_values(by="No Resample", axis=0, ascending=False, inplace=True)
+        feature_importance_decoded.rename(index={"SMOKING_PACK_YEARS": "Smoking Pack Years"}, inplace=True)
         feature_importance_decoded.to_csv(
             os.path.join(META_DATA, "feature_importance_decoded_{}.tsv".format(name)),
             sep="\t"

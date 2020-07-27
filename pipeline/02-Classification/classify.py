@@ -43,7 +43,7 @@ if __name__ == "__main__":
                             name += "_pca"
                             pca_log = "With PCA"
                         random_forest = RandomForest(name)
-                        for validation, val_name in [("split", "test set"), ("cv", "5-Fold Cross Validation")]:
+                        for validation, val_name in [("split", "Hold-out"), ("cv", "5-Fold Cross Validation")]:
                             for resampling, re_name in [("none", "No resample"),
                                                         ("under", "undersampling"),
                                                         ("over", "oversampling")]:

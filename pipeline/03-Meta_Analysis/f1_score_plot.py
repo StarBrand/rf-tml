@@ -8,7 +8,6 @@ from matplotlib.axes import Axes
 
 FIGSIZE = (12, 8)
 FONTSIZE = 14
-TITLESIZE = 16
 DEGREES = 80
 
 PATH = os.path.dirname(os.path.abspath(__file__))
@@ -20,11 +19,11 @@ data = data[~ data["PCA"]]
 to_plot = {
     "pca": {
         "cv": data_pca[data_pca["Validation Method"] == "5-Fold CrossValidation"],
-        "split": data_pca[data_pca["Validation Method"] == "Test Set"]
+        "split": data_pca[data_pca["Validation Method"] == "Hold-out"]
     },
     "no_pca": {
         "cv": data[data["Validation Method"] == "5-Fold CrossValidation"],
-        "split": data[data["Validation Method"] == "Test Set"]
+        "split": data[data["Validation Method"] == "Hold-out"]
     }
 }
 
@@ -34,13 +33,12 @@ fig_pca, ax_pca = plt.subplots(figsize=FIGSIZE)
 fig_pca_cv, ax_pca_cv = plt.subplots(figsize=FIGSIZE)
 
 
-def bar_plot(axes: Axes, df: pd.DataFrame, title: str) -> None:
+def bar_plot(axes: Axes, df: pd.DataFrame) -> None:
     """
     Does bar plot of df (pca and with no pca)
 
     :param axes: Axes to plot data
     :param df: DataFrame to put on data
-    :param title: Title of graph
     :return: None, alter axes
     """
     width = 1.0 / 3.5
@@ -59,29 +57,28 @@ def bar_plot(axes: Axes, df: pd.DataFrame, title: str) -> None:
     axes.tick_params(axis='x', rotation=DEGREES, labelsize=FONTSIZE)
     axes.set_xticklabels([tick_label.replace(" +", "\n+").replace(" -", "\n-") for tick_label in under.index])
     axes.set_ylabel("F1-score, M1 prediction", fontsize=FONTSIZE)
-    axes.set_title("{}\n".format(title), fontsize=TITLESIZE)
     return
 
 
 if __name__ == "__main__":
     # No PCA
-    # Test Set
-    bar_plot(ax, to_plot["no_pca"]["split"], "F1-score of different input data")
+    # Hold-out
+    bar_plot(ax, to_plot["no_pca"]["split"])
     fig.tight_layout()
     fig.savefig(os.path.join(META_DATA, "f1-score.png"))
 
     # Cross Validation
-    bar_plot(ax_cv, to_plot["no_pca"]["cv"], "F1-score of different input data")
+    bar_plot(ax_cv, to_plot["no_pca"]["cv"])
     fig_cv.tight_layout()
     fig_cv.savefig(os.path.join(META_DATA, "f1-score_cv.png"))
 
     # PCA
-    # Test Set
-    bar_plot(ax_pca, to_plot["pca"]["split"], "F1-score of different input data")
+    # Hold-out
+    bar_plot(ax_pca, to_plot["pca"]["split"])
     fig_pca.tight_layout()
     fig_pca.savefig(os.path.join(META_DATA, "f1-score_pca.png"))
 
     # Cross Validation
-    bar_plot(ax_pca_cv, to_plot["pca"]["cv"], "F1-score of different input data")
+    bar_plot(ax_pca_cv, to_plot["pca"]["cv"])
     fig_pca_cv.tight_layout()
     fig_pca_cv.savefig(os.path.join(META_DATA, "f1-score_pca_cv.png"))

@@ -22,7 +22,7 @@ matplotlib.use('Agg')
 
 TYPE_OF_TEST = {
     "cv": "{}-Fold_CrossValidation".format(CONFIG["k-Fold"]),
-    "split": "Test_Set"
+    "split": "Hold-out"
 }
 RESAMPLE = {
     "under": "Undersample",
@@ -61,7 +61,7 @@ class Model(ABC):
         :param labels: Labeled results to predict
         :param resampling: Use all data ("none") or resampling by using oversample ("over")
             or undersample ("under")
-        :param validation: Validate model separating train/test set ("split") or using
+        :param validation: Validate model using Hold-out ("split") or using
             cross validation ("cv")
         :return: None, generate output
         """
@@ -175,7 +175,7 @@ class Model(ABC):
 
         :param c_m: Confusion matrix got
         :param labels: Labels name
-        :param validation: By using cross validation ("cv") or train-test ("split")
+        :param validation: By using cross validation ("cv") or hold-out ("split")
         :param resampling: Resampling method ("under", "over", "none")
         :return: None, generate output
         """
