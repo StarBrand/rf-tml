@@ -18,6 +18,11 @@ cf_tml = pd.read_csv(os.path.join(META_DATA, "feature_importance_decoded_CF + TM
                      index_col=0)
 cf = pd.read_csv(os.path.join(META_DATA, "feature_importance_decoded_CF.tsv"), sep="\t",
                  index_col=0)
+cf_tml_un = pd.read_csv(os.path.join(META_DATA, "feature_importance_CF + TML.tsv"), sep="\t",
+                                index_col=0).iloc[0:5].iloc[::-1]
+cf_un = pd.read_csv(os.path.join(META_DATA, "feature_importance_CF.tsv"), sep="\t",
+                            index_col=0).iloc[0:5].iloc[::-1]
+
 
 
 def plot_no_resample(axes: Axes, data: pd.DataFrame) -> None:
@@ -76,6 +81,13 @@ if __name__ == "__main__":
     fig_re.tight_layout()
     fig_re.savefig(os.path.join(META_DATA, "feature_importance_CF_resample.png"))
 
+    # Un-decoded
+    fig_un, ax_un = plt.subplots(figsize=FIGSIZE)
+    plot_no_resample(ax_un, cf_un)
+    fig_un.tight_layout()
+    fig_un.savefig(os.path.join(META_DATA, "feature_importance_CF_undecoded.png"))
+
+
     # Clinical Feature + TML
     # No resample
     fig_tml, ax_tml = plt.subplots(figsize=FIGSIZE)
@@ -88,3 +100,9 @@ if __name__ == "__main__":
     plot_resample(ax_tml_re, cf)
     fig_tml_re.tight_layout()
     fig_tml_re.savefig(os.path.join(META_DATA, "feature_importance_CF+TML_resample.png"))
+
+    # Un-decoded
+    fig_tml_un, ax_tml_un = plt.subplots(figsize=FIGSIZE)
+    plot_no_resample(ax_tml_un, cf_tml_un)
+    fig_tml_un.tight_layout()
+    fig_tml_un.savefig(os.path.join(META_DATA, "feature_importance_CF+TML_undecoded.png"))

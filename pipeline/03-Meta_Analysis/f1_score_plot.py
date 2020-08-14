@@ -13,7 +13,7 @@ DEGREES = 80
 PATH = os.path.dirname(os.path.abspath(__file__))
 META_DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "meta_data")
 
-data = pd.read_csv(os.path.join(META_DATA, "metrics.tsv"), header=0, index_col=0, sep="\t")
+data = pd.read_csv(os.path.join(META_DATA, "selected_metrics.tsv"), header=0, index_col=0, sep="\t")
 data_pca = data[data["PCA"]]
 data = data[~ data["PCA"]]
 to_plot = {

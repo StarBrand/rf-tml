@@ -9,6 +9,10 @@ DATA = os.path.join(PATH, os.pardir, os.pardir, "data")
 RESULTS = os.path.join(DATA, "metrics")
 META_DATA = os.path.join(DATA, "meta_data")
 
+SELECTED = [
+    "CF", "CF + TML", "TML", "CF + TML - TS"
+]
+
 os.makedirs(META_DATA, exist_ok=True)
 
 data = pd.DataFrame({}, columns=["Clinical Data", "Mutated Genes",  # Data used to train
@@ -75,3 +79,8 @@ if __name__ == "__main__":
     for folder in os.listdir(RESULTS):
         data = add_results(folder, data)
     data.to_csv(os.path.join(META_DATA, "metrics.tsv"), sep="\t")
+
+    # Selected model to show
+    (data.loc[data["Label"].isin(SELECTED)]).to_csv(
+        os.path.join(META_DATA, "selected_metrics.tsv"), sep="\t"
+    )

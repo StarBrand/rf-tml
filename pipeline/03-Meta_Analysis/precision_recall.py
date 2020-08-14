@@ -14,7 +14,7 @@ MARKER_SIZE = 200
 PATH = os.path.dirname(os.path.abspath(__file__))
 META_DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "meta_data")
 
-data = pd.read_csv(os.path.join(META_DATA, "metrics.tsv"), header=0, index_col=0, sep="\t")
+data = pd.read_csv(os.path.join(META_DATA, "selected_metrics.tsv"), header=0, index_col=0, sep="\t")
 data_cv = data[data["Validation Method"] == "5-Fold CrossValidation"]
 data = data[data["Validation Method"] == "Hold-out"]
 
@@ -32,15 +32,15 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
     :return: None, alter axes
     """
     legend1 = None
-    markers = ["s", "^", "o", "P", "p", "X", "*"]
-    labels = sorted(pd.unique(df["Label"]))
+    markers = ["s", "o", "^", "*"]
+    labels = sorted(pd.unique(df.index))
     handles = list()
     for index, label in enumerate(labels):
         handles.append(mlines.Line2D([], [], color="#7AC5CD", marker=markers[index], linestyle="None",
                                      markersize=MARKER_SIZE // 10, label=label))
-        if len(handles) == 7:
-            legend1 = axes.legend(handles=handles, fontsize=FONTSIZE, loc='upper center', bbox_to_anchor=(0.27, -0.1),
-                                  ncol=3, fancybox=True, shadow=True)
+        if len(handles) == 4:
+            legend1 = axes.legend(handles=handles, fontsize=FONTSIZE, loc='upper left',
+                                  ncol=1, fancybox=True, shadow=True)
             handles = list()
         for resampling, color in [("Oversample", "#9ACD32"), ("Undersample", "#C71585"), ("None", "#7AC5CD")]:
             if index == len(labels) - 1:
@@ -50,6 +50,7 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
                 if index == len(labels) - 1 and resampling == "None":
                     graphical_params = {
                         "color": "#7AC5CD", "marker": markers[0], "linestyle": "None",
+                        "markeredgecolor": "r", "markeredgewidth": 2.0,
                         "markersize": MARKER_SIZE // 10, "label": "No PCA"
                     }
                     if pca:
@@ -61,7 +62,7 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
                     datum = df[
                         (df["PCA"] == pca) &
                         (df["Resampling"] == resampling) &
-                        (df["Label"] == label)
+                        (df.index == label)
                     ].iloc[0]
                     graphical_params = {
                         "facecolor": color,
@@ -72,7 +73,7 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
                         graphical_params["edgecolor"] = "k"
                         graphical_params["linewidth"] = 2.0
                     else:
-                        graphical_params["edgecolor"] = "gray"
+                        graphical_params["edgecolor"] = "r"
                         graphical_params["linewidth"] = 2.0
                     axes.scatter(datum["M1: Recall"],
                                  datum["M1: Precision"],
@@ -81,7 +82,7 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
                     pass
     axes.set_xlabel("Recall", fontsize=FONTSIZE)
     axes.set_ylabel("Precision", fontsize=FONTSIZE)
-    axes.legend(handles=handles, fontsize=FONTSIZE, loc='upper center', bbox_to_anchor=(0.75, -0.1),
+    axes.legend(handles=handles, fontsize=FONTSIZE, loc='upper center', bbox_to_anchor=(0.5, -0.1),
                 ncol=2, fancybox=True, shadow=True)
     figure.add_artist(legend1)
     return
