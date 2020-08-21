@@ -9,7 +9,7 @@ from matplotlib.figure import Figure
 
 FIGSIZE = (12, 8)
 FONTSIZE = 14
-MARKER_SIZE = 200
+MARKER_SIZE = 300
 
 PATH = os.path.dirname(os.path.abspath(__file__))
 META_DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "meta_data")
@@ -32,12 +32,12 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
     :return: None, alter axes
     """
     legend1 = None
-    markers = ["s", "o", "^", "*"]
+    markers = ["s", "o", "^", "P"]
     labels = sorted(pd.unique(df.index))
     handles = list()
     for index, label in enumerate(labels):
         handles.append(mlines.Line2D([], [], color="#7AC5CD", marker=markers[index], linestyle="None",
-                                     markersize=MARKER_SIZE // 10, label=label))
+                                     markersize=20, label=label))
         if len(handles) == 4:
             legend1 = axes.legend(handles=handles, fontsize=FONTSIZE, loc='upper left',
                                   ncol=1, fancybox=True, shadow=True)
@@ -45,13 +45,13 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
         for resampling, color in [("Oversample", "#9ACD32"), ("Undersample", "#C71585"), ("None", "#7AC5CD")]:
             if index == len(labels) - 1:
                 handles.append(mlines.Line2D([], [], color=color, marker=markers[0], linestyle="None",
-                                             markersize=MARKER_SIZE // 10, label="Resample: {}".format(resampling)))
+                                             markersize=20, label="Resample: {}".format(resampling)))
             for pca in [False, True]:
                 if index == len(labels) - 1 and resampling == "None":
                     graphical_params = {
                         "color": "#7AC5CD", "marker": markers[0], "linestyle": "None",
-                        "markeredgecolor": "r", "markeredgewidth": 2.0,
-                        "markersize": MARKER_SIZE // 10, "label": "No PCA"
+                        "markeredgecolor": "b", "markeredgewidth": 2.0,
+                        "markersize": 20, "label": "No PCA"
                     }
                     if pca:
                         graphical_params["markeredgecolor"] = "k"
@@ -73,7 +73,7 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
                         graphical_params["edgecolor"] = "k"
                         graphical_params["linewidth"] = 2.0
                     else:
-                        graphical_params["edgecolor"] = "r"
+                        graphical_params["edgecolor"] = "b"
                         graphical_params["linewidth"] = 2.0
                     axes.scatter(datum["M1: Recall"],
                                  datum["M1: Precision"],
