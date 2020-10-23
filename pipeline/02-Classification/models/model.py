@@ -2,16 +2,18 @@
 
 import os
 import sys
-import pandas as pd
-import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
 from abc import ABC, abstractmethod
 from copy import deepcopy
-from models import CONFIG
-from sklearn.model_selection import train_test_split, KFold
-from sklearn.utils import resample
+
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
+from sklearn.model_selection import train_test_split, KFold
+
+from models import CONFIG
+from useful_methods import oversample, undersample
 
 PATH = os.path.dirname(os.path.dirname(__file__))
 DATA = os.path.join(*([PATH] + [os.pardir] * 2 + ["data"]))
@@ -72,13 +74,13 @@ class Model(ABC):
             x_train, x_test, y_train, y_test = train_test_split(input_data, labels,
                                                                 test_size=CONFIG["test_size"],
                                                                 random_state=CONFIG["seed"])
-            c_m = self.__train_test(x_train, x_test, y_train, y_test, label_names, resampling)
+            c_m = self.__get_confusion_matrix(x_train, x_test, y_train, y_test, label_names, resampling)
         else:
             sys.exit("Not a valid option")
         self.__save_results(c_m, label_names, validation, resampling)
 
     @staticmethod
-    def __resample(data: pd.DataFrame, labels: np.ndarray, column_name: str,
+    def __resample(data: pd.DataFrame, labels: pd.Series, column_name: str,
                    resampling: str) -> (pd.DataFrame, pd.Series):
         """
         Re-samples data by "resampling" (over or undersampling)
@@ -92,35 +94,16 @@ class Model(ABC):
             labels (pd.Series) resampled
         """
         # Assuming 2 classes
-        class_1 = data[data[column_name] == labels[0]]
-        class_2 = data[data[column_name] == labels[1]]
-        if len(class_1) < len(class_2):
-            under = class_1
-            over = class_2
+        if resampling == "over":
+            return oversample(data, labels, column_name)
+        elif resampling == "under":
+            return undersample(data, labels, column_name)
         else:
-            under = class_2
-            over = class_1
-        if resampling == "under":
-            class_undersampled = resample(over,
-                                          replace=True,
-                                          n_samples=len(under),
-                                          random_state=CONFIG["seed"])
-            x_new = pd.concat([class_undersampled, under])
-        elif resampling == "over":
-            class_oversampled = resample(under,
-                                         replace=True,
-                                         n_samples=len(over),
-                                         random_state=CONFIG["seed"])
-            x_new = pd.concat([class_oversampled, over])
-        else:
-            sys.exit("Not a valid option")
-        x_train = x_new.drop(columns=[column_name])
-        y_train = x_new[column_name]
-        return x_train, y_train
+            return data, labels
 
-    def __train_test(self, x_train: pd.DataFrame, x_test: pd.DataFrame,
-                     y_train: pd.Series, y_test: pd.Series,
-                     label_names: [str], resampling: str) -> np.ndarray:
+    def train_test(self, x_train: pd.DataFrame, x_test: pd.DataFrame,
+                   y_train: pd.Series, y_test: pd.Series,
+                   resampling: str) -> (pd.Series, pd.Series):
         """
         Classifies using train/test
 
@@ -128,17 +111,32 @@ class Model(ABC):
         :param x_test: Data to test
         :param y_train: Categories to train
         :param y_test: Categories for testing
-        :param label_names: Name of labels
         :param resampling: Data as it is ("none"), undersample ("under") or oversample ("over")
-        :return: Confusion matrix got
+        :return: Test label and predict label
         """
         if resampling != "none":
-            whole = pd.concat([x_train, y_train], axis=1)
             column_name = str(y_train.name)
-            x_train, y_train = self.__resample(whole, label_names, column_name, resampling)
+            x_train, y_train = self.__resample(x_train, y_train, column_name, resampling)
         classifier = deepcopy(self.classifier)
         classifier.fit(x_train, y_train)
         y_pred = classifier.predict(x_test)
+        return y_test, y_pred
+
+    def __get_confusion_matrix(self, x_train: pd.DataFrame, x_test: pd.DataFrame,
+                               y_train: pd.Series, y_test: pd.Series,
+                               label_names: [str], resampling: str) -> np.ndarray:
+        """
+        Classifies using train/test and return confusion matrix got
+
+        :param x_train: Data to train
+        :param x_test: Data to test
+        :param y_train: Categories to train
+        :param y_test: Categories for testing
+        :param label_names: Name of labels
+        :param resampling: Data as it is ("none"), undersample ("under") or oversample ("over")
+        :return: Test label and predict label
+        """
+        y_test, y_pred = self.train_test(x_train, x_test, y_train, y_test, resampling)
         return confusion_matrix(y_test, y_pred, labels=label_names)
 
     def __cross_validation_test(self, input_data: pd.DataFrame, labels: pd.Series,
@@ -162,7 +160,7 @@ class Model(ABC):
             y_train = labels.iloc[train_indexes]
             x_test = input_data.iloc[test_index]
             y_test = labels.iloc[test_index]
-            partial_c_m = self.__train_test(x_train, x_test, y_train, y_test, label_names, resampling)
+            partial_c_m = self.__get_confusion_matrix(x_train, x_test, y_train, y_test, label_names, resampling)
             if c_m is None:
                 c_m = partial_c_m
             else:

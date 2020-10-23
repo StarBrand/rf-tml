@@ -1,27 +1,11 @@
 import os
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-from models import RandomForest, CONFIG
+from useful_methods import pca
+from models import RandomForest
 
 PATH = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(PATH, os.pardir, os.pardir, "data", "training_data")
 LABEL = "M_STAGE"
-
-
-def pca(raw_data: pd.DataFrame) -> pd.DataFrame:
-    """
-    Does a PCA to the data
-
-    :param raw_data: Data to do a PCA
-    :return: An array with input data
-    """
-    index = raw_data.index
-    normalized_data = StandardScaler().fit_transform(raw_data)
-    return pd.DataFrame(
-        PCA("mle", random_state=CONFIG["seed"]).fit_transform(normalized_data),
-        index=index
-    )
 
 
 if __name__ == "__main__":
