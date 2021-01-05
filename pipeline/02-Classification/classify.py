@@ -23,9 +23,13 @@ if __name__ == "__main__":
                     for pca_on in [False, True]:
                         pca_log = "No PCA"
                         if pca_on:
-                            input_data = pca(input_data)
-                            name += "_pca"
-                            pca_log = "With PCA"
+                            try:
+                                input_data = pca(input_data)
+                                name += "_pca"
+                                pca_log = "With PCA"
+                            except Exception as e:
+                                print("\t\tPCA failed:\t{}".format(e))
+                                continue
                         random_forest = RandomForest(name)
                         for validation, val_name in [("split", "Hold-out"), ("cv", "5-Fold Cross Validation")]:
                             for resampling, re_name in [("none", "No resample"),

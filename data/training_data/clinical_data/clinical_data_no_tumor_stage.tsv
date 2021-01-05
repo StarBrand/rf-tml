@@ -1,949 +1,949 @@
-SAMPLE_ID	AGE	SEX	SMOKING_HISTORY	SMOKING_PACK_YEARS	M_STAGE
-TCGA-05-4244-01A-01D-1105-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	38.0	M1
-TCGA-05-4249-01A-01D-1105-08	67.0	Male	Current Reformed Smoker For > 15 Years	52.0	M0
-TCGA-05-4250-01A-01D-1105-08	79.0	Female	Current Reformed Smoker For < Or = 15 Years	47.0	M0
-TCGA-05-4382-01A-01D-1931-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	62.0	M0
-TCGA-05-4384-01A-01D-1753-08	66.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-05-4389-01A-01D-1265-08	70.0	Male	Current Reformed Smoker For > 15 Years	43.0	M0
-TCGA-05-4390-01A-02D-1753-08	58.0	Female	Current Reformed Smoker For < Or = 15 Years	15.0	M0
-TCGA-05-4395-01A-01D-1265-08	76.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-05-4396-01A-21D-1855-08	76.0	Male	Current Reformed Smoker For > 15 Years	19.0	M0
-TCGA-05-4397-01A-01D-1265-08	65.0	Male	Current Smoker	45.0	M0
-TCGA-05-4398-01A-01D-1265-08	47.0	Female	Current Smoker	72.0	M0
-TCGA-05-4402-01A-01D-1265-08	57.0	Female	Lifelong Non-Smoker		M1
-TCGA-05-4403-01A-01D-1265-08	76.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-05-4405-01A-21D-1855-08	74.0	Female	Current Reformed Smoker For < Or = 15 Years	65.0	M0
-TCGA-05-4410-01A-21D-1855-08	62.0	Male	Current Reformed Smoker For < Or = 15 Years	98.0	M0
-TCGA-05-4415-01A-22D-1855-08	57.0	Male	Current Reformed Smoker For < Or = 15 Years	29.0	M0
-TCGA-05-4417-01A-22D-1855-08	51.0	Female	Current Reformed Smoker For < Or = 15 Years	56.0	M0
-TCGA-05-4418-01A-01D-1265-08	69.0	Male	Current Smoker	25.0	M0
-TCGA-05-4420-01A-01D-1265-08	41.0	Male	Current Smoker	38.0	M0
-TCGA-05-4422-01A-01D-1265-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	147.0	M0
-TCGA-05-4424-01A-22D-1855-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-05-4426-01A-01D-1265-08	71.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-05-4427-01A-21D-1855-08	65.0	Female	Current Reformed Smoker For < Or = 15 Years	8.0	M0
-TCGA-05-4430-01A-02D-1265-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-05-4432-01A-01D-1265-08	66.0	Male	Current Smoker	58.0	M0
-TCGA-05-4433-01A-22D-1855-08	82.0	Male	Current Reformed Smoker For > 15 Years	1.0	M0
-TCGA-05-4434-01A-01D-1265-08	67.0	Female	Current Smoker	15.0	M1
-TCGA-05-5420-01A-01D-1625-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-05-5423-01A-01D-1625-08	65.0	Male	Current Reformed Smoker For > 15 Years	72.0	M0
-TCGA-05-5428-01A-01D-1625-08	57.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-05-5429-01A-01D-1625-08	60.0	Male	Lifelong Non-Smoker		M0
-TCGA-05-5715-01A-01D-1625-08	69.0	Female	Lifelong Non-Smoker		M0
-TCGA-35-3615-01A-01D-1040-01	57.0	Male	Lifelong Non-Smoker		M0
-TCGA-35-4122-01A-01D-1105-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-35-4123-01A-01D-1105-08	38.0	Male	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-35-5375-01A-01D-1625-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-38-4625-01A-01D-1553-08	66.0	Female	Current Smoker	50.0	M0
-TCGA-38-4626-01A-01D-1553-08	57.0	Female	Current Smoker	40.0	M0
-TCGA-38-4627-01A-01D-1553-08	64.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-38-4628-01A-01D-1265-08	65.0	Female	Lifelong Non-Smoker		M0
-TCGA-38-4629-01A-02D-1265-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-38-4630-01A-01D-1265-08	75.0	Female	Lifelong Non-Smoker		M0
-TCGA-38-4631-01A-01D-1753-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-38-4632-01A-01D-1753-08	42.0	Male	Current Reformed Smoker For < Or = 15 Years	10.0	M1
-TCGA-38-7271-01A-11D-2036-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-38-A44F-01A-11D-A24D-08	80.0	Male	Current Reformed Smoker For > 15 Years	12.0	M0
-TCGA-44-2655-01A-01D-1553-08	65.0	Female	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-44-2656-01A-02D-0969-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	23.0	M0
-TCGA-44-2657-01A-01D-1105-08	74.0	Female	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-44-2659-01A-01D-0969-08	65.0	Female	Current Reformed Smoker For < Or = 15 Years	57.0	M0
-TCGA-44-2661-01A-01D-1105-08	69.0	Female	Lifelong Non-Smoker		M0
-TCGA-44-2662-01A-01D-0969-08	65.0	Male	Current Reformed Smoker For > 15 Years	56.0	M0
-TCGA-44-2665-01A-01D-1040-01	55.0	Female	Lifelong Non-Smoker		M0
-TCGA-44-2666-01A-01D-1489-08	43.0	Male	Current Smoker	30.0	M0
-TCGA-44-2668-01A-01D-0969-08	51.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-44-3396-01A-01D-1553-08	74.0	Female	Current Smoker	50.0	M0
-TCGA-44-3398-01A-01D-1105-08	77.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-44-3918-01A-01D-1105-08	60.0	Female	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-44-3919-01A-02D-1458-08	71.0	Female	Lifelong Non-Smoker		M0
-TCGA-44-4112-01A-01D-1458-08	60.0	Female	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-44-5643-01A-01D-1625-08	53.0	Male	Current Smoker	20.0	M0
-TCGA-44-6144-01A-11D-1753-08	58.0	Male	Current Smoker	67.5	M0
-TCGA-44-6145-01A-11D-1753-08	62.0	Female	Current Reformed Smoker For < Or = 15 Years	75.0	M0
-TCGA-44-6146-01A-11D-1753-08	64.0	Male	Current Reformed Smoker For > 15 Years	15.0	M0
-TCGA-44-6147-01A-11D-1753-08	67.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-44-6148-01A-11D-1753-08	60.0	Male	Current Reformed Smoker For > 15 Years	60.0	M0
-TCGA-44-6774-01A-21D-1855-08	56.0	Female	Current Smoker	20.0	M0
-TCGA-44-6775-01A-11D-1855-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-44-6776-01A-11D-1855-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-44-6778-01A-11D-1855-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	15.0	M0
-TCGA-44-6779-01A-11D-1855-08	50.0	Female	Current Reformed Smoker For < Or = 15 Years	15.0	M1
-TCGA-44-7659-01A-11D-2063-08	70.0	Male	Current Smoker	40.0	M0
-TCGA-44-7660-01A-11D-2063-08	72.0	Male	Current Smoker	124.0	M0
-TCGA-44-7661-01A-11D-2063-08	69.0	Female	Current Reformed Smoker For > 15 Years	22.0	M0
-TCGA-44-7662-01A-11D-2063-08	61.0	Male	Current Smoker	50.0	M0
-TCGA-44-7667-01A-31D-2063-08	49.0	Female	Current Smoker	50.0	M0
-TCGA-44-7669-01A-21D-2063-08	59.0	Male	Current Smoker	20.0	M1
-TCGA-44-7670-01A-11D-2063-08	47.0	Female	Current Smoker	30.0	M0
-TCGA-44-7671-01A-11D-2063-08	64.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-44-7672-01A-11D-2063-08	52.0	Female	Current Smoker	20.0	M0
-TCGA-44-8117-01A-11D-2238-08	54.0	Female	Current Reformed Smoker For < Or = 15 Years	54.0	M0
-TCGA-44-8119-01A-11D-2238-08	73.0	Male	Current Smoker	50.0	M0
-TCGA-44-8120-01A-11D-2238-08	58.0	Male	Current Reformed Smoker, Duration Not Specified 	30.0	M0
-TCGA-44-A47A-01A-21D-A24D-08	78.0	Female	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-44-A47B-01A-11D-A24D-08	79.0	Male	Current Reformed Smoker For > 15 Years	4.5	M0
-TCGA-44-A47F-01A-11D-A24D-08	74.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-44-A47G-01A-21D-A24D-08	73.0	Female	Current Reformed Smoker For < Or = 15 Years	28.0	M0
-TCGA-44-A4SS-01A-11D-A24P-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	90.0	M0
-TCGA-44-A4SU-01A-11D-A24P-08	67.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-49-4486-01A-01D-1265-08	72.0	Male	Current Reformed Smoker For > 15 Years	17.5	M0
-TCGA-49-4487-01A-21D-1855-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-49-4488-01A-01D-1753-08	74.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-49-4490-01A-21D-1855-08	45.0	Female	Current Reformed Smoker For > 15 Years	5.0	M0
-TCGA-49-4494-01A-01D-1265-08	77.0	Male	Current Reformed Smoker For > 15 Years	50.0	M0
-TCGA-49-4501-01A-01D-1265-08	67.0	Female	Lifelong Non-Smoker		M0
-TCGA-49-4505-01A-01D-1931-08	61.0	Female	Current Reformed Smoker For < Or = 15 Years	74.0	M0
-TCGA-49-4506-01A-01D-1265-08	68.0	Female	Current Smoker	100.0	M0
-TCGA-49-4507-01A-01D-1265-08	73.0	Female	Current Reformed Smoker For < Or = 15 Years	78.0	M0
-TCGA-49-4510-01A-01D-1265-08	51.0	Female	Current Smoker	55.5	M0
-TCGA-49-4514-01A-21D-1855-08	79.0	Female	Current Reformed Smoker For > 15 Years	65.0	M0
-TCGA-49-6742-01A-11D-1855-08	70.0	Male	Current Reformed Smoker For > 15 Years	10.0	M0
-TCGA-49-6744-01A-11D-1855-08	64.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M1
-TCGA-49-6745-01A-11D-1855-08	82.0	Male	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-49-6767-01A-11D-1855-08	46.0	Female	Current Smoker	30.0	M0
-TCGA-49-AAQV-01A-11D-A397-08	63.0	Female	Lifelong Non-Smoker		M1
-TCGA-49-AAR3-01A-11D-A410-08	69.0	Male			M1
-TCGA-49-AAR9-01A-21D-A410-08	61.0	Male	Current Smoker		M0
-TCGA-49-AARE-01A-11D-A410-08	51.0	Female	Current Reformed Smoker For < Or = 15 Years	15.0	M0
-TCGA-49-AARN-01A-21D-A410-08	56.0	Female	Current Reformed Smoker, Duration Not Specified 		M0
-TCGA-49-AARO-01A-12D-A410-08	39.0	Female	Current Smoker		M0
-TCGA-49-AARQ-01A-11D-A410-08	41.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-49-AARR-01A-11D-A410-08	68.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-4B-A93V-01A-11D-A397-08	52.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-50-5044-01A-21D-1855-08	72.0	Female			M0
-TCGA-50-5045-01A-01D-1625-08	57.0	Female			M0
-TCGA-50-5049-01A-01D-1625-08	70.0	Male			M0
-TCGA-50-5051-01A-21D-1855-08	42.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-50-5055-01A-01D-1625-08	79.0	Female			M0
-TCGA-50-5066-01A-01D-1625-08	72.0	Male	Lifelong Non-Smoker		M0
-TCGA-50-5068-01A-01D-1625-08	59.0	Female			M1
-TCGA-50-5072-01A-21D-1855-08	74.0	Male	Current Reformed Smoker For > 15 Years	15.0	M0
-TCGA-50-5930-01A-11D-1753-08	47.0	Male			M0
-TCGA-50-5931-01A-11D-1753-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-50-5932-01A-11D-1753-08	75.0	Male			M0
-TCGA-50-5933-01A-11D-1753-08	72.0	Male			M0
-TCGA-50-5935-01A-11D-1753-08	86.0	Female			M0
-TCGA-50-5936-01A-11D-1625-08	58.0	Male			M0
-TCGA-50-5939-01A-11D-1625-08	85.0	Male	Current Reformed Smoker For > 15 Years	15.0	M0
-TCGA-50-5941-01A-11D-1753-08	55.0	Female	Current Smoker	25.0	M0
-TCGA-50-5942-01A-21D-1753-08	67.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-50-5944-01A-11D-1753-08	69.0	Female			M0
-TCGA-50-5946-01A-11D-1753-08	62.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-50-6590-01A-12D-1855-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-50-6591-01A-11D-1753-08	63.0	Female	Lifelong Non-Smoker		M1
-TCGA-50-6592-01A-11D-1753-08	71.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-50-6593-01A-11D-1753-08	49.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-50-6594-01A-11D-1753-08	79.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-50-6595-01A-12D-1855-08	74.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-50-6597-01A-11D-1855-08	79.0	Female	Lifelong Non-Smoker		M0
-TCGA-50-6673-01A-11D-1945-08	84.0	Female	Lifelong Non-Smoker		M0
-TCGA-50-7109-01A-11D-2036-08	60.0	Male	Current Smoker	120.0	M0
-TCGA-50-8457-01A-11D-2323-08	63.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-50-8459-01A-11D-2323-08	68.0	Male	Current Smoker	10.0	M0
-TCGA-50-8460-01A-11D-2323-08	74.0	Male			M0
-TCGA-53-7624-01A-11D-2063-08	40.0	Female	Current Smoker	50.0	M1
-TCGA-53-7626-01A-12D-2063-08	76.0	Female	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-53-7813-01A-11D-2167-08	51.0	Female	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-53-A4EZ-01A-12D-A24P-08	63.0	Male	Current Reformed Smoker For > 15 Years	40.0	M1
-TCGA-55-1592-01A-01D-0969-08	65.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-55-1594-01A-01D-1040-01	68.0	Male	Current Smoker		M0
-TCGA-55-1595-01A-01D-0969-08	74.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-55-1596-01A-01D-1040-01	55.0	Male	Current Smoker	50.0	M0
-TCGA-55-5899-01A-11D-1625-08	58.0	Male	Current Smoker		M0
-TCGA-55-6543-01A-11D-1753-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-55-6642-01A-11D-1855-08	63.0	Male	Current Smoker		M0
-TCGA-55-6712-01A-11D-1855-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years		M1
-TCGA-55-6968-01A-11D-1945-08	61.0	Male	Current Smoker		M1
-TCGA-55-6969-01A-11D-1945-08	52.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-55-6971-01A-11D-1945-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-55-6972-01A-11D-1945-08	72.0	Male	Current Smoker		M0
-TCGA-55-6975-01A-11D-1945-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-55-6978-01A-11D-1945-08	81.0	Male	Lifelong Non-Smoker		M0
-TCGA-55-6979-01A-11D-1945-08	59.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-55-6980-01A-11D-1945-08	56.0	Male	Lifelong Non-Smoker		M0
-TCGA-55-6981-01A-11D-1945-08	53.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-55-6982-01A-11D-1945-08	79.0	Female	Lifelong Non-Smoker		M0
-TCGA-55-6983-01A-11D-1945-08	81.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-55-6984-01A-11D-1945-08	71.0	Female			M0
-TCGA-55-6985-01A-11D-1945-08	58.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-55-6986-01A-11D-1945-08	74.0	Female	Lifelong Non-Smoker		M0
-TCGA-55-6987-01A-11D-1945-08	77.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-55-7227-01A-11D-2036-08	77.0	Male	Current Reformed Smoker For > 15 Years		M1
-TCGA-55-7281-01A-11D-2036-08	70.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-55-7284-01B-11D-2238-08	74.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-55-7570-01A-11D-2036-08	60.0	Male	Current Smoker		M0
-TCGA-55-7573-01A-11D-2036-08	72.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-55-7574-01A-11D-2036-08	64.0	Female	Current Reformed Smoker For < Or = 15 Years	2.0	M0
-TCGA-55-7576-01A-11D-2063-08	54.0	Male	Current Smoker		M0
-TCGA-55-7724-01A-11D-2167-08	76.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-55-7725-01A-11D-2167-08	68.0	Female	Current Reformed Smoker For > 15 Years	16.0	M0
-TCGA-55-7726-01A-11D-2167-08	72.0	Female	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-55-7728-01A-11D-2184-08	64.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-55-7815-01A-11D-2167-08	76.0	Male	Lifelong Non-Smoker		M0
-TCGA-55-7903-01A-11D-2167-08	64.0	Male	Current Smoker	40.0	M0
-TCGA-55-7907-01A-11D-2167-08	77.0	Male	Current Reformed Smoker For > 15 Years	80.0	M1
-TCGA-55-7910-01A-11D-2167-08	50.0	Female	Current Reformed Smoker For < Or = 15 Years	15.0	M0
-TCGA-55-7911-01A-11D-2167-08	70.0	Female	Current Reformed Smoker For > 15 Years	96.0	M0
-TCGA-55-7914-01A-11D-2167-08	71.0	Female	Current Smoker	5.0	M1
-TCGA-55-7994-01A-11D-2184-08	81.0	Male	Current Smoker	28.0	M0
-TCGA-55-7995-01A-11D-2184-08	73.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-55-8085-01A-11D-2238-08	64.0	Male	Current Smoker		M0
-TCGA-55-8087-01A-11D-2238-08	59.0	Female	Lifelong Non-Smoker		M0
-TCGA-55-8089-01A-11D-2238-08	56.0	Male	Current Smoker	97.0	M0
-TCGA-55-8090-01A-11D-2238-08	80.0	Male	Current Smoker		M0
-TCGA-55-8091-01A-11D-2238-08	74.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-55-8092-01A-11D-2238-08	75.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-55-8094-01A-11D-2238-08	51.0	Male	Current Reformed Smoker For < Or = 15 Years	70.0	M1
-TCGA-55-8096-01A-11D-2238-08	67.0	Female	Current Smoker	104.0	M0
-TCGA-55-8097-01A-11D-2238-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-55-8203-01A-11D-2238-08	69.0	Female	Current Smoker	50.0	M0
-TCGA-55-8204-01A-11D-2238-08	87.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-55-8205-01A-11D-2238-08	76.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-55-8206-01A-11D-2238-08	56.0	Male	Lifelong Non-Smoker		M0
-TCGA-55-8207-01A-11D-2238-08	73.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-55-8208-01A-11D-2238-08	73.0	Female	Current Smoker	50.0	M0
-TCGA-55-8299-01A-11D-2284-08	61.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-55-8301-01A-11D-2284-08	58.0	Male	Current Smoker	100.0	M0
-TCGA-55-8506-01A-11D-2393-08	62.0	Female	Current Smoker		M0
-TCGA-55-8507-01A-11D-2393-08	53.0	Male	Current Smoker	120.0	M0
-TCGA-55-8508-01A-11D-2393-08	60.0	Female	Current Smoker		M1
-TCGA-55-8510-01A-11D-2393-08	55.0	Female	Current Smoker		M0
-TCGA-55-8511-01A-11D-2393-08	73.0	Female	Current Smoker	58.0	M0
-TCGA-55-8512-01A-11D-2393-08	41.0	Male	Current Smoker	19.0	M1
-TCGA-55-8513-01A-11D-2393-08	77.0	Female	Lifelong Non-Smoker		M0
-TCGA-55-8514-01A-11D-2393-08	70.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-55-8614-01A-11D-2393-08	76.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-55-8616-01A-11D-2393-08	58.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-55-8619-01A-11D-2393-08	72.0	Female	Lifelong Non-Smoker		M0
-TCGA-55-8620-01A-11D-2393-08	60.0	Male	Current Reformed Smoker For < Or = 15 Years	154.0	M1
-TCGA-55-8621-01A-11D-2393-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-55-A48X-01A-11D-A24D-08	63.0	Female	Current Reformed Smoker For < Or = 15 Years	36.0	M0
-TCGA-55-A48Y-01A-11D-A24D-08	69.0	Male	Current Smoker	50.0	M0
-TCGA-55-A490-01A-11D-A24D-08	78.0	Male	Current Reformed Smoker For > 15 Years	34.0	M0
-TCGA-55-A491-01A-11D-A24D-08	81.0	Female	Current Reformed Smoker For > 15 Years	45.0	M0
-TCGA-55-A492-01A-11D-A24D-08	70.0	Female	Current Reformed Smoker For > 15 Years	35.0	M0
-TCGA-55-A493-01A-11D-A24D-08	54.0	Female	Current Smoker	53.0	M0
-TCGA-55-A494-01A-11D-A24P-08	61.0	Female	Current Reformed Smoker For > 15 Years	7.0	M0
-TCGA-55-A4DF-01A-11D-A24D-08	88.0	Male	Current Reformed Smoker For > 15 Years	60.0	M0
-TCGA-55-A4DG-01A-11D-A24D-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-55-A57B-01A-12D-A397-08	80.0	Female	Lifelong Non-Smoker		M0
-TCGA-62-8394-01A-11D-2323-08	65.0	Female	Lifelong Non-Smoker		M0
-TCGA-62-8395-01A-11D-2323-08	80.0	Female	Lifelong Non-Smoker		M0
-TCGA-62-8397-01A-11D-2323-08	70.0	Female	Lifelong Non-Smoker		M0
-TCGA-62-8399-01A-21D-2323-08	62.0	Male	Current Reformed Smoker For < Or = 15 Years	70.0	M0
-TCGA-62-8402-01A-11D-2323-08	73.0	Female	Lifelong Non-Smoker		M0
-TCGA-62-A46O-01A-11D-A24D-08	65.0	Female	Current Smoker	48.0	M0
-TCGA-62-A46P-01A-11D-A24D-08	65.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-62-A46R-01A-11D-A24D-08	54.0	Female	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-62-A46S-01A-11D-A24D-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-62-A46U-01A-11D-A24D-08	71.0	Female	Lifelong Non-Smoker		M0
-TCGA-62-A46V-01A-11D-A24D-08	78.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-62-A46Y-01A-11D-A24D-08	70.0	Female	Lifelong Non-Smoker		M0
-TCGA-62-A470-01A-11D-A24D-08	84.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-62-A471-01A-12D-A24D-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-62-A472-01A-11D-A24D-08	70.0	Male	Current Smoker	60.0	M0
-TCGA-64-1676-01A-01D-0969-08	58.0	Male	Current Smoker	60.0	M0
-TCGA-64-1677-01A-01W-0928-08	77.0	Female	Current Smoker	50.0	M0
-TCGA-64-1678-01A-01W-0928-08	70.0	Female	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-64-1679-01A-21D-2063-08	58.0	Female	Current Smoker	40.0	M0
-TCGA-64-1680-01A-02D-0969-08	63.0	Male	Current Reformed Smoker For > 15 Years	50.0	M1
-TCGA-64-1681-01A-11D-2063-08	61.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-64-5774-01A-01D-1625-08	60.0	Male	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-64-5775-01A-01D-1625-08	71.0	Male	Current Smoker	110.0	M0
-TCGA-64-5778-01A-01D-1625-08	60.0	Male	Current Reformed Smoker For < Or = 15 Years	68.0	M0
-TCGA-64-5779-01A-01D-1625-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-64-5781-01A-01D-1625-08	55.0	Female	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-64-5815-01A-01D-1625-08	74.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-67-3770-01A-01D-0969-08	70.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-67-3771-01A-01D-1040-01	77.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-67-3772-01A-01W-0928-08	82.0	Female	Lifelong Non-Smoker		M0
-TCGA-67-3773-01A-01D-1040-01	84.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-67-3774-01A-01D-1040-01	73.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-67-4679-01B-01D-1753-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-67-6215-01A-11D-1753-08	52.0	Female	Lifelong Non-Smoker		M0
-TCGA-67-6216-01A-11D-1753-08	57.0	Female	Lifelong Non-Smoker		M0
-TCGA-67-6217-01A-11D-1753-08	73.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-69-7760-01A-11D-2167-08	73.0	Male	Lifelong Non-Smoker		M0
-TCGA-69-7761-01A-11D-2167-08	84.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-69-7763-01A-11D-2167-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	7.5	M0
-TCGA-69-7764-01A-11D-2167-08	75.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-69-7765-01A-11D-2167-08	56.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-69-7973-01A-11D-2184-08	42.0	Female	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-69-7978-01A-11D-2184-08	59.0	Male	Current Smoker	80.0	M1
-TCGA-69-7979-01A-11D-2184-08	71.0	Female	Current Smoker	28.0	M0
-TCGA-69-7980-01A-11D-2184-08	69.0	Female	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-69-8253-01A-11D-2284-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	7.8	M1
-TCGA-69-8255-01A-11D-2284-08	71.0	Male	Current Smoker	40.0	M0
-TCGA-69-A59K-01A-11D-A25L-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-71-6725-01A-11D-1855-08	48.0	Female	Current Smoker		M0
-TCGA-73-4659-01A-01D-1265-08	66.0	Male	Current Reformed Smoker For > 15 Years	12.0	M0
-TCGA-73-4662-01A-01D-1265-08	65.0	Female	Current Reformed Smoker For > 15 Years	10.0	M0
-TCGA-73-4666-01A-01D-1265-08	52.0	Female	Current Reformed Smoker For < Or = 15 Years	10.0	M1
-TCGA-73-4668-01A-01D-1265-08	66.0	Female	Current Reformed Smoker For < Or = 15 Years	55.0	M0
-TCGA-73-4670-01A-01D-1265-08	69.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M1
-TCGA-73-4675-01A-01D-1265-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	41.0	M0
-TCGA-73-4676-01A-01D-1753-08	45.0	Male	Current Reformed Smoker For < Or = 15 Years	48.0	M0
-TCGA-73-4677-01A-01D-1265-08	74.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-73-7498-01A-12D-2184-08	58.0	Female	Current Reformed Smoker For < Or = 15 Years	28.0	M0
-TCGA-73-7499-01A-11D-2184-08	81.0	Female	Lifelong Non-Smoker		M0
-TCGA-73-A9RS-01A-11D-A410-08	41.0	Male	Current Smoker	11.0	M0
-TCGA-75-5122-01A-01D-1753-08		Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-75-5125-01A-01D-1753-08		Male	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-75-5126-01A-01D-1753-08		Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-75-5146-01A-01D-1625-08		Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-75-5147-01A-01D-1625-08		Female	Lifelong Non-Smoker		M0
-TCGA-75-6203-01A-11D-1753-08		Female	Lifelong Non-Smoker	0.0	M0
-TCGA-75-6205-01A-11D-1753-08		Female	Lifelong Non-Smoker		M0
-TCGA-75-6206-01A-11D-1753-08		Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-75-6207-01A-11D-1753-08		Male	Current Reformed Smoker For > 15 Years	10.0	M0
-TCGA-75-6211-01A-11D-1753-08		Female	Current Smoker	34.0	M0
-TCGA-75-6212-01A-11D-1753-08		Female	Lifelong Non-Smoker		M0
-TCGA-75-6214-01A-41D-1945-08		Female	Current Smoker	40.0	M0
-TCGA-75-7025-01A-12D-1945-08		Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-75-7027-01A-11D-1945-08		Male	Current Smoker	50.0	M0
-TCGA-75-7030-01A-11D-1945-08		Male	Lifelong Non-Smoker		M0
-TCGA-75-7031-01A-11D-1945-08		Female	Current Reformed Smoker For > 15 Years	5.0	M0
-TCGA-78-7145-01A-11D-2036-08	52.0	Female	Current Reformed Smoker For < Or = 15 Years	25.0	M1
-TCGA-78-7146-01A-11D-2036-08	71.0	Female	Current Reformed Smoker For < Or = 15 Years	6.0	M0
-TCGA-78-7147-01A-11D-2036-08	67.0	Female	Current Smoker	50.0	M0
-TCGA-78-7148-01A-11D-2036-08	71.0	Male	Current Smoker	57.0	M0
-TCGA-78-7149-01A-11D-2036-08	71.0	Male	Current Smoker	115.0	M0
-TCGA-78-7150-01A-21D-2036-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	37.0	M0
-TCGA-78-7152-01A-11D-2036-08	65.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-78-7153-01A-11D-2036-08	65.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-78-7154-01A-11D-2036-08	72.0	Male	Current Reformed Smoker For < Or = 15 Years	112.5	M0
-TCGA-78-7155-01A-11D-2036-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	48.0	M0
-TCGA-78-7156-01A-11D-2036-08	62.0	Male	Current Reformed Smoker For > 15 Years	84.0	M1
-TCGA-78-7158-01A-11D-2036-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	14.0	M0
-TCGA-78-7159-01A-11D-2036-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	21.0	M0
-TCGA-78-7160-01A-11D-2036-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years	43.8	M1
-TCGA-78-7161-01A-11D-2036-08	69.0	Female	Current Reformed Smoker For < Or = 15 Years	27.8	M0
-TCGA-78-7162-01A-21D-2063-08	75.0	Male	Current Smoker	12.0	M0
-TCGA-78-7163-01A-12D-2063-08	60.0	Male	Current Reformed Smoker For < Or = 15 Years	41.0	M0
-TCGA-78-7166-01A-12D-2063-08	84.0	Male	Current Reformed Smoker For > 15 Years	38.0	M0
-TCGA-78-7167-01A-11D-2063-08	77.0	Male	Current Smoker	64.0	M1
-TCGA-78-7220-01A-11D-2036-08	53.0	Female	Current Smoker	35.0	M0
-TCGA-78-7535-01A-11D-2063-08	45.0	Male	Current Smoker	35.0	M0
-TCGA-78-7536-01A-11D-2063-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	44.0	M0
-TCGA-78-7537-01A-11D-2063-08	72.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-78-7539-01A-11D-2063-08	75.0	Female	Current Reformed Smoker For > 15 Years	2.2	M0
-TCGA-78-7540-01A-11D-2063-08	66.0	Female	Lifelong Non-Smoker		M0
-TCGA-78-7542-01A-21D-2063-08	56.0	Male	Current Smoker	60.0	M0
-TCGA-78-7633-01A-11D-2063-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	94.0	M0
-TCGA-78-8640-01A-11D-2393-08	59.0	Male	Current Smoker	45.0	M0
-TCGA-78-8648-01A-11D-2393-08	58.0	Female	Current Smoker	45.0	M0
-TCGA-78-8655-01A-11D-2393-08	77.0	Female	Current Reformed Smoker For < Or = 15 Years	10.0	M0
-TCGA-78-8660-01A-11D-2393-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	11.0	M0
-TCGA-78-8662-01A-11D-2393-08	53.0	Female	Current Smoker	45.0	M0
-TCGA-80-5607-01A-31D-1945-08		Female	Current Reformed Smoker For > 15 Years	15.0	M0
-TCGA-80-5608-01A-31D-1945-08		Female	Current Smoker	26.0	M0
-TCGA-80-5611-01A-01D-1625-08		Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-83-5908-01A-21D-2284-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	69.0	M0
-TCGA-86-6562-01A-11D-1753-08	52.0	Male	Lifelong Non-Smoker		M0
-TCGA-86-6851-01A-11D-1945-08	73.0	Female	Current Smoker	52.0	M0
-TCGA-86-7701-01A-11D-2167-08	66.0	Male	Lifelong Non-Smoker	0.0	M1
-TCGA-86-7711-01A-11D-2063-08	70.0	Male	Current Smoker	50.0	M0
-TCGA-86-7713-01A-11D-2063-08	70.0	Male	Lifelong Non-Smoker		M0
-TCGA-86-7714-01A-12D-2167-08	61.0	Female	Current Smoker	43.0	M0
-TCGA-86-7953-01A-11D-2184-08	69.0	Female	Lifelong Non-Smoker		M0
-TCGA-86-7954-01A-11D-2184-08	68.0	Female	Current Reformed Smoker For > 15 Years	8.0	M0
-TCGA-86-7955-01A-11D-2184-08	62.0	Male	Lifelong Non-Smoker		M0
-TCGA-86-8054-01A-11D-2238-08	61.0	Male	Current Smoker	9.0	M0
-TCGA-86-8055-01A-11D-2238-08	79.0	Male	Current Smoker	60.0	M0
-TCGA-86-8056-01A-11D-2238-08	63.0	Female	Current Reformed Smoker For > 15 Years	36.0	M0
-TCGA-86-8073-01A-11D-2238-08	58.0	Male	Current Smoker	40.0	M0
-TCGA-86-8074-01A-11D-2238-08	62.0	Female	Current Smoker	40.0	M0
-TCGA-86-8075-01A-11D-2238-08	66.0	Female	Lifelong Non-Smoker		M0
-TCGA-86-8076-01A-31D-2238-08	42.0	Male	Lifelong Non-Smoker		M0
-TCGA-86-8278-01A-11D-2284-08	63.0	Female	Lifelong Non-Smoker		M0
-TCGA-86-8279-01A-11D-2284-08	46.0	Male	Lifelong Non-Smoker		M0
-TCGA-86-8280-01A-11D-2284-08	54.0	Female	Lifelong Non-Smoker		M0
-TCGA-86-8281-01A-11D-2284-08	75.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-86-8358-01A-11D-2323-08	44.0	Male	Current Smoker	20.0	M0
-TCGA-86-8359-01A-11D-2323-08	52.0	Male	Current Smoker	36.0	M0
-TCGA-86-8585-01A-11D-2393-08	57.0	Male	Lifelong Non-Smoker		M0
-TCGA-86-8668-01A-11D-2393-08	61.0	Female	Lifelong Non-Smoker		M0
-TCGA-86-8669-01A-11D-2393-08	64.0	Male	Current Smoker	47.0	M0
-TCGA-86-8671-01A-11D-2393-08	72.0	Female	Lifelong Non-Smoker		M0
-TCGA-86-8672-01A-21D-2393-08	59.0	Male	Lifelong Non-Smoker		M0
-TCGA-86-8673-01A-11D-2393-08	61.0	Male	Current Smoker	54.0	M0
-TCGA-86-8674-01A-21D-2393-08	50.0	Male	Current Reformed Smoker For < Or = 15 Years	37.5	M0
-TCGA-86-A456-01A-11D-A24D-08	78.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-86-A4JF-01A-11D-A24P-08	56.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-86-A4P7-01A-11D-A24P-08	63.0	Female	Lifelong Non-Smoker		M0
-TCGA-91-6828-01A-11D-1855-08	70.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-91-6829-01A-21D-1855-08	78.0	Male	Current Reformed Smoker For < Or = 15 Years	94.5	M0
-TCGA-91-6830-01A-11D-1945-08	65.0	Female	Current Reformed Smoker For < Or = 15 Years	12.0	M1
-TCGA-91-6831-01A-11D-1855-08	66.0	Male	Current Smoker		M0
-TCGA-91-6835-01A-11D-1855-08	81.0	Female	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-91-6836-01A-21D-1855-08	52.0	Female	Current Smoker	50.0	M0
-TCGA-91-6840-01A-11D-1945-08	59.0	Female	Current Reformed Smoker For > 15 Years	50.0	M0
-TCGA-91-6847-01A-11D-1945-08	62.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-91-7771-01A-11D-2167-08	62.0	Male	Current Reformed Smoker For < Or = 15 Years	75.0	M0
-TCGA-91-8497-01A-11D-2393-08	75.0	Female	Lifelong Non-Smoker		M0
-TCGA-91-8499-01A-11D-2393-08	76.0	Female	Current Smoker	90.0	M0
-TCGA-91-A4BC-01A-11D-A24D-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-91-A4BD-01A-11D-A24D-08	78.0	Male	Current Reformed Smoker For > 15 Years		M1
-TCGA-93-7347-01A-11D-2184-08	76.0	Female	Current Reformed Smoker For > 15 Years	11.0	M0
-TCGA-93-7348-01A-21D-2036-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	42.0	M0
-TCGA-93-8067-01A-11D-2284-08	77.0	Male	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-93-A4JN-01A-11D-A24P-08	71.0	Male	Current Reformed Smoker For > 15 Years	40.0	M1
-TCGA-93-A4JO-01A-21D-A24P-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-93-A4JP-01A-11D-A24P-08	64.0	Male	Lifelong Non-Smoker		M1
-TCGA-93-A4JQ-01A-11D-A24P-08	49.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-95-7039-01A-11D-1945-08	54.0	Female	Current Smoker	34.0	M0
-TCGA-95-7043-01A-11D-1945-08	63.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-95-7562-01A-11D-2238-08	71.0	Male	Current Reformed Smoker For > 15 Years	10.0	M0
-TCGA-95-7567-01A-11D-2063-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-95-7944-01A-11D-2184-08	71.0	Male	Current Smoker	50.0	M0
-TCGA-95-7947-01A-11D-2184-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-95-7948-01A-11D-2184-08	42.0	Female	Current Reformed Smoker For > 15 Years	0.15	M0
-TCGA-95-8039-01A-11D-2238-08	72.0	Male	Lifelong Non-Smoker		M0
-TCGA-95-8494-01A-11D-2323-08	67.0	Male	Current Reformed Smoker, Duration Not Specified 		M0
-TCGA-95-A4VK-01A-11D-A25L-08	74.0	Female	Current Reformed Smoker For > 15 Years	45.0	M0
-TCGA-95-A4VN-01A-11D-A25L-08	62.0	Female	Current Reformed Smoker For < Or = 15 Years	42.0	M0
-TCGA-95-A4VP-01A-21D-A25L-08	66.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-97-7546-01A-11D-2036-08	76.0	Female	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-97-7547-01A-11D-2036-08	67.0	Female	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-97-7552-01A-11D-2036-08	70.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-97-7553-01A-21D-2036-08	58.0	Female	Current Smoker	20.0	M0
-TCGA-97-7554-01A-11D-2036-08	83.0	Female	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-97-7937-01A-11D-2167-08	65.0	Male	Current Reformed Smoker For > 15 Years	35.0	M0
-TCGA-97-7938-01A-11D-2167-08	76.0	Female	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-97-7941-01A-11D-2184-08	72.0	Female	Current Reformed Smoker For > 15 Years	22.5	M0
-TCGA-97-8171-01A-11D-2284-08	81.0	Male	Current Smoker	65.0	M1
-TCGA-97-8172-01A-11D-2284-08	75.0	Female	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-97-8174-01A-11D-2284-08	67.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-97-8175-01A-11D-2284-08	55.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-97-8176-01A-11D-2393-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-97-8177-01A-11D-2284-08	59.0	Female	Lifelong Non-Smoker		M0
-TCGA-97-8179-01A-11D-2284-08	72.0	Male	Current Reformed Smoker For > 15 Years	60.0	M0
-TCGA-97-8552-01A-11D-2393-08	55.0	Female	Lifelong Non-Smoker		M0
-TCGA-97-A4LX-01A-11D-A24P-08	81.0	Male	Current Reformed Smoker For > 15 Years	120.0	M0
-TCGA-97-A4M0-01A-11D-A24P-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	34.0	M0
-TCGA-97-A4M1-01A-11D-A24P-08	52.0	Female	Current Reformed Smoker For > 15 Years	3.0	M0
-TCGA-97-A4M2-01A-12D-A24P-08	66.0	Male	Current Smoker	100.0	M0
-TCGA-97-A4M3-01A-11D-A24P-08	69.0	Female	Current Reformed Smoker For > 15 Years	37.5	M0
-TCGA-97-A4M5-01A-11D-A24P-08	83.0	Male	Current Reformed Smoker For > 15 Years	6.0	M0
-TCGA-97-A4M6-01A-11D-A24P-08	45.0	Female	Lifelong Non-Smoker		M0
-TCGA-97-A4M7-01A-11D-A24P-08	74.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-99-7458-01A-11D-2036-08	74.0	Female	Current Reformed Smoker For < Or = 15 Years	52.0	M0
-TCGA-99-8025-01A-11D-2238-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-99-8028-01A-11D-2238-08	50.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-99-8032-01A-11D-2238-08	61.0	Male	Current Smoker	90.0	M0
-TCGA-99-8033-01A-11D-2238-08	74.0	Female	Lifelong Non-Smoker		M1
-TCGA-99-AA5R-01A-11D-A397-08	70.0	Female	Current Smoker	46.0	M0
-TCGA-J2-8192-01A-11D-2238-08	65.0	Female	Lifelong Non-Smoker		M1
-TCGA-J2-8194-01A-11D-2238-08	69.0	Female	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-J2-A4AD-01A-11D-A24D-08	61.0	Female	Current Smoker	120.0	M0
-TCGA-J2-A4AE-01A-21D-A24D-08	77.0	Female	Lifelong Non-Smoker		M0
-TCGA-J2-A4AG-01A-11D-A24D-08	66.0	Female	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-L4-A4E5-01A-11D-A24P-08	48.0	Female	Current Reformed Smoker For < Or = 15 Years	33.0	M0
-TCGA-L9-A443-01A-12D-A24D-08	63.0	Female	Current Reformed Smoker For < Or = 15 Years	90.0	M0
-TCGA-L9-A444-01A-21D-A24D-08	60.0	Female	Current Smoker	10.0	M0
-TCGA-L9-A50W-01A-12D-A397-08	75.0	Male	Current Reformed Smoker For > 15 Years	19.0	M1
-TCGA-L9-A5IP-01A-21D-A397-08	40.0	Female	Current Reformed Smoker For < Or = 15 Years		M1
-TCGA-L9-A7SV-01A-11D-A397-08	69.0	Male	Current Reformed Smoker For > 15 Years	93.0	M0
-TCGA-L9-A8F4-01A-11D-A397-08	64.0	Female	Current Smoker	14.0	M0
-TCGA-MN-A4N1-01A-11D-A24P-08	60.0	Male	Current Smoker		M0
-TCGA-MN-A4N4-01A-12D-A24P-08	57.0	Male	Current Smoker		M0
-TCGA-MN-A4N5-01A-11D-A24P-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-MP-A4SW-01A-21D-A24P-08	53.0	Male	Current Reformed Smoker For > 15 Years	15.0	M0
-TCGA-MP-A4T2-01A-11D-A24P-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	75.0	M0
-TCGA-MP-A4T4-01A-11D-A25L-08	68.0	Female	Current Smoker	50.0	M0
-TCGA-MP-A4T7-01A-11D-A24P-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M1
-TCGA-MP-A4T8-01A-11D-A24P-08	68.0	Male	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-MP-A4TA-01A-21D-A24P-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	55.0	M0
-TCGA-MP-A4TC-01A-11D-A24P-08	77.0	Male	Current Reformed Smoker For > 15 Years	125.0	M0
-TCGA-MP-A4TD-01A-32D-A25L-08	71.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-MP-A4TE-01A-22D-A25L-08	56.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-MP-A4TF-01A-11D-A25L-08	58.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-MP-A4TH-01A-31D-A25L-08	70.0	Female	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-MP-A4TI-01A-21D-A24P-08	72.0	Male	Current Reformed Smoker For > 15 Years	35.0	M0
-TCGA-MP-A4TJ-01A-51D-A25L-08	62.0	Female	Current Smoker		M0
-TCGA-MP-A4TK-01A-11D-A24P-08	56.0	Female	Current Reformed Smoker For < Or = 15 Years	28.0	M1
-TCGA-MP-A5C7-01A-11D-A25L-08	76.0	Female	Current Reformed Smoker For > 15 Years	15.0	M0
-TCGA-NJ-A4YF-01A-12D-A25L-08	50.0	Female	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-NJ-A4YG-01A-22D-A25L-08	65.0	Male	Current Reformed Smoker For < Or = 15 Years	104.0	M0
-TCGA-NJ-A4YI-01A-11D-A25L-08	87.0	Female	Current Reformed Smoker For > 15 Years	3.0	M0
-TCGA-NJ-A4YP-01A-11D-A25L-08	52.0	Male	Current Reformed Smoker, Duration Not Specified 	60.0	M0
-TCGA-NJ-A4YQ-01A-11D-A25L-08	69.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-NJ-A55A-01A-11D-A25L-08	76.0	Female	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-NJ-A55O-01A-11D-A25L-08	56.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-NJ-A55R-01A-11D-A25L-08	67.0	Male	Current Reformed Smoker For > 15 Years	5.0	M0
-TCGA-NJ-A7XG-01A-12D-A397-08	49.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-O1-A52J-01A-11D-A25L-08	74.0	Female	Current Reformed Smoker For > 15 Years	45.0	M0
-TCGA-S2-AA1A-01A-12D-A397-08	68.0	Female	Current Reformed Smoker For > 15 Years	95.0	M0
-TCGA-18-3406-01A-01D-0983-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	200.0	M0
-TCGA-18-3407-01A-01D-0983-08	72.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-18-3408-01A-01D-0983-08	77.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-18-3409-01A-01D-0983-08	74.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-18-3410-01A-01D-0983-08	81.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-18-3411-01A-01D-0983-08	63.0	Female	Current Smoker	50.0	M0
-TCGA-18-3412-01A-01D-0983-08	52.0	Male	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-18-3414-01A-01D-0983-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	25.0	M1
-TCGA-18-3415-01A-01D-0983-08	77.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-18-3416-01A-01D-0983-08	83.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-18-3417-01A-01D-1441-08	65.0	Male	Current Reformed Smoker For > 15 Years	25.0	M1
-TCGA-18-3419-01A-01D-0983-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-18-3421-01A-01D-0983-08	65.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-18-4083-01A-01D-1352-08	63.0	Male	Current Smoker	45.0	M0
-TCGA-18-4086-01A-01D-1352-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-18-4721-01A-01D-1441-08	74.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-18-5592-01A-01D-1632-08	57.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-18-5595-01A-01D-1632-08	50.0	Male	Lifelong Non-Smoker		M0
-TCGA-21-1070-01A-01D-1521-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	15.0	M0
-TCGA-21-1071-01A-01D-1521-08	67.0	Male	Current Smoker	90.0	M0
-TCGA-21-1075-01A-01W-0782-08	57.0	Male	Current Smoker	74.0	M0
-TCGA-21-1076-01A-02D-1521-08	54.0	Female	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-21-1077-01A-01D-1521-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	56.0	M0
-TCGA-21-1078-01A-01D-1521-08	77.0	Male	Current Reformed Smoker For < Or = 15 Years	9.0	M0
-TCGA-21-1079-01A-01W-0782-08	71.0	Male	Current Reformed Smoker For > 15 Years	80.0	M0
-TCGA-21-1081-01A-01D-1521-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-21-1082-01A-01D-1521-08	61.0	Male			M0
-TCGA-21-1083-01A-01D-1521-08	75.0	Male	Current Smoker	240.0	M0
-TCGA-21-5782-01A-01D-1632-08	68.0	Female	Current Reformed Smoker For < Or = 15 Years	48.0	M0
-TCGA-21-5784-01A-01D-1632-08	80.0	Female	Current Reformed Smoker For > 15 Years	14.0	M0
-TCGA-21-5786-01A-01D-1632-08	64.0	Male	Current Smoker	75.0	M0
-TCGA-21-5787-01A-01D-1632-08	65.0	Male	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-21-A5DI-01A-31D-A26M-08	77.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-22-0940-01A-01D-1521-08	71.0	Male	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-22-0944-01A-01D-1521-08	61.0	Male	Current Smoker	38.0	M0
-TCGA-22-1000-01A-01D-1521-08	76.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-22-1002-01A-01D-1521-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	85.0	M0
-TCGA-22-1005-01A-01D-1521-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-22-1011-01A-01D-1521-08	73.0	Male	Current Smoker	83.0	M0
-TCGA-22-1012-01A-01D-1521-08	80.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-22-1016-01A-01D-1521-08	65.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-22-4591-01A-01D-1267-08	80.0	Male	Current Smoker		M0
-TCGA-22-4593-01A-21D-1817-08	77.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-22-4594-01A-01D-1267-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-22-4596-01A-01D-1267-08	69.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-22-4599-01A-01D-1441-08	73.0	Female	Current Smoker	25.0	M0
-TCGA-22-4601-01A-01D-1441-08	73.0	Female	Current Smoker	60.0	M0
-TCGA-22-4604-01A-01D-1267-08	73.0	Male	Current Smoker	50.0	M0
-TCGA-22-4607-01A-01D-1267-08	75.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-22-4613-01A-01D-1441-08	73.0	Female	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-22-5471-01A-01D-1632-08	75.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-22-5472-01A-01D-1632-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-22-5473-01A-01D-1632-08	78.0	Male	Current Reformed Smoker For > 15 Years	45.0	M0
-TCGA-22-5474-01A-01D-1632-08	74.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-22-5477-01A-01D-1632-08	65.0	Male	Current Smoker	100.0	M0
-TCGA-22-5478-01A-01D-1632-08	79.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-22-5479-01A-31D-1945-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-22-5480-01A-01D-1632-08	66.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-22-5481-01A-31D-1945-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	75.0	M0
-TCGA-22-5482-01A-01D-1632-08	81.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-22-5483-01A-01D-1817-08	74.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-22-5485-01A-01D-1632-08	58.0	Female	Current Smoker	60.0	M0
-TCGA-22-5489-01A-01D-1632-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	70.0	M0
-TCGA-22-5491-01A-01D-1632-08	74.0	Male	Current Smoker	57.0	M0
-TCGA-22-5492-01A-01D-1632-08	73.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-33-4532-01A-01D-1267-08	68.0	Male	Current Smoker	53.0	M0
-TCGA-33-4533-01A-01D-1267-08	76.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-33-4538-01A-01D-1267-08	66.0	Male	Current Smoker	51.0	M0
-TCGA-33-4547-01A-01D-1267-08	68.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-33-4566-01A-01D-1441-08	40.0	Male	Current Smoker	20.0	M0
-TCGA-33-4582-01A-01D-1441-08	55.0	Male	Current Smoker	86.0	M0
-TCGA-33-4583-01A-01D-1441-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	46.0	M0
-TCGA-33-4586-01A-01D-1441-08	57.0	Male	Current Reformed Smoker For < Or = 15 Years	108.0	M0
-TCGA-33-4589-01A-01D-1441-08	62.0	Female	Current Smoker	45.0	M0
-TCGA-33-6737-01A-11D-1817-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-33-A4WN-01A-11D-A25L-08	60.0	Male	Current Smoker	60.0	M0
-TCGA-33-A5GW-01A-11D-A27K-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M1
-TCGA-33-AAS8-01A-11D-A401-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-33-AASB-01A-11D-A401-08	66.0	Male	Current Smoker	40.0	M0
-TCGA-33-AASD-01A-11D-A401-08	83.0	Male	Current Smoker	84.0	M0
-TCGA-33-AASI-01A-22D-A401-08	65.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M1
-TCGA-33-AASJ-01A-11D-A401-08	60.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-33-AASL-01A-11D-A401-08	57.0	Female	Current Smoker	60.0	M0
-TCGA-34-2596-01A-01D-1522-08	70.0	Male	Current Reformed Smoker For > 15 Years	60.0	M0
-TCGA-34-2600-01A-01D-1522-08	76.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-34-2604-01A-01D-1522-08	81.0	Female	Current Smoker	132.0	M0
-TCGA-34-2605-01A-01D-1522-08	76.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-34-2608-01A-02D-1522-08	84.0	Male	Current Reformed Smoker For > 15 Years	60.0	M0
-TCGA-34-2609-01A-01W-0877-08	81.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-34-5231-01A-21D-1817-08	72.0	Male	Current Reformed Smoker For > 15 Years	50.0	M0
-TCGA-34-5232-01A-21D-1817-08	75.0	Female			M0
-TCGA-34-5234-01A-01D-1632-08	71.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-34-5236-01A-21D-1817-08	60.0	Male			M0
-TCGA-34-5239-01A-21D-1817-08	75.0	Male			M0
-TCGA-34-5240-01A-01D-1441-08	73.0	Female	Current Smoker	56.0	M0
-TCGA-34-5927-01A-11D-1817-08	70.0	Female			M0
-TCGA-34-5928-01A-11D-1817-08	83.0	Female	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-34-5929-01A-11D-1817-08	78.0	Female	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-34-7107-01A-11D-1945-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-34-8454-01A-11D-2323-08	62.0	Female	Current Reformed Smoker For < Or = 15 Years	90.0	M0
-TCGA-34-8455-01A-11D-2323-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M1
-TCGA-34-8456-01A-21D-2323-08	71.0	Female	Current Reformed Smoker, Duration Not Specified 	20.0	M0
-TCGA-34-A5IX-01A-12D-A27K-08	80.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-37-3783-01A-01D-1267-08	51.0	Male			M0
-TCGA-37-3792-01A-01D-0983-08	69.0	Male	Lifelong Non-Smoker		M0
-TCGA-37-4129-01A-01D-1352-08	52.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-37-4132-01A-01D-1352-08	61.0	Female	Lifelong Non-Smoker		M1
-TCGA-37-4133-01A-01D-1352-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-37-4135-01A-01D-1352-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-37-4141-01A-02D-1352-08	65.0	Female	Lifelong Non-Smoker		M0
-TCGA-37-5819-01A-01D-1632-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-37-A5EM-01A-21D-A27K-08	49.0	Male			M0
-TCGA-37-A5EN-01A-21D-A26M-08	59.0	Male			M0
-TCGA-39-5011-01A-01D-1441-08	70.0	Female	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-39-5016-01A-01D-1441-08	44.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-39-5019-01A-01D-1817-08	70.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-39-5021-01A-01D-1441-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	114.0	M0
-TCGA-39-5022-01A-21D-1817-08	76.0	Male	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-39-5024-01A-21D-1817-08	65.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-39-5027-01A-21D-1817-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-39-5028-01A-01D-1441-08	75.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-39-5029-01A-01D-1441-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	192.0	M0
-TCGA-39-5030-01A-01D-1441-08	81.0	Female	Current Reformed Smoker For > 15 Years	8.0	M0
-TCGA-39-5031-01A-01D-1441-08	76.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-39-5034-01A-01D-1441-08	73.0	Female	Current Reformed Smoker For < Or = 15 Years	84.0	M0
-TCGA-39-5035-01A-01D-1441-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	47.0	M0
-TCGA-39-5036-01A-01D-1441-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	63.0	M0
-TCGA-39-5037-01A-01D-1441-08	65.0	Male	Current Smoker	26.0	M0
-TCGA-39-5039-01A-01D-1441-08	76.0	Male	Current Reformed Smoker For > 15 Years	64.0	M0
-TCGA-43-2576-01A-01D-1522-08	62.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-43-2578-01A-01D-1522-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	64.0	M0
-TCGA-43-2581-01A-01D-1522-08	47.0	Female	Current Smoker	30.0	M0
-TCGA-43-3394-01A-01D-0983-08	52.0	Male	Current Smoker	15.0	M0
-TCGA-43-3920-01A-01D-0983-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-43-5668-01A-01D-1632-08	78.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-43-6143-01A-11D-1817-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	114.0	M0
-TCGA-43-6647-01A-11D-1817-08	69.0	Female	Current Reformed Smoker For < Or = 15 Years	36.0	M1
-TCGA-43-6770-01A-11D-1817-08	59.0	Female	Current Smoker	34.0	M0
-TCGA-43-6771-01A-11D-1817-08	85.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-43-6773-01A-41D-1945-08	76.0	Male	Current Reformed Smoker For > 15 Years		M1
-TCGA-43-8115-01A-11D-2244-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	55.83	M1
-TCGA-43-8116-01A-11D-2244-08	73.0	Male	Current Smoker	35.0	M0
-TCGA-43-8118-01A-11D-2395-08	55.0	Female	Current Smoker	20.0	M0
-TCGA-43-A474-01A-11D-A24D-08	66.0	Male	Current Reformed Smoker For < Or = 15 Years	47.0	M0
-TCGA-43-A475-01A-11D-A24D-08	67.0	Female	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-43-A56U-01A-11D-A26M-08	76.0	Female	Current Reformed Smoker For < Or = 15 Years	20.5	M0
-TCGA-43-A56V-01A-11D-A26M-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years	48.0	M0
-TCGA-46-3765-01A-01D-0983-08	59.0	Female	Current Smoker		M0
-TCGA-46-3766-01A-01D-0983-08	62.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-46-3767-01A-01D-0983-08	76.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-46-3768-01A-01D-0983-08	58.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-46-3769-01A-01D-0983-08	57.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-46-6025-01A-11D-1817-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-46-6026-01A-11D-1817-08	81.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-51-4081-01A-01D-1458-08	55.0	Male	Current Smoker	80.0	M0
-TCGA-56-1622-01A-01D-1521-08	58.0	Male	Current Reformed Smoker For < Or = 15 Years	86.0	M0
-TCGA-56-5897-01A-11D-1632-08	74.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-56-5898-01A-11D-1632-08	69.0	Male	Current Smoker		M0
-TCGA-56-6545-01A-11D-1817-08	77.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-56-6546-01A-11D-1817-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-56-7823-01B-11D-2244-08	58.0	Female	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-56-8082-01A-11D-2244-08	80.0	Female	Current Reformed Smoker For > 15 Years		M0
-TCGA-56-8083-01A-11D-2244-08	56.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-56-8201-01A-11D-2244-08	74.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-56-8304-01A-11D-2323-08	73.0	Female	Current Smoker	58.0	M0
-TCGA-56-8305-01A-11D-2293-08	72.0	Male	Current Reformed Smoker For > 15 Years	100.0	M0
-TCGA-56-8307-01A-11D-2293-08	55.0	Female	Current Smoker	35.0	M0
-TCGA-56-8308-01A-11D-2293-08	79.0	Male	Current Reformed Smoker For > 15 Years	63.0	M0
-TCGA-56-8309-01A-11D-2293-08	66.0	Male	Current Smoker	50.0	M0
-TCGA-56-8504-01A-11D-2395-08	74.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-56-8622-01A-11D-2395-08	68.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-56-8624-01A-11D-2395-08	84.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-56-8625-01A-11D-2395-08	66.0	Female	Current Smoker		M1
-TCGA-56-8626-01A-11D-2395-08	59.0	Male	Current Smoker	50.0	M0
-TCGA-56-8628-01A-11D-2395-08	78.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-56-8629-01A-11D-2395-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	66.0	M0
-TCGA-56-A4BW-01A-11D-A24D-08	55.0	Male	Current Reformed Smoker For < Or = 15 Years	120.0	M0
-TCGA-56-A4BX-01A-11D-A24D-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	83.0	M0
-TCGA-56-A4BY-01A-11D-A24D-08	66.0	Male	Current Reformed Smoker For < Or = 15 Years	65.0	M0
-TCGA-56-A4ZJ-01A-11D-A25L-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-56-A4ZK-01A-11D-A25L-08	76.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-56-A5DR-01A-11D-A27K-08	81.0	Male	Lifelong Non-Smoker		M0
-TCGA-56-A5DS-01A-11D-A27K-08	72.0	Female	Current Smoker	50.0	M0
-TCGA-56-A62T-01A-11D-A401-08	78.0	Male	Current Smoker	102.0	M0
-TCGA-58-8386-01A-11D-2293-08	75.0	Male	Current Smoker	65.0	M1
-TCGA-58-8387-01A-11D-2293-08	60.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-58-8388-01A-11D-2323-08	60.0	Male	Current Smoker	80.0	M0
-TCGA-58-8390-01A-11D-2323-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	120.0	M0
-TCGA-58-8391-01A-11D-2323-08	57.0	Female	Current Smoker	30.0	M0
-TCGA-58-8392-01A-11D-2323-08	70.0	Male	Current Smoker	80.0	M0
-TCGA-58-8393-01A-11D-2323-08	68.0	Female	Current Smoker	7.0	M0
-TCGA-58-A46J-01A-11D-A24D-08	64.0	Male	Current Smoker		M0
-TCGA-58-A46K-01A-11D-A24D-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	10.0	M0
-TCGA-58-A46L-01A-11D-A24D-08	73.0	Male	Current Reformed Smoker, Duration Not Specified 		M0
-TCGA-58-A46M-01A-11D-A24D-08	61.0	Male	Current Smoker		M0
-TCGA-58-A46N-01A-11D-A24D-08	52.0	Male	Current Smoker	50.0	M0
-TCGA-60-2695-01A-01D-1522-08	74.0	Female	Current Reformed Smoker For > 15 Years	64.0	M0
-TCGA-60-2698-01A-01D-1522-08	62.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-60-2707-01A-01D-1522-08	70.0	Male	Current Reformed Smoker For > 15 Years	49.0	M0
-TCGA-60-2708-01A-01D-1522-08	64.0	Female	Current Reformed Smoker For < Or = 15 Years	20.0	M0
-TCGA-60-2709-01A-21D-1817-08	69.0	Male	Current Smoker	157.5	M0
-TCGA-60-2710-01A-01D-1522-08	67.0	Female	Current Reformed Smoker For < Or = 15 Years	63.0	M0
-TCGA-60-2711-01A-01D-1522-08	64.0	Female	Current Reformed Smoker For < Or = 15 Years	39.0	M0
-TCGA-60-2712-01A-01D-1522-08	79.0	Female	Current Reformed Smoker For > 15 Years	10.0	M0
-TCGA-60-2713-01A-01D-1522-08	64.0	Male	Current Smoker	110.0	M0
-TCGA-60-2714-01A-01D-1522-08	66.0	Female	Current Reformed Smoker For < Or = 15 Years	90.0	M0
-TCGA-60-2715-01A-01D-1522-08	51.0	Male	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-60-2716-01A-01D-1522-08	39.0	Male	Lifelong Non-Smoker		M0
-TCGA-60-2719-01A-01D-1522-08	83.0	Female	Current Reformed Smoker For > 15 Years	7.0	M0
-TCGA-60-2720-01A-01D-1522-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	110.0	M0
-TCGA-60-2721-01A-01D-1522-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	93.0	M0
-TCGA-60-2722-01A-01D-1522-08	66.0	Male	Current Reformed Smoker For < Or = 15 Years	90.0	M0
-TCGA-60-2723-01A-01D-1522-08	74.0	Female	Current Reformed Smoker For < Or = 15 Years	58.0	M0
-TCGA-60-2724-01A-01D-1522-08	47.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-60-2725-01A-01D-1267-08	74.0	Male	Current Reformed Smoker For > 15 Years	56.0	M0
-TCGA-60-2726-01A-01D-1522-08	56.0	Male	Current Reformed Smoker For < Or = 15 Years	42.0	M0
-TCGA-63-5128-01A-01D-1441-08		Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-63-5131-01A-01D-1441-08		Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-63-6202-01A-11D-1817-08		Male	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-63-7020-01A-11D-1945-08		Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-63-7021-01A-11D-1945-08		Male	Current Reformed Smoker For < Or = 15 Years	21.0	M0
-TCGA-63-7022-01A-11D-1945-08		Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-63-7023-01A-11D-1945-08		Male	Current Reformed Smoker For < Or = 15 Years	55.0	M0
-TCGA-63-A5MB-01A-11D-A26M-08	62.0	Male	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-63-A5MG-01A-12D-A27K-08	68.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-63-A5MH-01A-12D-A27K-08	68.0	Male	Current Reformed Smoker, Duration Not Specified 	35.0	M0
-TCGA-63-A5MI-01A-12D-A27K-08	65.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-63-A5MJ-01A-11D-A27K-08	54.0	Male	Current Smoker		M0
-TCGA-63-A5ML-01A-31D-A27K-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-63-A5MM-01A-11D-A26M-08	69.0	Female	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-63-A5MN-01A-22D-A27K-08	78.0	Female	Lifelong Non-Smoker		M0
-TCGA-63-A5MP-01A-11D-A26M-08	56.0	Male	Current Reformed Smoker For < Or = 15 Years	41.0	M0
-TCGA-63-A5MR-01A-31D-A27K-08	70.0	Female	Current Reformed Smoker For < Or = 15 Years	120.0	M0
-TCGA-63-A5MS-01A-11D-A26M-08	78.0	Male	Current Reformed Smoker For > 15 Years	6.0	M0
-TCGA-63-A5MT-01A-21D-A26M-08	74.0	Male	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-63-A5MU-01A-11D-A26M-08	48.0	Male	Current Reformed Smoker For < Or = 15 Years	15.0	M0
-TCGA-63-A5MV-01A-21D-A26M-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-63-A5MW-01A-11D-A26M-08	76.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-63-A5MY-01A-11D-A26M-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-66-2727-01A-01D-0983-08	55.0	Female	Current Reformed Smoker For < Or = 15 Years	56.0	M0
-TCGA-66-2734-01A-01D-0983-08	62.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-66-2742-01A-01D-0983-08	70.0	Male	Current Reformed Smoker For > 15 Years	44.0	M1
-TCGA-66-2744-01A-01D-0983-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	63.0	M0
-TCGA-66-2754-01A-01D-0983-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-66-2755-01A-01D-1522-08	63.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-66-2756-01A-01D-1522-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-66-2757-01A-01D-1522-08	65.0	Female	Current Reformed Smoker For < Or = 15 Years	72.0	M0
-TCGA-66-2758-01A-02D-1522-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	56.0	M0
-TCGA-66-2759-01A-01D-1522-08	66.0	Male	Current Reformed Smoker For > 15 Years	16.0	M0
-TCGA-66-2763-01A-01D-1522-08	63.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-66-2765-01A-01D-1522-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	108.0	M0
-TCGA-66-2766-01A-01D-1522-08	54.0	Male	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-66-2767-01A-01D-1522-08	62.0	Male	Current Reformed Smoker For < Or = 15 Years	43.0	M0
-TCGA-66-2769-01A-02D-1522-08	75.0	Male	Current Reformed Smoker For > 15 Years	33.0	M0
-TCGA-66-2770-01A-01D-1522-08	79.0	Male	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-66-2771-01A-01D-0983-08	60.0	Male	Current Reformed Smoker For < Or = 15 Years	70.0	M0
-TCGA-66-2773-01A-01D-1267-08	69.0	Male	Current Reformed Smoker For > 15 Years	58.0	M0
-TCGA-66-2777-01A-01D-1267-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	12.0	M0
-TCGA-66-2778-01A-02D-1522-08	68.0	Female	Current Reformed Smoker For < Or = 15 Years	37.0	M0
-TCGA-66-2780-01A-01D-1522-08	65.0	Male	Current Reformed Smoker For > 15 Years	28.0	M0
-TCGA-66-2781-01A-01D-1522-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-66-2782-01A-01D-1522-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-66-2783-01A-01D-1267-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	65.0	M0
-TCGA-66-2785-01A-01D-1522-08	65.0	Male	Current Reformed Smoker For < Or = 15 Years	70.0	M0
-TCGA-66-2786-01A-01D-1522-08	68.0	Female	Current Reformed Smoker For < Or = 15 Years	74.0	M0
-TCGA-66-2787-01A-01D-0983-08	57.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-66-2788-01A-01D-0983-08	56.0	Male	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-66-2789-01A-01D-0983-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-66-2791-01A-01D-0983-08	66.0	Male	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-66-2792-01A-01D-0983-08	58.0	Male	Current Reformed Smoker For < Or = 15 Years	10.0	M0
-TCGA-66-2793-01A-01D-1267-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	112.0	M0
-TCGA-66-2794-01A-01D-1267-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-66-2795-01A-02D-0983-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	86.0	M0
-TCGA-66-2800-01A-01D-1267-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	75.0	M0
-TCGA-68-7757-01B-11D-2293-08	74.0	Male	Current Reformed Smoker For < Or = 15 Years	25.0	M0
-TCGA-68-8250-01A-11D-2293-08	66.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-68-8251-01A-11D-2293-08	78.0	Male	Current Reformed Smoker For > 15 Years	52.0	M0
-TCGA-68-A59J-01A-21D-A26M-08	74.0	Female	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-6A-AB49-01A-12D-A401-08	73.0	Female	Current Reformed Smoker For > 15 Years	50.0	M0
-TCGA-70-6722-01A-11D-1817-08	47.0	Male	Lifelong Non-Smoker		M0
-TCGA-70-6723-01A-11D-1817-08	65.0	Male	Lifelong Non-Smoker		M0
-TCGA-77-6842-01A-11D-1945-08	79.0	Male	Current Reformed Smoker For < Or = 15 Years	22.5	M0
-TCGA-77-6843-01A-11D-1945-08	74.0	Male	Current Smoker	30.0	M0
-TCGA-77-6844-01A-11D-1945-08	74.0	Male	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-77-6845-01A-11D-1945-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	51.0	M0
-TCGA-77-8128-01A-11D-2244-08	60.0	Male	Current Smoker	113.0	M0
-TCGA-77-8130-01A-11D-2244-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	32.25	M0
-TCGA-77-8131-01A-11D-2244-08	72.0	Male	Current Reformed Smoker For < Or = 15 Years	69.0	M0
-TCGA-77-8133-01A-12D-2244-08	74.0	Male	Current Smoker	22.0	M0
-TCGA-77-8136-01A-11D-2244-08	74.0	Female	Current Smoker	135.0	M0
-TCGA-77-8138-01A-11D-2244-08	74.0	Male	Current Reformed Smoker For < Or = 15 Years	54.0	M0
-TCGA-77-8139-01A-11D-2244-08	72.0	Male	Current Smoker	52.0	M0
-TCGA-77-8140-01A-11D-2244-08	66.0	Female	Current Reformed Smoker For < Or = 15 Years	78.0	M0
-TCGA-77-8143-01A-11D-2244-08	76.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-77-8144-01A-11D-2244-08	70.0	Male	Current Smoker	59.0	M0
-TCGA-77-8145-01A-11D-2244-08	73.0	Male	Current Smoker	57.0	M0
-TCGA-77-8148-01A-11D-2244-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-77-8150-01A-11D-2244-08	64.0	Male	Current Smoker	46.0	M0
-TCGA-77-8153-01A-11D-2395-08	77.0	Female	Current Reformed Smoker For > 15 Years	25.0	M0
-TCGA-77-8154-01A-11D-2244-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-77-8156-01A-11D-2244-08	60.0	Male	Current Smoker	57.5	M0
-TCGA-77-A5FZ-01A-31D-A27K-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	141.0	M0
-TCGA-77-A5G1-01A-11D-A27K-08	75.0	Male	Current Reformed Smoker For < Or = 15 Years	53.0	M0
-TCGA-77-A5G3-01A-31D-A27K-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-77-A5G6-01A-11D-A27K-08	66.0	Male	Current Smoker	74.0	M0
-TCGA-77-A5G7-01B-11D-A27K-08	63.0	Male	Current Smoker	69.0	M0
-TCGA-77-A5G8-01B-11D-A27K-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	90.0	M0
-TCGA-77-A5GA-01A-11D-A27K-08	76.0	Male	Current Reformed Smoker For > 15 Years	99.0	M0
-TCGA-77-A5GB-01B-11D-A27K-08	90.0	Male	Current Smoker	52.0	M0
-TCGA-77-A5GF-01A-21D-A27K-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-77-A5GH-01A-11D-A27K-08	81.0	Male	Current Reformed Smoker For > 15 Years	11.0	M0
-TCGA-79-5596-01A-31D-1945-08		Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-85-6175-01A-11D-1817-08	63.0	Female	Lifelong Non-Smoker		M0
-TCGA-85-6560-01A-11D-1817-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-85-6561-01A-11D-1817-08	66.0	Male	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-85-6798-01A-11D-1945-08	57.0	Male	Current Smoker	35.0	M0
-TCGA-85-8048-01A-11D-2244-08	62.0	Male	Current Smoker	50.0	M0
-TCGA-85-8049-01A-11D-2244-08	57.0	Male	Lifelong Non-Smoker		M0
-TCGA-85-8052-01A-11D-2244-08	53.0	Male	Current Smoker	40.0	M0
-TCGA-85-8070-01A-11D-2244-08	71.0	Male	Current Smoker	50.0	M0
-TCGA-85-8071-01A-11D-2244-08	52.0	Male	Current Smoker	30.0	M0
-TCGA-85-8072-01A-31D-2244-08	60.0	Male	Current Smoker	15.0	M0
-TCGA-85-8276-01A-11D-2293-08	62.0	Male	Current Smoker	20.0	M0
-TCGA-85-8277-01A-11D-2293-08	70.0	Male	Lifelong Non-Smoker		M0
-TCGA-85-8287-01A-11D-2293-08	72.0	Male	Current Smoker	50.0	M0
-TCGA-85-8288-01A-11D-2293-08	70.0	Male	Current Smoker	50.0	M0
-TCGA-85-8350-01A-11D-2293-08	61.0	Male	Current Smoker	40.0	M0
-TCGA-85-8351-01A-11D-2293-08	72.0	Male	Current Smoker	60.0	M0
-TCGA-85-8352-01A-31D-2323-08	67.0	Male	Current Smoker	50.0	M0
-TCGA-85-8353-01A-21D-2293-08	72.0	Male	Current Smoker	50.0	M0
-TCGA-85-8354-01A-31D-2323-08	53.0	Male	Current Smoker	30.0	M0
-TCGA-85-8355-01A-11D-2293-08	63.0	Male	Lifelong Non-Smoker		M0
-TCGA-85-8479-01A-11D-2323-08	66.0	Male	Current Reformed Smoker For < Or = 15 Years	90.0	M0
-TCGA-85-8481-01A-11D-2323-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-85-8580-01A-31D-2395-08	52.0	Female	Current Reformed Smoker For < Or = 15 Years	38.0	M0
-TCGA-85-8582-01A-21D-2395-08	49.0	Male	Current Smoker	40.0	M0
-TCGA-85-8584-01A-11D-2395-08	71.0	Male	Current Smoker	50.0	M0
-TCGA-85-8664-01A-11D-2395-08	73.0	Male	Current Smoker	60.0	M0
-TCGA-85-8666-01A-11D-2395-08	65.0	Male	Current Smoker	55.0	M0
-TCGA-85-A4CL-01A-41D-A26M-08	65.0	Male	Current Smoker	40.0	M0
-TCGA-85-A4CN-01A-11D-A24D-08	56.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-85-A4JB-01A-51D-A25L-08	74.0	Male	Current Smoker	25.0	M0
-TCGA-85-A4JC-01A-11D-A257-08	84.0	Male	Current Smoker	25.0	M0
-TCGA-85-A4PA-01A-11D-A257-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-85-A4QQ-01A-41D-A25L-08	68.0	Male	Current Smoker	50.0	M0
-TCGA-85-A4QR-01A-11D-A257-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-85-A50M-01A-21D-A25L-08	47.0	Male	Current Reformed Smoker For < Or = 15 Years	15.0	M0
-TCGA-85-A50Z-01A-21D-A25L-08	57.0	Male	Current Smoker	45.0	M0
-TCGA-85-A510-01A-11D-A26M-08	74.0	Female	Current Smoker	45.0	M0
-TCGA-85-A511-01A-21D-A25L-08	62.0	Male	Current Smoker	40.0	M0
-TCGA-85-A512-01A-11D-A26M-08	46.0	Male	Current Smoker	25.0	M0
-TCGA-85-A513-01A-12D-A26M-08	60.0	Female	Lifelong Non-Smoker		M0
-TCGA-85-A53L-01A-21D-A26M-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-85-A5B5-01A-21D-A26M-08	58.0	Male	Current Reformed Smoker For < Or = 15 Years	15.0	M0
-TCGA-90-6837-01A-11D-1945-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-90-A4ED-01A-31D-A257-08	69.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-90-A4EE-01A-11D-A257-08	53.0	Male	Current Smoker	68.0	M1
-TCGA-90-A59Q-01A-11D-A26M-08	61.0	Female	Current Smoker	80.0	M1
-TCGA-92-8064-01A-11D-2244-08	58.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-92-8065-01A-11D-2244-08	74.0	Female	Current Reformed Smoker For > 15 Years	14.0	M0
-TCGA-94-7033-01A-11D-1945-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-94-8035-01A-11D-2244-08	64.0	Male	Current Smoker	50.0	M0
-TCGA-94-8490-01A-11D-2323-08	70.0	Male	Current Reformed Smoker, Duration Not Specified 		M0
-TCGA-94-8491-01A-11D-2323-08	73.0	Male	Current Reformed Smoker For > 15 Years	56.0	M0
-TCGA-94-A4VJ-01A-11D-A257-08	71.0	Female	Current Reformed Smoker For < Or = 15 Years	37.5	M0
-TCGA-94-A5I4-01A-11D-A26M-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years	80.0	M1
-TCGA-94-A5I6-01A-21D-A27K-08	62.0	Male	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-96-8169-01A-11D-2293-08	67.0	Female	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-96-8170-01A-11D-2293-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-96-A4JK-01A-11D-A257-08	65.0	Male	Current Smoker	110.0	M0
-TCGA-96-A4JL-01A-11D-A257-08	78.0	Female	Lifelong Non-Smoker		M0
-TCGA-98-8020-01A-11D-2244-08	56.0	Female	Lifelong Non-Smoker		M0
-TCGA-98-8021-01A-11D-2244-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-98-8022-01A-11D-2244-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years	117.0	M0
-TCGA-98-8023-01A-11D-2244-08	70.0	Male	Current Smoker	75.0	M0
-TCGA-98-A538-01A-11D-A25L-08	67.0	Male	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-98-A539-01A-31D-A25L-08	63.0	Male	Current Smoker	75.0	M0
-TCGA-98-A53A-01A-11D-A25L-08	70.0	Male	Current Smoker	80.0	M0
-TCGA-98-A53B-01A-11D-A25L-08	69.0	Male	Current Smoker	40.0	M0
-TCGA-98-A53C-01A-11D-A25L-08	77.0	Female	Current Reformed Smoker For < Or = 15 Years	112.5	M0
-TCGA-98-A53I-01A-31D-A25L-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	70.0	M0
-TCGA-98-A53J-01A-11D-A26M-08	77.0	Male	Current Reformed Smoker For > 15 Years	100.0	M0
-TCGA-J1-A4AH-01A-31D-A24D-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-L3-A4E7-01A-11D-A257-08	71.0	Male	Current Smoker	25.0	M0
-TCGA-L3-A524-01A-11D-A25L-08	45.0	Female	Current Smoker	25.6	M0
-TCGA-LA-A446-01A-21D-A257-08	68.0	Male	Current Smoker	26.0	M0
-TCGA-LA-A7SW-01A-11D-A401-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	37.0	M1
-TCGA-60-2697-01A-11D-2122-08	41.0	Male			M0
-TCGA-60-2703-01A-11D-2042-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-60-2704-01A-11D-2042-08	73.0	Male	Current Smoker	60.0	M0
-TCGA-33-4587-01A-11D-2122-08	63.0	Female	Current Reformed Smoker For < Or = 15 Years		M0
-TCGA-22-4605-01A-21D-2122-08	78.0	Female	Current Reformed Smoker For < Or = 15 Years	75.0	M0
-TCGA-22-4609-01A-21D-2122-08	81.0	Male	Current Smoker	77.0	M0
-TCGA-39-5040-01A-21D-2122-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-43-5670-01A-21D-2122-08	70.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-21-5783-01A-41D-2184-08	76.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-51-6867-01A-11D-2042-08	72.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-77-7138-01A-41D-2042-08	67.0	Male	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-77-7139-01A-11D-2042-08	56.0	Male	Current Reformed Smoker For < Or = 15 Years	2.0	M0
-TCGA-77-7140-01A-41D-2042-08	69.0	Female	Lifelong Non-Smoker		M0
-TCGA-77-7141-01A-11D-2042-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	70.0	M0
-TCGA-77-7142-01A-11D-2042-08	59.0	Female	Current Reformed Smoker For < Or = 15 Years	52.5	M0
-TCGA-56-7223-01A-11D-2042-08	66.0	Male	Current Reformed Smoker For < Or = 15 Years		M1
-TCGA-77-7335-01A-11D-2042-08	62.0	Female	Current Reformed Smoker For > 15 Years	52.0	M0
-TCGA-77-7337-01A-21D-2042-08	65.0	Male	Current Reformed Smoker For < Or = 15 Years	79.5	M0
-TCGA-77-7338-01A-11D-2042-08	64.0	Male	Current Smoker	41.25	M0
-TCGA-92-7341-01A-31D-2042-08	71.0	Male	Current Smoker	50.0	M0
-TCGA-98-7454-01A-11D-2042-08	73.0	Male	Current Reformed Smoker For > 15 Years	60.0	M0
-TCGA-77-7463-01A-11D-2042-08	75.0	Male	Current Reformed Smoker For < Or = 15 Years	42.0	M0
-TCGA-77-7465-01A-11D-2042-08	58.0	Male	Current Smoker	120.0	M0
-TCGA-96-7544-01A-11D-2042-08	83.0	Male	Current Smoker	65.0	M1
-TCGA-96-7545-01A-21D-2042-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	116.0	M0
-TCGA-94-7557-01A-11D-2122-08	73.0	Male	Current Smoker		M0
-TCGA-56-7579-01A-11D-2042-08	61.0	Male	Current Reformed Smoker For < Or = 15 Years	2.0	M0
-TCGA-56-7580-01A-11D-2042-08	84.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-56-7582-01A-11D-2042-08	83.0	Male	Current Reformed Smoker For > 15 Years		M0
-TCGA-52-7622-01A-11D-2122-08	62.0	Female	Current Reformed Smoker For < Or = 15 Years	22.0	M0
-TCGA-43-7656-01A-11D-2122-08	71.0	Male	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-43-7657-01A-31D-2122-08	68.0	Female	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-43-7658-01A-11D-2122-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	12.0	M0
-TCGA-85-7696-01A-11D-2122-08	64.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-85-7697-01A-11D-2122-08	49.0	Male	Current Reformed Smoker For > 15 Years	30.0	M0
-TCGA-85-7698-01A-11D-2122-08	48.0	Male	Current Reformed Smoker For > 15 Years	44.0	M0
-TCGA-85-7699-01A-11D-2122-08	73.0	Male	Current Reformed Smoker For > 15 Years	74.0	M0
-TCGA-85-7710-01A-11D-2122-08	59.0	Female	Current Smoker	45.0	M0
-TCGA-56-7730-01A-11D-2122-08	73.0	Male	Current Smoker		M0
-TCGA-56-7731-01A-11D-2122-08	66.0	Female	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-68-7755-01A-11D-2122-08	60.0	Female	Current Reformed Smoker For < Or = 15 Years	78.0	M0
-TCGA-68-7756-01A-11D-2122-08	84.0	Male	Current Reformed Smoker For > 15 Years	20.0	M1
-TCGA-90-7766-01A-21D-2122-08	66.0	Female	Current Smoker	30.0	M0
-TCGA-90-7767-01A-11D-2122-08	56.0	Male	Current Reformed Smoker For > 15 Years	25.0	M1
-TCGA-90-7769-01A-11D-2122-08	55.0	Male	Current Reformed Smoker For > 15 Years	36.0	M1
-TCGA-52-7809-01A-21D-2122-08	74.0	Male	Current Smoker	60.0	M0
-TCGA-52-7810-01A-11D-2122-08	60.0	Female	Current Reformed Smoker For > 15 Years	20.0	M0
-TCGA-52-7812-01A-11D-2122-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-56-7822-01A-11D-2122-08	75.0	Male	Current Reformed Smoker For < Or = 15 Years	60.0	M0
-TCGA-85-7843-01A-11D-2122-08	50.0	Male	Current Smoker	35.0	M0
-TCGA-85-7844-01A-11D-2122-08	71.0	Male	Current Smoker	40.0	M0
-TCGA-85-7950-01A-11D-2184-08	46.0	Male	Current Smoker	27.0	M0
-TCGA-90-7964-01A-21D-2184-08	70.0	Male	Current Reformed Smoker For < Or = 15 Years	180.0	M0
-TCGA-77-8007-01A-11D-2184-08	68.0	Male	Current Smoker	100.0	M0
-TCGA-77-8008-01A-21D-2184-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	61.5	M0
-TCGA-77-8009-01A-11D-2184-08	68.0	Male	Current Reformed Smoker For < Or = 15 Years	97.5	M0
-TCGA-MF-A522-01A-11D-A25L-08	54.0	Male	Current Reformed Smoker For < Or = 15 Years	45.0	M0
-TCGA-NC-A5HD-01A-11D-A26M-08	79.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-NC-A5HE-01A-11D-A26M-08	60.0	Male	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-NC-A5HF-01A-11D-A26M-08	74.0	Male	Current Smoker		M0
-TCGA-NC-A5HG-01A-11D-A26M-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	80.0	M0
-TCGA-NC-A5HH-01A-11D-A26M-08	53.0	Male	Current Smoker	60.0	M0
-TCGA-NC-A5HI-01A-11D-A26M-08	68.0	Female	Current Smoker	60.0	M0
-TCGA-NC-A5HJ-01A-11D-A26M-08	59.0	Male	Current Reformed Smoker For < Or = 15 Years	78.0	M0
-TCGA-NC-A5HK-01A-11D-A26M-08	58.0	Female	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-NC-A5HL-01A-11D-A26M-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-NC-A5HM-01A-12D-A26M-08	76.0	Male	Current Reformed Smoker For > 15 Years	50.0	M0
-TCGA-NC-A5HN-01A-11D-A26M-08	77.0	Male	Current Reformed Smoker For < Or = 15 Years	100.0	M0
-TCGA-NC-A5HO-01A-11D-A26M-08	70.0	Female	Current Reformed Smoker For < Or = 15 Years	30.0	M0
-TCGA-NC-A5HP-01A-11D-A26M-08	69.0	Male	Current Smoker	50.0	M1
-TCGA-NC-A5HQ-01A-11D-A26M-08	70.0	Male	Current Smoker		M0
-TCGA-NC-A5HR-01A-21D-A26M-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	35.0	M0
-TCGA-NC-A5HT-01A-11D-A26M-08	69.0	Male	Current Reformed Smoker For < Or = 15 Years	50.0	M0
-TCGA-NK-A5CR-01A-11D-A26M-08	77.0	Male	Current Reformed Smoker For > 15 Years	40.0	M0
-TCGA-NK-A5CT-01A-31D-A26M-08	70.0	Male	Current Reformed Smoker For > 15 Years	80.0	M0
-TCGA-NK-A5CX-01A-11D-A26M-08	73.0	Male	Current Reformed Smoker For < Or = 15 Years	40.0	M0
-TCGA-NK-A5D1-01A-11D-A26M-08	57.0	Male	Current Reformed Smoker For > 15 Years	90.0	M0
-TCGA-NK-A7XE-01A-12D-A401-08	66.0	Male	Current Reformed Smoker, Duration Not Specified 	80.0	M0
-TCGA-O2-A52N-01A-11D-A26M-08	78.0	Male	Current Reformed Smoker For < Or = 15 Years	4.125	M0
-TCGA-O2-A52Q-01A-11D-A26M-08	44.0	Female	Current Smoker	1.0	M1
-TCGA-O2-A52V-01A-31D-A25L-08	75.0	Female	Current Reformed Smoker For < Or = 15 Years	1.0	M0
-TCGA-O2-A52W-01A-11D-A26M-08	63.0	Male	Current Reformed Smoker For < Or = 15 Years	2.5	M0
-TCGA-O2-A5IB-01A-11D-A27K-08	71.0	Female	Current Reformed Smoker For < Or = 15 Years	2.5	M1
-TCGA-XC-AA0X-01A-32D-A401-08	77.0	Female	Current Smoker	30.0	M0
+SAMPLE_ID	AGE	SMOKING_HISTORY	CANCER_TYPE_DETAILED	M_STAGE
+TCGA-05-4244-01A-01D-1105-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-05-4249-01A-01D-1105-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4250-01A-01D-1105-08	79.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4382-01A-01D-1931-08	68.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4384-01A-01D-1753-08	66.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4389-01A-01D-1265-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4390-01A-02D-1753-08	58.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4395-01A-01D-1265-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4396-01A-21D-1855-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4397-01A-01D-1265-08	65.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4398-01A-01D-1265-08	47.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4402-01A-01D-1265-08	57.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M1
+TCGA-05-4403-01A-01D-1265-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4405-01A-21D-1855-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4410-01A-21D-1855-08	62.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4415-01A-22D-1855-08	57.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4417-01A-22D-1855-08	51.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4418-01A-01D-1265-08	69.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4420-01A-01D-1265-08	41.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4422-01A-01D-1265-08	68.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4424-01A-22D-1855-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4426-01A-01D-1265-08	71.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4427-01A-21D-1855-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4430-01A-02D-1265-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4432-01A-01D-1265-08	66.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4433-01A-22D-1855-08	82.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-4434-01A-01D-1265-08	67.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-05-5420-01A-01D-1625-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-5423-01A-01D-1625-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-5428-01A-01D-1625-08	57.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-05-5429-01A-01D-1625-08	60.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-05-5715-01A-01D-1625-08	69.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-35-3615-01A-01D-1040-01	57.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-35-4122-01A-01D-1105-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-35-4123-01A-01D-1105-08	38.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-35-5375-01A-01D-1625-08	61.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-38-4625-01A-01D-1553-08	66.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-38-4626-01A-01D-1553-08	57.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-38-4627-01A-01D-1553-08	64.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-38-4628-01A-01D-1265-08	65.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-38-4629-01A-02D-1265-08	68.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-38-4630-01A-01D-1265-08	75.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-38-4631-01A-01D-1753-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-38-4632-01A-01D-1753-08	42.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-38-7271-01A-11D-2036-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-38-A44F-01A-11D-A24D-08	80.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-2655-01A-01D-1553-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-2656-01A-02D-0969-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-2657-01A-01D-1105-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-2659-01A-01D-0969-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-2661-01A-01D-1105-08	69.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-44-2662-01A-01D-0969-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-2665-01A-01D-1040-01	55.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-44-2666-01A-01D-1489-08	43.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-2668-01A-01D-0969-08	51.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-3396-01A-01D-1553-08	74.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-3398-01A-01D-1105-08	77.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-3918-01A-01D-1105-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-3919-01A-02D-1458-08	71.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-44-4112-01A-01D-1458-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-5643-01A-01D-1625-08	53.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6144-01A-11D-1753-08	58.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6145-01A-11D-1753-08	62.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6146-01A-11D-1753-08	64.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6147-01A-11D-1753-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6148-01A-11D-1753-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6774-01A-21D-1855-08	56.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6775-01A-11D-1855-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6776-01A-11D-1855-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6778-01A-11D-1855-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-6779-01A-11D-1855-08	50.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-44-7659-01A-11D-2063-08	70.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-7660-01A-11D-2063-08	72.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-7661-01A-11D-2063-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-7662-01A-11D-2063-08	61.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-7667-01A-31D-2063-08	49.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-7669-01A-21D-2063-08	59.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-44-7670-01A-11D-2063-08	47.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-7671-01A-11D-2063-08	64.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-7672-01A-11D-2063-08	52.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-8117-01A-11D-2238-08	54.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-8119-01A-11D-2238-08	73.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-44-8120-01A-11D-2238-08	58.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-A47A-01A-21D-A24D-08	78.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-A47B-01A-11D-A24D-08	79.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-A47F-01A-11D-A24D-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-A47G-01A-21D-A24D-08	73.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-A4SS-01A-11D-A24P-08	73.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-44-A4SU-01A-11D-A24P-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4486-01A-01D-1265-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4487-01A-21D-1855-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4488-01A-01D-1753-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4490-01A-21D-1855-08	45.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4494-01A-01D-1265-08	77.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4501-01A-01D-1265-08	67.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4505-01A-01D-1931-08	61.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4506-01A-01D-1265-08	68.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4507-01A-01D-1265-08	73.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4510-01A-01D-1265-08	51.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-49-4514-01A-21D-1855-08	79.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-6742-01A-11D-1855-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-6744-01A-11D-1855-08	64.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-49-6745-01A-11D-1855-08	82.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-6767-01A-11D-1855-08	46.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-49-AAQV-01A-11D-A397-08	63.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M1
+TCGA-49-AAR3-01A-11D-A410-08	69.0		Lung Adenocarcinoma	M1
+TCGA-49-AAR9-01A-21D-A410-08	61.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-49-AARE-01A-11D-A410-08	51.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-AARN-01A-21D-A410-08	56.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-AARO-01A-12D-A410-08	39.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-49-AARQ-01A-11D-A410-08	41.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-49-AARR-01A-11D-A410-08	68.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-4B-A93V-01A-11D-A397-08	52.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-5044-01A-21D-1855-08	72.0		Lung Adenocarcinoma	M0
+TCGA-50-5045-01A-01D-1625-08	57.0		Lung Adenocarcinoma	M0
+TCGA-50-5049-01A-01D-1625-08	70.0		Lung Adenocarcinoma	M0
+TCGA-50-5051-01A-21D-1855-08	42.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-5055-01A-01D-1625-08	79.0		Lung Adenocarcinoma	M0
+TCGA-50-5066-01A-01D-1625-08	72.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-50-5068-01A-01D-1625-08	59.0		Lung Adenocarcinoma	M1
+TCGA-50-5072-01A-21D-1855-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-5930-01A-11D-1753-08	47.0		Lung Adenocarcinoma	M0
+TCGA-50-5931-01A-11D-1753-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-5932-01A-11D-1753-08	75.0		Lung Adenocarcinoma	M0
+TCGA-50-5933-01A-11D-1753-08	72.0		Lung Adenocarcinoma	M0
+TCGA-50-5935-01A-11D-1753-08	86.0		Lung Adenocarcinoma	M0
+TCGA-50-5936-01A-11D-1625-08	58.0		Lung Adenocarcinoma	M0
+TCGA-50-5939-01A-11D-1625-08	85.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-5941-01A-11D-1753-08	55.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-50-5942-01A-21D-1753-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-5944-01A-11D-1753-08	69.0		Lung Adenocarcinoma	M0
+TCGA-50-5946-01A-11D-1753-08	62.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-6590-01A-12D-1855-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-6591-01A-11D-1753-08	63.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M1
+TCGA-50-6592-01A-11D-1753-08	71.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-6593-01A-11D-1753-08	49.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-6594-01A-11D-1753-08	79.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-6595-01A-12D-1855-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-6597-01A-11D-1855-08	79.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-50-6673-01A-11D-1945-08	84.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-50-7109-01A-11D-2036-08	60.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-50-8457-01A-11D-2323-08	63.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-50-8459-01A-11D-2323-08	68.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-50-8460-01A-11D-2323-08	74.0		Lung Adenocarcinoma	M0
+TCGA-53-7624-01A-11D-2063-08	40.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-53-7626-01A-12D-2063-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-53-7813-01A-11D-2167-08	51.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-53-A4EZ-01A-12D-A24P-08	63.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-55-1592-01A-01D-0969-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-1594-01A-01D-1040-01	68.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-1595-01A-01D-0969-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-1596-01A-01D-1040-01	55.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-5899-01A-11D-1625-08	58.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6543-01A-11D-1753-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6642-01A-11D-1855-08	63.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6712-01A-11D-1855-08	71.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-55-6968-01A-11D-1945-08	61.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-55-6969-01A-11D-1945-08	52.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6971-01A-11D-1945-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6972-01A-11D-1945-08	72.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6975-01A-11D-1945-08	61.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6978-01A-11D-1945-08	81.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6979-01A-11D-1945-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6980-01A-11D-1945-08	56.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6981-01A-11D-1945-08	53.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6982-01A-11D-1945-08	79.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6983-01A-11D-1945-08	81.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6984-01A-11D-1945-08	71.0		Lung Adenocarcinoma	M0
+TCGA-55-6985-01A-11D-1945-08	58.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6986-01A-11D-1945-08	74.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-55-6987-01A-11D-1945-08	77.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7227-01A-11D-2036-08	77.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-55-7281-01A-11D-2036-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7284-01B-11D-2238-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7570-01A-11D-2036-08	60.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7573-01A-11D-2036-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7574-01A-11D-2036-08	64.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7576-01A-11D-2063-08	54.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7724-01A-11D-2167-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7725-01A-11D-2167-08	68.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7726-01A-11D-2167-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7728-01A-11D-2184-08	64.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7815-01A-11D-2167-08	76.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7903-01A-11D-2167-08	64.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7907-01A-11D-2167-08	77.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-55-7910-01A-11D-2167-08	50.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7911-01A-11D-2167-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7914-01A-11D-2167-08	71.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-55-7994-01A-11D-2184-08	81.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-7995-01A-11D-2184-08	73.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8085-01A-11D-2238-08	64.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8087-01A-11D-2238-08	59.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8089-01A-11D-2238-08	56.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8090-01A-11D-2238-08	80.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8091-01A-11D-2238-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8092-01A-11D-2238-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8094-01A-11D-2238-08	51.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-55-8096-01A-11D-2238-08	67.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8097-01A-11D-2238-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8203-01A-11D-2238-08	69.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8204-01A-11D-2238-08	87.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8205-01A-11D-2238-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8206-01A-11D-2238-08	56.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8207-01A-11D-2238-08	73.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8208-01A-11D-2238-08	73.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8299-01A-11D-2284-08	61.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8301-01A-11D-2284-08	58.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8506-01A-11D-2393-08	62.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8507-01A-11D-2393-08	53.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8508-01A-11D-2393-08	60.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-55-8510-01A-11D-2393-08	55.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8511-01A-11D-2393-08	73.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8512-01A-11D-2393-08	41.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-55-8513-01A-11D-2393-08	77.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8514-01A-11D-2393-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8614-01A-11D-2393-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8616-01A-11D-2393-08	58.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8619-01A-11D-2393-08	72.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-55-8620-01A-11D-2393-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-55-8621-01A-11D-2393-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A48X-01A-11D-A24D-08	63.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A48Y-01A-11D-A24D-08	69.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A490-01A-11D-A24D-08	78.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A491-01A-11D-A24D-08	81.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A492-01A-11D-A24D-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A493-01A-11D-A24D-08	54.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A494-01A-11D-A24P-08	61.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A4DF-01A-11D-A24D-08	88.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A4DG-01A-11D-A24D-08	71.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-55-A57B-01A-12D-A397-08	80.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-62-8394-01A-11D-2323-08	65.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-62-8395-01A-11D-2323-08	80.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-62-8397-01A-11D-2323-08	70.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-62-8399-01A-21D-2323-08	62.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-62-8402-01A-11D-2323-08	73.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A46O-01A-11D-A24D-08	65.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A46P-01A-11D-A24D-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A46R-01A-11D-A24D-08	54.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A46S-01A-11D-A24D-08	73.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A46U-01A-11D-A24D-08	71.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A46V-01A-11D-A24D-08	78.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A46Y-01A-11D-A24D-08	70.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A470-01A-11D-A24D-08	84.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A471-01A-12D-A24D-08	64.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-62-A472-01A-11D-A24D-08	70.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-64-1676-01A-01D-0969-08	58.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-64-1677-01A-01W-0928-08	77.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-64-1678-01A-01W-0928-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-64-1679-01A-21D-2063-08	58.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-64-1680-01A-02D-0969-08	63.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-64-1681-01A-11D-2063-08	61.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-64-5774-01A-01D-1625-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-64-5775-01A-01D-1625-08	71.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-64-5778-01A-01D-1625-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-64-5779-01A-01D-1625-08	61.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-64-5781-01A-01D-1625-08	55.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-64-5815-01A-01D-1625-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-67-3770-01A-01D-0969-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-67-3771-01A-01D-1040-01	77.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-67-3772-01A-01W-0928-08	82.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-67-3773-01A-01D-1040-01	84.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-67-3774-01A-01D-1040-01	73.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-67-4679-01B-01D-1753-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-67-6215-01A-11D-1753-08	52.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-67-6216-01A-11D-1753-08	57.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-67-6217-01A-11D-1753-08	73.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-69-7760-01A-11D-2167-08	73.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-69-7761-01A-11D-2167-08	84.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-69-7763-01A-11D-2167-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-69-7764-01A-11D-2167-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-69-7765-01A-11D-2167-08	56.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-69-7973-01A-11D-2184-08	42.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-69-7978-01A-11D-2184-08	59.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-69-7979-01A-11D-2184-08	71.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-69-7980-01A-11D-2184-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-69-8253-01A-11D-2284-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-69-8255-01A-11D-2284-08	71.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-69-A59K-01A-11D-A25L-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-71-6725-01A-11D-1855-08	48.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-73-4659-01A-01D-1265-08	66.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-73-4662-01A-01D-1265-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-73-4666-01A-01D-1265-08	52.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-73-4668-01A-01D-1265-08	66.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-73-4670-01A-01D-1265-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-73-4675-01A-01D-1265-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-73-4676-01A-01D-1753-08	45.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-73-4677-01A-01D-1265-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-73-7498-01A-12D-2184-08	58.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-73-7499-01A-11D-2184-08	81.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-73-A9RS-01A-11D-A410-08	41.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-75-5122-01A-01D-1753-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-75-5125-01A-01D-1753-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-75-5126-01A-01D-1753-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-75-5146-01A-01D-1625-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-75-5147-01A-01D-1625-08		Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-75-6203-01A-11D-1753-08		Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-75-6205-01A-11D-1753-08		Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-75-6206-01A-11D-1753-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-75-6207-01A-11D-1753-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-75-6211-01A-11D-1753-08		Current Smoker	Lung Adenocarcinoma	M0
+TCGA-75-6212-01A-11D-1753-08		Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-75-6214-01A-41D-1945-08		Current Smoker	Lung Adenocarcinoma	M0
+TCGA-75-7025-01A-12D-1945-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-75-7027-01A-11D-1945-08		Current Smoker	Lung Adenocarcinoma	M0
+TCGA-75-7030-01A-11D-1945-08		Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-75-7031-01A-11D-1945-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7145-01A-11D-2036-08	52.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-78-7146-01A-11D-2036-08	71.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7147-01A-11D-2036-08	67.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7148-01A-11D-2036-08	71.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7149-01A-11D-2036-08	71.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7150-01A-21D-2036-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7152-01A-11D-2036-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7153-01A-11D-2036-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7154-01A-11D-2036-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7155-01A-11D-2036-08	68.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7156-01A-11D-2036-08	62.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-78-7158-01A-11D-2036-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7159-01A-11D-2036-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7160-01A-11D-2036-08	61.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-78-7161-01A-11D-2036-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7162-01A-21D-2063-08	75.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7163-01A-12D-2063-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7166-01A-12D-2063-08	84.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7167-01A-11D-2063-08	77.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-78-7220-01A-11D-2036-08	53.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7535-01A-11D-2063-08	45.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7536-01A-11D-2063-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7537-01A-11D-2063-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7539-01A-11D-2063-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7540-01A-11D-2063-08	66.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7542-01A-21D-2063-08	56.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-78-7633-01A-11D-2063-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-8640-01A-11D-2393-08	59.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-78-8648-01A-11D-2393-08	58.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-78-8655-01A-11D-2393-08	77.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-8660-01A-11D-2393-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-78-8662-01A-11D-2393-08	53.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-80-5607-01A-31D-1945-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-80-5608-01A-31D-1945-08		Current Smoker	Lung Adenocarcinoma	M0
+TCGA-80-5611-01A-01D-1625-08		Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-83-5908-01A-21D-2284-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-86-6562-01A-11D-1753-08	52.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-6851-01A-11D-1945-08	73.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-7701-01A-11D-2167-08	66.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M1
+TCGA-86-7711-01A-11D-2063-08	70.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-7713-01A-11D-2063-08	70.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-7714-01A-12D-2167-08	61.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-7953-01A-11D-2184-08	69.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-7954-01A-11D-2184-08	68.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-86-7955-01A-11D-2184-08	62.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8054-01A-11D-2238-08	61.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8055-01A-11D-2238-08	79.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8056-01A-11D-2238-08	63.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8073-01A-11D-2238-08	58.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8074-01A-11D-2238-08	62.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8075-01A-11D-2238-08	66.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8076-01A-31D-2238-08	42.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8278-01A-11D-2284-08	63.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8279-01A-11D-2284-08	46.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8280-01A-11D-2284-08	54.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8281-01A-11D-2284-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8358-01A-11D-2323-08	44.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8359-01A-11D-2323-08	52.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8585-01A-11D-2393-08	57.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8668-01A-11D-2393-08	61.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8669-01A-11D-2393-08	64.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8671-01A-11D-2393-08	72.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8672-01A-21D-2393-08	59.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8673-01A-11D-2393-08	61.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-86-8674-01A-21D-2393-08	50.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-86-A456-01A-11D-A24D-08	78.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-86-A4JF-01A-11D-A24P-08	56.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-86-A4P7-01A-11D-A24P-08	63.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-91-6828-01A-11D-1855-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-91-6829-01A-21D-1855-08	78.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-91-6830-01A-11D-1945-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-91-6831-01A-11D-1855-08	66.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-91-6835-01A-11D-1855-08	81.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-91-6836-01A-21D-1855-08	52.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-91-6840-01A-11D-1945-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-91-6847-01A-11D-1945-08	62.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-91-7771-01A-11D-2167-08	62.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-91-8497-01A-11D-2393-08	75.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-91-8499-01A-11D-2393-08	76.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-91-A4BC-01A-11D-A24D-08	59.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-91-A4BD-01A-11D-A24D-08	78.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-93-7347-01A-11D-2184-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-93-7348-01A-21D-2036-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-93-8067-01A-11D-2284-08	77.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-93-A4JN-01A-11D-A24P-08	71.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-93-A4JO-01A-21D-A24P-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-93-A4JP-01A-11D-A24P-08	64.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M1
+TCGA-93-A4JQ-01A-11D-A24P-08	49.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-95-7039-01A-11D-1945-08	54.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-95-7043-01A-11D-1945-08	63.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-95-7562-01A-11D-2238-08	71.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-95-7567-01A-11D-2063-08	61.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-95-7944-01A-11D-2184-08	71.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-95-7947-01A-11D-2184-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-95-7948-01A-11D-2184-08	42.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-95-8039-01A-11D-2238-08	72.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-95-8494-01A-11D-2323-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-95-A4VK-01A-11D-A25L-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-95-A4VN-01A-11D-A25L-08	62.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-95-A4VP-01A-21D-A25L-08	66.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-7546-01A-11D-2036-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-7547-01A-11D-2036-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-7552-01A-11D-2036-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-7553-01A-21D-2036-08	58.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-97-7554-01A-11D-2036-08	83.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-7937-01A-11D-2167-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-7938-01A-11D-2167-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-7941-01A-11D-2184-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-8171-01A-11D-2284-08	81.0	Current Smoker	Lung Adenocarcinoma	M1
+TCGA-97-8172-01A-11D-2284-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-8174-01A-11D-2284-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-8175-01A-11D-2284-08	55.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-8176-01A-11D-2393-08	63.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-8177-01A-11D-2284-08	59.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-97-8179-01A-11D-2284-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-8552-01A-11D-2393-08	55.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-97-A4LX-01A-11D-A24P-08	81.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-A4M0-01A-11D-A24P-08	60.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-A4M1-01A-11D-A24P-08	52.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-A4M2-01A-12D-A24P-08	66.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-97-A4M3-01A-11D-A24P-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-A4M5-01A-11D-A24P-08	83.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-97-A4M6-01A-11D-A24P-08	45.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-97-A4M7-01A-11D-A24P-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-99-7458-01A-11D-2036-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-99-8025-01A-11D-2238-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-99-8028-01A-11D-2238-08	50.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-99-8032-01A-11D-2238-08	61.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-99-8033-01A-11D-2238-08	74.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M1
+TCGA-99-AA5R-01A-11D-A397-08	70.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-J2-8192-01A-11D-2238-08	65.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M1
+TCGA-J2-8194-01A-11D-2238-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-J2-A4AD-01A-11D-A24D-08	61.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-J2-A4AE-01A-21D-A24D-08	77.0	Lifelong Non-Smoker	Lung Adenocarcinoma	M0
+TCGA-J2-A4AG-01A-11D-A24D-08	66.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-L4-A4E5-01A-11D-A24P-08	48.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-L9-A443-01A-12D-A24D-08	63.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-L9-A444-01A-21D-A24D-08	60.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-L9-A50W-01A-12D-A397-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-L9-A5IP-01A-21D-A397-08	40.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-L9-A7SV-01A-11D-A397-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-L9-A8F4-01A-11D-A397-08	64.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-MN-A4N1-01A-11D-A24P-08	60.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-MN-A4N4-01A-12D-A24P-08	57.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-MN-A4N5-01A-11D-A24P-08	63.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4SW-01A-21D-A24P-08	53.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4T2-01A-11D-A24P-08	71.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4T4-01A-11D-A25L-08	68.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4T7-01A-11D-A24P-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-MP-A4T8-01A-11D-A24P-08	68.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4TA-01A-21D-A24P-08	75.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4TC-01A-11D-A24P-08	77.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4TD-01A-32D-A25L-08	71.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4TE-01A-22D-A25L-08	56.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4TF-01A-11D-A25L-08	58.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4TH-01A-31D-A25L-08	70.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4TI-01A-21D-A24P-08	72.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4TJ-01A-51D-A25L-08	62.0	Current Smoker	Lung Adenocarcinoma	M0
+TCGA-MP-A4TK-01A-11D-A24P-08	56.0	Current Reformed Smoker	Lung Adenocarcinoma	M1
+TCGA-MP-A5C7-01A-11D-A25L-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-NJ-A4YF-01A-12D-A25L-08	50.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-NJ-A4YG-01A-22D-A25L-08	65.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-NJ-A4YI-01A-11D-A25L-08	87.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-NJ-A4YP-01A-11D-A25L-08	52.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-NJ-A4YQ-01A-11D-A25L-08	69.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-NJ-A55A-01A-11D-A25L-08	76.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-NJ-A55O-01A-11D-A25L-08	56.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-NJ-A55R-01A-11D-A25L-08	67.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-NJ-A7XG-01A-12D-A397-08	49.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-O1-A52J-01A-11D-A25L-08	74.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-S2-AA1A-01A-12D-A397-08	68.0	Current Reformed Smoker	Lung Adenocarcinoma	M0
+TCGA-18-3406-01A-01D-0983-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3407-01A-01D-0983-08	72.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3408-01A-01D-0983-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3409-01A-01D-0983-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3410-01A-01D-0983-08	81.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3411-01A-01D-0983-08	63.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3412-01A-01D-0983-08	52.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3414-01A-01D-0983-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-18-3415-01A-01D-0983-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3416-01A-01D-0983-08	83.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3417-01A-01D-1441-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-18-3419-01A-01D-0983-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-3421-01A-01D-0983-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-4083-01A-01D-1352-08	63.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-4086-01A-01D-1352-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-4721-01A-01D-1441-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-5592-01A-01D-1632-08	57.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-18-5595-01A-01D-1632-08	50.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-1070-01A-01D-1521-08	60.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-1071-01A-01D-1521-08	67.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-1075-01A-01W-0782-08	57.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-1076-01A-02D-1521-08	54.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-1077-01A-01D-1521-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-1078-01A-01D-1521-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-1079-01A-01W-0782-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-1081-01A-01D-1521-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-1082-01A-01D-1521-08	61.0		Lung Squamous Cell Carcinoma	M0
+TCGA-21-1083-01A-01D-1521-08	75.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-5782-01A-01D-1632-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-5784-01A-01D-1632-08	80.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-5786-01A-01D-1632-08	64.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-5787-01A-01D-1632-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-A5DI-01A-31D-A26M-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-0940-01A-01D-1521-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-0944-01A-01D-1521-08	61.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-1000-01A-01D-1521-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-1002-01A-01D-1521-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-1005-01A-01D-1521-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-1011-01A-01D-1521-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-1012-01A-01D-1521-08	80.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-1016-01A-01D-1521-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4591-01A-01D-1267-08	80.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4593-01A-21D-1817-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4594-01A-01D-1267-08	60.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4596-01A-01D-1267-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4599-01A-01D-1441-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4601-01A-01D-1441-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4604-01A-01D-1267-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4607-01A-01D-1267-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4613-01A-01D-1441-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5471-01A-01D-1632-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5472-01A-01D-1632-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5473-01A-01D-1632-08	78.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5474-01A-01D-1632-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5477-01A-01D-1632-08	65.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5478-01A-01D-1632-08	79.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5479-01A-31D-1945-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5480-01A-01D-1632-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5481-01A-31D-1945-08	72.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5482-01A-01D-1632-08	81.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5483-01A-01D-1817-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5485-01A-01D-1632-08	58.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5489-01A-01D-1632-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5491-01A-01D-1632-08	74.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-5492-01A-01D-1632-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4532-01A-01D-1267-08	68.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4533-01A-01D-1267-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4538-01A-01D-1267-08	66.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4547-01A-01D-1267-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4566-01A-01D-1441-08	40.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4582-01A-01D-1441-08	55.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4583-01A-01D-1441-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4586-01A-01D-1441-08	57.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4589-01A-01D-1441-08	62.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-6737-01A-11D-1817-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-A4WN-01A-11D-A25L-08	60.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-A5GW-01A-11D-A27K-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-33-AAS8-01A-11D-A401-08	59.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-AASB-01A-11D-A401-08	66.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-AASD-01A-11D-A401-08	83.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-AASI-01A-22D-A401-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-33-AASJ-01A-11D-A401-08	60.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-AASL-01A-11D-A401-08	57.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-2596-01A-01D-1522-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-2600-01A-01D-1522-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-2604-01A-01D-1522-08	81.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-2605-01A-01D-1522-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-2608-01A-02D-1522-08	84.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-2609-01A-01W-0877-08	81.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-5231-01A-21D-1817-08	72.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-5232-01A-21D-1817-08	75.0		Lung Squamous Cell Carcinoma	M0
+TCGA-34-5234-01A-01D-1632-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-5236-01A-21D-1817-08	60.0		Lung Squamous Cell Carcinoma	M0
+TCGA-34-5239-01A-21D-1817-08	75.0		Lung Squamous Cell Carcinoma	M0
+TCGA-34-5240-01A-01D-1441-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-5927-01A-11D-1817-08	70.0		Lung Squamous Cell Carcinoma	M0
+TCGA-34-5928-01A-11D-1817-08	83.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-5929-01A-11D-1817-08	78.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-7107-01A-11D-1945-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-8454-01A-11D-2323-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-8455-01A-11D-2323-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-34-8456-01A-21D-2323-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-34-A5IX-01A-12D-A27K-08	80.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-37-3783-01A-01D-1267-08	51.0		Lung Squamous Cell Carcinoma	M0
+TCGA-37-3792-01A-01D-0983-08	69.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-37-4129-01A-01D-1352-08	52.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-37-4132-01A-01D-1352-08	61.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-37-4133-01A-01D-1352-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-37-4135-01A-01D-1352-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-37-4141-01A-02D-1352-08	65.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-37-5819-01A-01D-1632-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-37-A5EM-01A-21D-A27K-08	49.0		Lung Squamous Cell Carcinoma	M0
+TCGA-37-A5EN-01A-21D-A26M-08	59.0		Lung Squamous Cell Carcinoma	M0
+TCGA-39-5011-01A-01D-1441-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5016-01A-01D-1441-08	44.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5019-01A-01D-1817-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5021-01A-01D-1441-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5022-01A-21D-1817-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5024-01A-21D-1817-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5027-01A-21D-1817-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5028-01A-01D-1441-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5029-01A-01D-1441-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5030-01A-01D-1441-08	81.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5031-01A-01D-1441-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5034-01A-01D-1441-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5035-01A-01D-1441-08	72.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5036-01A-01D-1441-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5037-01A-01D-1441-08	65.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5039-01A-01D-1441-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-2576-01A-01D-1522-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-2578-01A-01D-1522-08	59.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-2581-01A-01D-1522-08	47.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-3394-01A-01D-0983-08	52.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-3920-01A-01D-0983-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-5668-01A-01D-1632-08	78.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-6143-01A-11D-1817-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-6647-01A-11D-1817-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-43-6770-01A-11D-1817-08	59.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-6771-01A-11D-1817-08	85.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-6773-01A-41D-1945-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-43-8115-01A-11D-2244-08	72.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-43-8116-01A-11D-2244-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-8118-01A-11D-2395-08	55.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-A474-01A-11D-A24D-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-A475-01A-11D-A24D-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-A56U-01A-11D-A26M-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-A56V-01A-11D-A26M-08	61.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-46-3765-01A-01D-0983-08	59.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-46-3766-01A-01D-0983-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-46-3767-01A-01D-0983-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-46-3768-01A-01D-0983-08	58.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-46-3769-01A-01D-0983-08	57.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-46-6025-01A-11D-1817-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-46-6026-01A-11D-1817-08	81.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-51-4081-01A-01D-1458-08	55.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-1622-01A-01D-1521-08	58.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-5897-01A-11D-1632-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-5898-01A-11D-1632-08	69.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-6545-01A-11D-1817-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-6546-01A-11D-1817-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-7823-01B-11D-2244-08	58.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8082-01A-11D-2244-08	80.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8083-01A-11D-2244-08	56.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8201-01A-11D-2244-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8304-01A-11D-2323-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8305-01A-11D-2293-08	72.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8307-01A-11D-2293-08	55.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8308-01A-11D-2293-08	79.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8309-01A-11D-2293-08	66.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8504-01A-11D-2395-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8622-01A-11D-2395-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8624-01A-11D-2395-08	84.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8625-01A-11D-2395-08	66.0	Current Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-56-8626-01A-11D-2395-08	59.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8628-01A-11D-2395-08	78.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-8629-01A-11D-2395-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-A4BW-01A-11D-A24D-08	55.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-A4BX-01A-11D-A24D-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-A4BY-01A-11D-A24D-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-A4ZJ-01A-11D-A25L-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-A4ZK-01A-11D-A25L-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-A5DR-01A-11D-A27K-08	81.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-A5DS-01A-11D-A27K-08	72.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-A62T-01A-11D-A401-08	78.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-8386-01A-11D-2293-08	75.0	Current Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-58-8387-01A-11D-2293-08	60.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-8388-01A-11D-2323-08	60.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-8390-01A-11D-2323-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-8391-01A-11D-2323-08	57.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-8392-01A-11D-2323-08	70.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-8393-01A-11D-2323-08	68.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-A46J-01A-11D-A24D-08	64.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-A46K-01A-11D-A24D-08	59.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-A46L-01A-11D-A24D-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-A46M-01A-11D-A24D-08	61.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-58-A46N-01A-11D-A24D-08	52.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2695-01A-01D-1522-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2698-01A-01D-1522-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2707-01A-01D-1522-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2708-01A-01D-1522-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2709-01A-21D-1817-08	69.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2710-01A-01D-1522-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2711-01A-01D-1522-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2712-01A-01D-1522-08	79.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2713-01A-01D-1522-08	64.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2714-01A-01D-1522-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2715-01A-01D-1522-08	51.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2716-01A-01D-1522-08	39.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2719-01A-01D-1522-08	83.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2720-01A-01D-1522-08	60.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2721-01A-01D-1522-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2722-01A-01D-1522-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2723-01A-01D-1522-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2724-01A-01D-1522-08	47.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2725-01A-01D-1267-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2726-01A-01D-1522-08	56.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-5128-01A-01D-1441-08		Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-5131-01A-01D-1441-08		Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-6202-01A-11D-1817-08		Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-7020-01A-11D-1945-08		Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-7021-01A-11D-1945-08		Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-7022-01A-11D-1945-08		Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-7023-01A-11D-1945-08		Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MB-01A-11D-A26M-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MG-01A-12D-A27K-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MH-01A-12D-A27K-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MI-01A-12D-A27K-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MJ-01A-11D-A27K-08	54.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5ML-01A-31D-A27K-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MM-01A-11D-A26M-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MN-01A-22D-A27K-08	78.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MP-01A-11D-A26M-08	56.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MR-01A-31D-A27K-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MS-01A-11D-A26M-08	78.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MT-01A-21D-A26M-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MU-01A-11D-A26M-08	48.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MV-01A-21D-A26M-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MW-01A-11D-A26M-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-63-A5MY-01A-11D-A26M-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2727-01A-01D-0983-08	55.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2734-01A-01D-0983-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2742-01A-01D-0983-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-66-2744-01A-01D-0983-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2754-01A-01D-0983-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2755-01A-01D-1522-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2756-01A-01D-1522-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2757-01A-01D-1522-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2758-01A-02D-1522-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2759-01A-01D-1522-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2763-01A-01D-1522-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2765-01A-01D-1522-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2766-01A-01D-1522-08	54.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2767-01A-01D-1522-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2769-01A-02D-1522-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2770-01A-01D-1522-08	79.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2771-01A-01D-0983-08	60.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2773-01A-01D-1267-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2777-01A-01D-1267-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2778-01A-02D-1522-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2780-01A-01D-1522-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2781-01A-01D-1522-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2782-01A-01D-1522-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2783-01A-01D-1267-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2785-01A-01D-1522-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2786-01A-01D-1522-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2787-01A-01D-0983-08	57.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2788-01A-01D-0983-08	56.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2789-01A-01D-0983-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2791-01A-01D-0983-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2792-01A-01D-0983-08	58.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2793-01A-01D-1267-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2794-01A-01D-1267-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2795-01A-02D-0983-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-66-2800-01A-01D-1267-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-68-7757-01B-11D-2293-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-68-8250-01A-11D-2293-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-68-8251-01A-11D-2293-08	78.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-68-A59J-01A-21D-A26M-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-6A-AB49-01A-12D-A401-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-70-6722-01A-11D-1817-08	47.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-70-6723-01A-11D-1817-08	65.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-6842-01A-11D-1945-08	79.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-6843-01A-11D-1945-08	74.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-6844-01A-11D-1945-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-6845-01A-11D-1945-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8128-01A-11D-2244-08	60.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8130-01A-11D-2244-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8131-01A-11D-2244-08	72.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8133-01A-12D-2244-08	74.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8136-01A-11D-2244-08	74.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8138-01A-11D-2244-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8139-01A-11D-2244-08	72.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8140-01A-11D-2244-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8143-01A-11D-2244-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8144-01A-11D-2244-08	70.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8145-01A-11D-2244-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8148-01A-11D-2244-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8150-01A-11D-2244-08	64.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8153-01A-11D-2395-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8154-01A-11D-2244-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8156-01A-11D-2244-08	60.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5FZ-01A-31D-A27K-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5G1-01A-11D-A27K-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5G3-01A-31D-A27K-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5G6-01A-11D-A27K-08	66.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5G7-01B-11D-A27K-08	63.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5G8-01B-11D-A27K-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5GA-01A-11D-A27K-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5GB-01B-11D-A27K-08	90.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5GF-01A-21D-A27K-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-A5GH-01A-11D-A27K-08	81.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-79-5596-01A-31D-1945-08		Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-6175-01A-11D-1817-08	63.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-6560-01A-11D-1817-08	59.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-6561-01A-11D-1817-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-6798-01A-11D-1945-08	57.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8048-01A-11D-2244-08	62.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8049-01A-11D-2244-08	57.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8052-01A-11D-2244-08	53.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8070-01A-11D-2244-08	71.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8071-01A-11D-2244-08	52.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8072-01A-31D-2244-08	60.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8276-01A-11D-2293-08	62.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8277-01A-11D-2293-08	70.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8287-01A-11D-2293-08	72.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8288-01A-11D-2293-08	70.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8350-01A-11D-2293-08	61.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8351-01A-11D-2293-08	72.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8352-01A-31D-2323-08	67.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8353-01A-21D-2293-08	72.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8354-01A-31D-2323-08	53.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8355-01A-11D-2293-08	63.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8479-01A-11D-2323-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8481-01A-11D-2323-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8580-01A-31D-2395-08	52.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8582-01A-21D-2395-08	49.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8584-01A-11D-2395-08	71.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8664-01A-11D-2395-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-8666-01A-11D-2395-08	65.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A4CL-01A-41D-A26M-08	65.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A4CN-01A-11D-A24D-08	56.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A4JB-01A-51D-A25L-08	74.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A4JC-01A-11D-A257-08	84.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A4PA-01A-11D-A257-08	61.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A4QQ-01A-41D-A25L-08	68.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A4QR-01A-11D-A257-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A50M-01A-21D-A25L-08	47.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A50Z-01A-21D-A25L-08	57.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A510-01A-11D-A26M-08	74.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A511-01A-21D-A25L-08	62.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A512-01A-11D-A26M-08	46.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A513-01A-12D-A26M-08	60.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A53L-01A-21D-A26M-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-A5B5-01A-21D-A26M-08	58.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-90-6837-01A-11D-1945-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-90-A4ED-01A-31D-A257-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-90-A4EE-01A-11D-A257-08	53.0	Current Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-90-A59Q-01A-11D-A26M-08	61.0	Current Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-92-8064-01A-11D-2244-08	58.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-92-8065-01A-11D-2244-08	74.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-94-7033-01A-11D-1945-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-94-8035-01A-11D-2244-08	64.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-94-8490-01A-11D-2323-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-94-8491-01A-11D-2323-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-94-A4VJ-01A-11D-A257-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-94-A5I4-01A-11D-A26M-08	61.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-94-A5I6-01A-21D-A27K-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-96-8169-01A-11D-2293-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-96-8170-01A-11D-2293-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-96-A4JK-01A-11D-A257-08	65.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-96-A4JL-01A-11D-A257-08	78.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-8020-01A-11D-2244-08	56.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-8021-01A-11D-2244-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-8022-01A-11D-2244-08	61.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-8023-01A-11D-2244-08	70.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-A538-01A-11D-A25L-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-A539-01A-31D-A25L-08	63.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-A53A-01A-11D-A25L-08	70.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-A53B-01A-11D-A25L-08	69.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-A53C-01A-11D-A25L-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-A53I-01A-31D-A25L-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-A53J-01A-11D-A26M-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-J1-A4AH-01A-31D-A24D-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-L3-A4E7-01A-11D-A257-08	71.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-L3-A524-01A-11D-A25L-08	45.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-LA-A446-01A-21D-A257-08	68.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-LA-A7SW-01A-11D-A401-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-60-2697-01A-11D-2122-08	41.0		Lung Squamous Cell Carcinoma	M0
+TCGA-60-2703-01A-11D-2042-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-60-2704-01A-11D-2042-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-33-4587-01A-11D-2122-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4605-01A-21D-2122-08	78.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-22-4609-01A-21D-2122-08	81.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-39-5040-01A-21D-2122-08	59.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-5670-01A-21D-2122-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-21-5783-01A-41D-2184-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-51-6867-01A-11D-2042-08	72.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-7138-01A-41D-2042-08	67.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-7139-01A-11D-2042-08	56.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-7140-01A-41D-2042-08	69.0	Lifelong Non-Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-7141-01A-11D-2042-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-7142-01A-11D-2042-08	59.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-7223-01A-11D-2042-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-77-7335-01A-11D-2042-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-7337-01A-21D-2042-08	65.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-7338-01A-11D-2042-08	64.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-92-7341-01A-31D-2042-08	71.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-98-7454-01A-11D-2042-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-7463-01A-11D-2042-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-7465-01A-11D-2042-08	58.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-96-7544-01A-11D-2042-08	83.0	Current Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-96-7545-01A-21D-2042-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-94-7557-01A-11D-2122-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-7579-01A-11D-2042-08	61.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-7580-01A-11D-2042-08	84.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-7582-01A-11D-2042-08	83.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-52-7622-01A-11D-2122-08	62.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-7656-01A-11D-2122-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-7657-01A-31D-2122-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-43-7658-01A-11D-2122-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-7696-01A-11D-2122-08	64.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-7697-01A-11D-2122-08	49.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-7698-01A-11D-2122-08	48.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-7699-01A-11D-2122-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-7710-01A-11D-2122-08	59.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-7730-01A-11D-2122-08	73.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-7731-01A-11D-2122-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-68-7755-01A-11D-2122-08	60.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-68-7756-01A-11D-2122-08	84.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-90-7766-01A-21D-2122-08	66.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-90-7767-01A-11D-2122-08	56.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-90-7769-01A-11D-2122-08	55.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-52-7809-01A-21D-2122-08	74.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-52-7810-01A-11D-2122-08	60.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-52-7812-01A-11D-2122-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-56-7822-01A-11D-2122-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-7843-01A-11D-2122-08	50.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-7844-01A-11D-2122-08	71.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-85-7950-01A-11D-2184-08	46.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-90-7964-01A-21D-2184-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8007-01A-11D-2184-08	68.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8008-01A-21D-2184-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-77-8009-01A-11D-2184-08	68.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-MF-A522-01A-11D-A25L-08	54.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HD-01A-11D-A26M-08	79.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HE-01A-11D-A26M-08	60.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HF-01A-11D-A26M-08	74.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HG-01A-11D-A26M-08	59.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HH-01A-11D-A26M-08	53.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HI-01A-11D-A26M-08	68.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HJ-01A-11D-A26M-08	59.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HK-01A-11D-A26M-08	58.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HL-01A-11D-A26M-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HM-01A-12D-A26M-08	76.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HN-01A-11D-A26M-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HO-01A-11D-A26M-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HP-01A-11D-A26M-08	69.0	Current Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-NC-A5HQ-01A-11D-A26M-08	70.0	Current Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HR-01A-21D-A26M-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NC-A5HT-01A-11D-A26M-08	69.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NK-A5CR-01A-11D-A26M-08	77.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NK-A5CT-01A-31D-A26M-08	70.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NK-A5CX-01A-11D-A26M-08	73.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NK-A5D1-01A-11D-A26M-08	57.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-NK-A7XE-01A-12D-A401-08	66.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-O2-A52N-01A-11D-A26M-08	78.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-O2-A52Q-01A-11D-A26M-08	44.0	Current Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-O2-A52V-01A-31D-A25L-08	75.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-O2-A52W-01A-11D-A26M-08	63.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M0
+TCGA-O2-A5IB-01A-11D-A27K-08	71.0	Current Reformed Smoker	Lung Squamous Cell Carcinoma	M1
+TCGA-XC-AA0X-01A-32D-A401-08	77.0	Current Smoker	Lung Squamous Cell Carcinoma	M0

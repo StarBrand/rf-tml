@@ -68,9 +68,6 @@ if __name__ == "__main__":
             "Oversample": over_sample
         })
         for a_sample in [no_resample, under_sample, over_sample]:
-            a_sample["Sex"] = a_sample["female"] + a_sample["male"]
-            a_sample.pop("female")
-            a_sample.pop("male")
             a_sample["Age"] = a_sample["older"] + a_sample["younger"]
             a_sample.pop("older")
             a_sample.pop("younger")

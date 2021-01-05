@@ -9,15 +9,20 @@ RAW_DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "raw_data")
 DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "training_data")
 
 SELECTED_COLS = [
-    "PATIENT_ID", "AGE", "SEX",
-    "SMOKING_HISTORY", "SMOKING_PACK_YEARS",
-    "STAGE"
+    "PATIENT_ID", "AGE",
+    "SMOKING_HISTORY", "STAGE"
 ]
 
 data_patient = pd.read_csv(os.path.join(RAW_DATA, "data_clinical_patient.txt"), sep="\t",
                            index_col="PATIENT_ID", skiprows=4, usecols=SELECTED_COLS)
+
+mask = data_patient["SMOKING_HISTORY"].str.contains("Current Reformed Smoker")
+mask.fillna(False, inplace=True)
+data_patient.loc[mask, "SMOKING_HISTORY"] = "Current Reformed Smoker"
+
 data_sample = pd.read_csv(os.path.join(RAW_DATA, "data_clinical_sample.txt"), sep="\t",
-                          index_col="PATIENT_ID", skiprows=4, usecols=["PATIENT_ID", "SAMPLE_ID"])
+                          index_col="PATIENT_ID", skiprows=4,
+                          usecols=["PATIENT_ID", "SAMPLE_ID", "CANCER_TYPE_DETAILED"])
 m_stage = pd.read_csv(os.path.join(DATA, "mutated_genes", "mutated_genes.tsv"), sep="\t",
                       index_col="SAMPLE_ID", usecols=["SAMPLE_ID", "M_STAGE"])
 data = pd.concat([data_patient, data_sample], axis=1, join="inner")

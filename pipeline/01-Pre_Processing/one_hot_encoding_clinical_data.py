@@ -29,20 +29,6 @@ def encode_age(clinical_data: pd.DataFrame) -> None:
     return
 
 
-def encode_sex(clinical_data: pd.DataFrame) -> None:
-    """
-    Encoding sex column on clinical_data
-
-    :param clinical_data: Data to encode
-    :return: None
-    """
-    sex = encoder.fit_transform(pd.DataFrame(clinical_data["SEX"]).replace(np.nan, "None")).toarray()
-    clinical_data.insert(0, "female", sex[:, 0], True)
-    clinical_data.insert(1, "male", sex[:, 1], True)
-    clinical_data.drop(columns=["SEX"], inplace=True)
-    return
-
-
 def encode_smoking_h(clinical_data: pd.DataFrame) -> pd.DataFrame:
     """
     Encoding smoking history column on clinical_data
@@ -57,14 +43,33 @@ def encode_smoking_h(clinical_data: pd.DataFrame) -> pd.DataFrame:
             detail = detail.append({"Attribute": "Smoking History",
                                     "Category": cat,
                                     "Encoding name": "smoke_h_cat_{}".format(i)}, ignore_index=True)
-            clinical_data.insert(4 + i, "smoke_h_cat_{}".format(i), smoking_h[:, i], True)
+            clinical_data.insert(3 + i, "smoke_h_cat_{}".format(i), smoking_h[:, i], True)
     clinical_data.drop(columns=["SMOKING_HISTORY"], inplace=True)
+    return detail
+
+
+def encode_cancer_type(clinical_data: pd.DataFrame, detail: pd.DataFrame) -> pd.DataFrame:
+    """
+    Encoding cancer type column on clinical_data
+
+    :param clinical_data: Data to encode
+    :param detail: String with encoded categorizes
+    :return: Return detail updated
+    """
+    stage = encoder.fit_transform(pd.DataFrame(clinical_data["CANCER_TYPE_DETAILED"]).replace(np.nan, "None")).toarray()
+    for i, cat in enumerate(encoder.categories_[0]):
+        if cat != "None":
+            detail = detail.append({"Attribute": "Cancer Type",
+                                    "Category": cat,
+                                    "Encoding name": "cancer_type_{}".format(i)}, ignore_index=True)
+            clinical_data.insert(6 + i, "cancer_type_{}".format(i), stage[:, i], True)
+    clinical_data.drop(columns=["CANCER_TYPE_DETAILED"], inplace=True)
     return detail
 
 
 def encode_tumor_stage(clinical_data: pd.DataFrame, detail: pd.DataFrame) -> pd.DataFrame:
     """
-    Encoding smoking history column on clinical_data
+    Encoding tumor stage column on clinical_data
 
     :param clinical_data: Data to encode
     :param detail: String with encoded categorizes
@@ -76,7 +81,7 @@ def encode_tumor_stage(clinical_data: pd.DataFrame, detail: pd.DataFrame) -> pd.
             detail = detail.append({"Attribute": "Stage",
                                     "Category": cat,
                                     "Encoding name": "stage_cat_{}".format(i)}, ignore_index=True)
-            clinical_data.insert(4 + i, "stage_cat_{}".format(i), stage[:, i], True)
+            clinical_data.insert(8 + i, "stage_cat_{}".format(i), stage[:, i], True)
     clinical_data.drop(columns=["STAGE"], inplace=True)
     return detail
 
@@ -86,13 +91,13 @@ if __name__ == '__main__':
     encode_age(data)
     encode_age(no_stage_data)
 
-    # Sex
-    encode_sex(data)
-    encode_sex(no_stage_data)
-
     # Smoking History
     details = encode_smoking_h(data)
     no_stage_details = encode_smoking_h(no_stage_data)
+
+    # Cancer type
+    details = encode_cancer_type(data, details)
+    no_stage_details = encode_cancer_type(no_stage_data, no_stage_details)
 
     # Stage
     details = encode_tumor_stage(data, details)

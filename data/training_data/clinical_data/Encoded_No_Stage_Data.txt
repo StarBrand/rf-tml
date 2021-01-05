@@ -1,6 +1,6 @@
 Attribute	Category	Encoding name
-Smoking History	Current Reformed Smoker For < Or = 15 Years	smoke_h_cat_0
-Smoking History	Current Reformed Smoker For > 15 Years	smoke_h_cat_1
-Smoking History	Current Reformed Smoker, Duration Not Specified 	smoke_h_cat_2
-Smoking History	Current Smoker	smoke_h_cat_3
-Smoking History	Lifelong Non-Smoker	smoke_h_cat_4
+Smoking History	Current Reformed Smoker	smoke_h_cat_0
+Smoking History	Current Smoker	smoke_h_cat_1
+Smoking History	Lifelong Non-Smoker	smoke_h_cat_2
+Cancer Type	Lung Adenocarcinoma	cancer_type_0
+Cancer Type	Lung Squamous Cell Carcinoma	cancer_type_1
