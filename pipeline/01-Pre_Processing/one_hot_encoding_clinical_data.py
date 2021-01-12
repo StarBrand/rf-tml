@@ -9,6 +9,8 @@ from sklearn.preprocessing import OneHotEncoder
 PATH = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "training_data", "clinical_data")
 
+AGE_THRESHOLD = 60
+
 encoder = OneHotEncoder(handle_unknown="ignore")
 data = pd.read_csv(os.path.join(DATA, "clinical_data.tsv"), sep="\t",
                    index_col="SAMPLE_ID")
@@ -23,8 +25,8 @@ def encode_age(clinical_data: pd.DataFrame) -> None:
     :param clinical_data: Clinical data to encode
     :return: None, alter reference to clinical data
     """
-    clinical_data.insert(2, "older", 1.0 * (clinical_data["AGE"] >= 60), True)
-    clinical_data.insert(3, "younger", 1.0 * (clinical_data["AGE"] < 60), True)
+    clinical_data.insert(2, "older", 1.0 * (clinical_data["AGE"] >= AGE_THRESHOLD), True)
+    clinical_data.insert(3, "younger", 1.0 * (clinical_data["AGE"] < AGE_THRESHOLD), True)
     clinical_data.drop(columns=["AGE"], inplace=True)
     return
 
@@ -94,6 +96,13 @@ if __name__ == '__main__':
     # Smoking History
     details = encode_smoking_h(data)
     no_stage_details = encode_smoking_h(no_stage_data)
+
+    # Smoking pack years
+    min_pack = min(data.dropna()["SMOKING_PACK_YEARS"])
+    max_pack = max(data.dropna()["SMOKING_PACK_YEARS"])
+    data["SMOKING_PACK_YEARS"] = data["SMOKING_PACK_YEARS"].map(
+        lambda packs: (packs - min_pack) / (max_pack - min_pack) if pd.notna(packs) else packs
+    )
 
     # Cancer type
     details = encode_cancer_type(data, details)

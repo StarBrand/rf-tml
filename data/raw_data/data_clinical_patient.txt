@@ -2,7 +2,7 @@
 #Identifier to uniquely specify a patient.	Age at which a condition or disease was first diagnosed.	Sex	Smoking History	Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.	Stage	M Stage	N Stage	Time interval from a person's date of death to the date of initial pathologic diagnosis, represented as a calculated number of days.	Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.	Overall survival in months since initial diagonosis.	Overall patient survival status.	The survival state of the person.	Text term to describe the patient's history of prior cancer diagnosis and the spatial location of any previous cancer occurrence.	Text term to describe the patient's history of neoadjuvant treatment and the kind of treatment given prior to resection of the tumor.	Age at surgery.
 #STRING	NUMBER	STRING	STRING	NUMBER	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING	NUMBER
 #1	1	1	1	1	1	1	1	1	1	1	9	1	1	1	1
-PATIENT_ID	AGE	SEX	SMOKING_HISTORY	SMOKING_PACK_YEARS	STAGE	M_STAGE	N_STAGE	DAYS_TO_DEATH	DAYS_TO_LAST_FOLLOWUP	OS_MONTHS	OS_STATUS	VITAL_STATUS	HISTORY_OTHER_MALIGNANCY	HISTORY_NEOADJUVANT_TRTYN	AGE_AT_SURGERY
+PATIENT_ID	AGE	SEX	SMOKING_HISTORY	SMOKING_PACK_YEARS	STAGE	M_STAGE	_TO_LAST_FOLLON_STAGE	DAYS_TO_DEATH	DAYSWUP	OS_MONTHS	OS_STATUS	VITAL_STATUS	HISTORY_OTHER_MALIGNANCY	HISTORY_NEOADJUVANT_TRTYN	AGE_AT_SURGERY
 LUAD-2GUGK		Female	Current Reformed Smoker, Duration Not Specified 	30.0	IIA										68.0
 LUAD-5O6B5		Female	Lifelong Non-Smoker	0.0	IB										56.0
 LUAD-5V8LT		Male	Current Reformed Smoker, Duration Not Specified 	6.0	IB										52.0

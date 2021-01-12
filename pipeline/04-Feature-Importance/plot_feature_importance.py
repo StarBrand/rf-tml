@@ -10,7 +10,7 @@ PATH = os.path.dirname(os.path.abspath(__file__))
 META_DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "meta_data")
 
 FIGSIZE = (6, 4)
-FONTSIZE = 10
+FONTSIZE = 12
 MARKER_SIZE = 25
 DELTA = 5.e-3
 
@@ -20,12 +20,12 @@ def import_feature_data(particular_path: str) -> pd.DataFrame:
 
 
 data_list = [
-    (import_feature_data("feature_importance_decoded_CF + TML.tsv"), "CF+TML"),
-    (import_feature_data("feature_importance_decoded_CF.tsv"), "CF"),
+    (import_feature_data("feature_importance_decoded_CF + TML.tsv").iloc[0:5].iloc[::-1], "CF+TML"),
+    (import_feature_data("feature_importance_decoded_CF.tsv").iloc[0:5].iloc[::-1], "CF"),
     (import_feature_data("feature_importance_CF + TML.tsv").iloc[0:5].iloc[::-1], "CF+TML_undecoded"),
     (import_feature_data("feature_importance_CF.tsv").iloc[0:5].iloc[::-1], "CF_undecoded"),
-    (import_feature_data("feature_importance_decoded_CF - TS.tsv"), "CF-TS"),
-    (import_feature_data("feature_importance_decoded_CF + TML - TS.tsv"), "CF+TML-TS"),
+    (import_feature_data("feature_importance_decoded_CF - TS.tsv").iloc[0:5].iloc[::-1], "CF-TS"),
+    (import_feature_data("feature_importance_decoded_CF + TML - TS.tsv").iloc[0:5].iloc[::-1], "CF+TML-TS"),
     (import_feature_data("feature_importance_CF - TS.tsv").iloc[0:5].iloc[::-1], "CF-TS_undecoded"),
     (import_feature_data("feature_importance_CF + TML - TS.tsv").iloc[0:5].iloc[::-1], "CF+TML-TS_undecoded")
 ]
@@ -43,6 +43,7 @@ def plot_no_resample(axes: Axes, data: pd.DataFrame) -> None:
               edgecolor="black", linewidth=1.0)
     axes.scatter(data["No Resample"], data.index, marker='o',
                  color="#0080FF", s=MARKER_SIZE, alpha=1.0)
+    axes.set_yticklabels(data.index, fontsize=FONTSIZE)
     axes.set_xlabel("Feature Importance", fontsize=FONTSIZE)
     return
 
@@ -67,8 +68,8 @@ def plot_resample(axes: Axes, data: pd.DataFrame) -> None:
     axes.barh(labels + height, test_set, height=[height] * len(data),
               color="#7AC5CD", label="No resample", edgecolor="black", linewidth=1.0)
     axes.set_yticks(labels)
-    axes.set_yticklabels(under.index)
-    axes.set_xlabel("Feature Importance", fontsize=FONTSIZE)
+    axes.set_yticklabels(under.index, fontsize=FONTSIZE)
+    axes.set_xlabel("Feature Importance")
     axes.legend(fontsize=FONTSIZE)
     return
 

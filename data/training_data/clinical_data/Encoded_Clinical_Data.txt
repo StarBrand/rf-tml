@@ -5,12 +5,6 @@ Smoking History	Lifelong Non-Smoker	smoke_h_cat_2
 Cancer Type	Lung Adenocarcinoma	cancer_type_0
 Cancer Type	Lung Squamous Cell Carcinoma	cancer_type_1
 Stage	I	stage_cat_0
-Stage	IA	stage_cat_1
-Stage	IB	stage_cat_2
-Stage	II	stage_cat_3
-Stage	IIA	stage_cat_4
-Stage	IIB	stage_cat_5
-Stage	III	stage_cat_6
-Stage	IIIA	stage_cat_7
-Stage	IIIB	stage_cat_8
-Stage	IV	stage_cat_9
+Stage	II	stage_cat_1
+Stage	III	stage_cat_2
+Stage	IV	stage_cat_3

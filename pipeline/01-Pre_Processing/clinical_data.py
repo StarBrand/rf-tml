@@ -10,7 +10,8 @@ DATA = os.path.join(PATH, os.pardir, os.pardir, "data", "training_data")
 
 SELECTED_COLS = [
     "PATIENT_ID", "AGE",
-    "SMOKING_HISTORY", "STAGE"
+    "SMOKING_HISTORY", "SMOKING_PACK_YEARS",
+    "STAGE"
 ]
 
 data_patient = pd.read_csv(os.path.join(RAW_DATA, "data_clinical_patient.txt"), sep="\t",
@@ -19,6 +20,10 @@ data_patient = pd.read_csv(os.path.join(RAW_DATA, "data_clinical_patient.txt"), 
 mask = data_patient["SMOKING_HISTORY"].str.contains("Current Reformed Smoker")
 mask.fillna(False, inplace=True)
 data_patient.loc[mask, "SMOKING_HISTORY"] = "Current Reformed Smoker"
+
+data_patient["STAGE"] = data_patient["STAGE"].map(
+    lambda stage: stage.replace("A", "").replace("B", "") if pd.notna(stage) else stage
+)
 
 data_sample = pd.read_csv(os.path.join(RAW_DATA, "data_clinical_sample.txt"), sep="\t",
                           index_col="PATIENT_ID", skiprows=4,

@@ -8,7 +8,7 @@ from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 
 FIGSIZE = (12, 8)
-FONTSIZE = 14
+FONTSIZE = 18
 MARKER_SIZE = 300
 
 PATH = os.path.dirname(os.path.abspath(__file__))
@@ -32,13 +32,13 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
     :return: None, alter axes
     """
     legend1 = None
-    markers = ["s", "o", "^", "P"]
-    labels = sorted(pd.unique(df.index))
+    markers = ["s", "o", "P"]
+    labels = pd.unique(df.index)
     handles = list()
     for index, label in enumerate(labels):
         handles.append(mlines.Line2D([], [], color="#7AC5CD", marker=markers[index], linestyle="None",
                                      markersize=20, label=label))
-        if len(handles) == 4:
+        if len(handles) == 3:
             legend1 = axes.legend(handles=handles, fontsize=FONTSIZE, loc='upper left',
                                   ncol=1, fancybox=True, shadow=True)
             handles = list()
@@ -82,6 +82,7 @@ def scatter_plot(axes: Axes, figure: Figure, df: pd.DataFrame) -> None:
                     pass
     axes.set_xlabel("Recall", fontsize=FONTSIZE)
     axes.set_ylabel("Precision", fontsize=FONTSIZE)
+    axes.tick_params(axis="both", labelsize=FONTSIZE - 2)
     axes.legend(handles=handles, fontsize=FONTSIZE, loc='upper center', bbox_to_anchor=(0.5, -0.1),
                 ncol=2, fancybox=True, shadow=True)
     figure.add_artist(legend1)

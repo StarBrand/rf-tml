@@ -10,7 +10,7 @@ RESULTS = os.path.join(DATA, "metrics")
 META_DATA = os.path.join(DATA, "meta_data")
 
 SELECTED = [
-    "CF", "CF + TML", "TML", "CF + TML - TS"
+    "CF + TML", "CF", "TML"
 ]
 
 os.makedirs(META_DATA, exist_ok=True)
